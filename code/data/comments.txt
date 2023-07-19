@@ -1,0 +1,8 @@
+PNNL data
+	removed dashes. Added comments.
+	keep only partial data, reconstruct remainder
+	gamma data D2O: use atom density and 1000; use mass denity and 1002
+	use NIST compositions, atomic weights
+	
+
+

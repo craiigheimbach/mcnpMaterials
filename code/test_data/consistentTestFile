@@ -1,0 +1,146 @@
+-----------------------------
+LongName = 
+ShortName = T1
+ZZAAA = 
+comment = derived. chect densities. should pass
+atomic weight = 1.00782503223
+isBasic = False
+mass density = 8.986968086402003e-05
+atom density = 5.3700578067790614e-05
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+
+-----------------------------
+LongName = 
+ShortName = T2
+ZZAAA = 
+comment = aton/mass densities mismatch by > 1%
+atomic weight = 1.00782503223
+isBasic = False
+mass density = 8.986968086402003e-05
+atom density = 5.43e-05
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+
+-----------------------------
+LongName = 
+ShortName = T3
+ZZAAA = 
+comment = basic. should pass
+atomic weight = 1.00782503223
+isBasic = False
+mass density = 8.986968086402003e-05
+atom density = 5.3700578067790614e-05
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+
+-----------------------------
+LongName = 
+ShortName = T4
+ZZAAA = 
+comment = basic. should fail
+atomic weight = 1.00782503223
+isBasic = False
+mass density = 8.986968086402003e-05
+atom density = 5.43e-05
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+
+
+------------------------------
+longName = T5
+shortName = D2O
+ZZAAA = 
+atomic weight = 6.67
+isBasic = False
+mass density = 1.10534
+atom density = 9.971E-02
+comment = check atomic weight
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1002    0.201133     -
+8016    0.798867     - 
+
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1002    0.201133     0.666667
+8000    0.798867     0.333333
+
+------------------------------
+LongName = A-150_Tissue-Equivalent_Plastic(A150TEP)
+shortName = T6
+ZZAAA = 
+atomic weight = 5.80
+isBasic = False
+mass density = 1.12700
+atom density = 0.11690
+comment = 
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    0.101327     0.58364
+6000    0.775501     0.374859
+7014    0.035057     0.014531
+8016    0.052316     0.018984
+9019    0.017422     0.005324
+20000    0.018378     0.002662
+
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1000    0.101327     0.101327
+6000    0.775501     0.775501
+7000    0.035057     0.035057
+8000    0.052316     0.052316
+9000    0.017422     0.017422
+20000    0.018378     0.018378
+
+------------------------------
+LongName = Acetone
+ShortName = T7
+ZZAAA = 
+comment = None
+atomic weight = 5.80
+isBasic = False
+mass density = 0.78990
+atom density = 0.08190
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    0.10412    0.59998
+6000    0.62040    0.30001
+8016    0.27547    0.10000
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    0.10412    0.59998
+6000    0.62040    0.30001
+8016    0.27547    0.10000
+
+

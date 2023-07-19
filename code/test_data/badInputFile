@@ -1,0 +1,179 @@
+// This file has no name. Should not be added to materials.
+------------------------------
+LongName = None				// Should fail.
+ShortName = 
+ZZAAA = -
+comment = no_names
+atomic weight = 1.00
+isBasic = False
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+
+-----------------------------
+// This file is basic, but has no ZZAAA.
+LongName = dummy1
+ShortName =
+ZZAAA = -
+comment = no_ZZAAA
+atomic weight = 1.00782503223
+isBasic = True
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+
+-----------------------------
+// This file is basic, has a ZZAAA. No composition.
+LongName = 23002 long
+ShortName = 23002_short
+ZZAAA = z23002
+comment = illegal names
+atomic weight = 2
+isBasic = True
+mass density = 1e-05
+atom density = None
+
+-----------------------------
+// Basic material with two components.
+LongName = dummy3
+ShortName =
+ZZAAA = 23003
+comment = two components
+atomic weight = 1.00782503223
+isBasic = True
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+23003    0.5     0.5
+1002    0.5     0.5
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1991    0.5     0.5
+1002    0.5     0.5
+-
+-----
+-----------------------------
+// This file is basic, material id does not match composition.
+LongName = dummy4
+ShortName =
+ZZAAA = 1002
+comment = no match.
+atomic weight = 1.00782503223
+isBasic = True
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    1.0     1.0
+
+-----------------------------
+// This file is basic, material fraction is not 1.0.
+LongName = dummy5
+ShortName =
+ZZAAA = 2002
+comment = bad fraction
+atomic weight = 1.00782503223
+isBasic = True
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2002    1.0     0.95
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2002    1.0     1.0
+
+-----------------------------
+// This file is not basic, material name may have zzaaa.
+// This is to allow non-basic elements, e.g. '1000' as natural helium
+LongName = dummy6
+ShortName =
+ZZAAA = 2000
+comment = zzaaa ok.
+atomic weight = 1.00782503223
+isBasic = False
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2002    1.0     1.0
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2002    1.0     1.0
+
+-----------------------------
+// This file is not basic. material name may not be in composition.
+// This is to allow non-basic elements/ e.g. 1000 as natural helium
+LongName = dummy7
+ShortName =
+ZZAAA = 2001
+comment = match
+atomic weight = 1.00
+isBasic = False
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2001    0.5     0.5
+He-2    0.5     0.5
+
+-----------------------------
+// This file is not basic. material name may not be in composition. 
+// This is to allow non-basic elements/ e.g. 1000 as natural helium
+LongName = dummy8
+ShortName = He-2
+ZZAAA =
+comment = match 2.
+atomic weight = 1.00782503223
+isBasic = False
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2001    0.5     0.5
+He-2    0.5     0.5
+
+-----------------------------
+// This file is not basic.  
+// long name matches short name
+LongName = dummy9
+ShortName = dummy9
+ZZAAA =
+comment = match 2.
+atomic weight = 1.00
+isBasic = False
+mass density = 1e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2001    0.5     0.5
+He-2    0.5     0.5

@@ -1,0 +1,16 @@
+changed chemical symbols to start with alphabetic chaaracter
+made Neon basic.
+altered B and Li
+cross sections for iron carbon Krypton Mercury
+*Ignore*
+Carbon is special
+B Ce Te Ba Li Lu Br Se Sr
+neutron photon consistency
+normalization
+tests have bo verbosity?
+abs vs fabs <cmath>
+
+To do:
+
+
+
