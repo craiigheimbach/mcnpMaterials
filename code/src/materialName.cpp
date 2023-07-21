@@ -35,7 +35,7 @@ bool Material3Names::isValidName(const std::string& name)
 	//
 	auto lowName = name;
 	lowName[0] = tolower(lowName[0]);
-	if (std::find(forbiddenNames.begin(), forbiddenNames.end(), lowName) != forbiddenNames.end())
+	if (matchAny(lowName, forbiddenNames))
 	{
 		return false;
 	}

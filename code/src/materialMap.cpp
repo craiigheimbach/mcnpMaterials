@@ -100,8 +100,8 @@ std::vector < std::shared_ptr<Material> > MaterialMap::uniqueMaterials() const
 }
 
 //  ***************************************************************************
-std::vector <std::shared_ptr<Material>>	MaterialMap::sortByName(
-	std::vector <std::shared_ptr<Material>> matVec, const std::string& nameOrder)
+std::vector<std::shared_ptr<Material>>	MaterialMap::sortByName(
+	std::vector<std::shared_ptr<Material>> matVec, const std::string& nameOrder)
 {
 	std::sort(matVec.begin(), matVec.end(), [nameOrder](const std::shared_ptr<Material>& lhs,
 		const std::shared_ptr<Material>& rhs)

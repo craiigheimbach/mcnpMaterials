@@ -189,7 +189,7 @@ void Controller::showMcnpFormat(const std::string& target)
 //
 void Controller::listNames(const std::string& target)
 {
-	auto mapValues = materialMap->uniqueMaterials();
+//	auto mapValues = materialMap->uniqueMaterials();
 
 	// Target can contain only 'l', 's', or 'z' without duplicates
 	std::string order = "";
@@ -213,8 +213,14 @@ void Controller::listNames(const std::string& target)
 	if (order.empty()) order = "lsz";
 
 	auto uniqueMaterials = materialMap->uniqueMaterials();
+	if (uniqueMaterials.size() == 0)
+	{
+		lg << ERR << "No materials to sort.\n";
+		return;
+	}
 	auto uniqueSortedMaterials = materialMap->sortByName(uniqueMaterials, order);
 
+	// Get appropriate column widths
 	size_t nColumns = order.size();
 	std::vector <size_t> columnWidth;
 	for (size_t idx = 0; idx < nColumns; idx++) columnWidth.push_back(0);
@@ -282,6 +288,7 @@ void Controller::showConsistency(std::shared_ptr<Material> mat, bool ok)
 		lg.prepend("\n" + errMsg.str());			// Message before
 		lg << STD << errMsg.str() << "\n";			// and after
 	}
+
 	lg.forceWriteToLog();
 }
 

@@ -110,17 +110,18 @@ std::pair<bool, nLong> toLongNullable(const std::string& str, bool showMsg)
 //  ***************************************************************************
 //  err is a relative error
 //
-bool match(nDbl a, nDbl b)
+bool match(nDbl a, nDbl b, double specialError)
 {
     if (!a.has_value() && !b.has_value()) return true;  // Matching nullopt
     if (a.has_value() != b.has_value()) return false; 
     double aVal = a.value();
     double bVal = b.value();
 
+    auto useError = (specialError > 0.0) ? std::min(specialError, allowedError) : allowedError;
     if (dabs(aVal) < smallFloat && dabs(bVal) < smallFloat) return true;
     double delta = dabs(aVal - bVal);
     double average = dabs((aVal + bVal) / 2.);
-    if (delta < average * allowedError) return true;
+    if (delta < average * useError) return true;
     return false;
 }
 

@@ -1,4 +1,4 @@
-changed chemical symbols to start with alphabetic chaaracter
+changed chemical symbols to start with alphabetic character
 made Neon basic.
 altered B and Li
 cross sections for iron carbon Krypton Mercury
@@ -7,8 +7,10 @@ Carbon is special
 B Ce Te Ba Li Lu Br Se Sr
 neutron photon consistency
 normalization
-tests have bo verbosity?
+tests have no verbosity?
 abs vs fabs <cmath>
+show normalization in mcnp
+nist values do not sum to 1.0
 
 To do:
 

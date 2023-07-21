@@ -1,18 +1,17 @@
 coutVerbosity 4
 fileVerbosity 4
 loadData NistNoGamma
-//loaddata PnnlMaterials_withPhoton
+loaddata PnnlMaterials_withPhoton
 //loadData compare.txt
-//show H
-//mcnp a3 p5 p5 default DEFAULT Z	// a->numbers across   p->precision  p5 default or default or DEFAULT
+show H
 //loaddata PnnlMaterials_withPhoton
 //show Hydrogen
 //consistency H
 //coutVerbosity 3
 //fileVerbosity 3
 errorLimit  0.05
-compare compare.txt
-//consistency Plutonium_Nitrate
+//compare compare.txt
+consistency H
 //consistency Uranyl_Nitrate
 //consistency all-
 //consistency Sea_Water_Standard
@@ -24,7 +23,7 @@ compare compare.txt
 //consistency Asphalt
 //show H
 //consistency Bi4Ge3O12
-//mcnp a3 p4 default Lead		 // a->numbers across   p->precision
+mcnp a3 p4 default H		 // a->numbers across   p->precision default/fixed/scientific
 tests
 
 

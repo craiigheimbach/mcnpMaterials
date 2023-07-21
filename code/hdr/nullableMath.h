@@ -14,7 +14,7 @@ okLong toLongNullable(const std::string& str, bool showMsg = true);
 std::string to_string(const nDbl& dbl);
 std::string to_string(nLong lng);
 
-inline double dabs(double a) { return (a >= 0.) ? a : -a; }; // linux vs windows
+inline double dabs(double a) { return (a >= 0.) ? a : -a; }; // linux and windows
 const double smallFloat = 1.0E-40;
 
 //  ***************************************************************************
@@ -116,7 +116,7 @@ inline nDbl abs(nDbl zz)
 }
 
 //  ***************************************************************************
-bool match(nDbl a, nDbl b);
+bool match(nDbl a, nDbl b, double specialError = 0.9);
 void setPrecisionForMatching(double err);
 double getPrecisionForMatching();
 

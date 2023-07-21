@@ -50,7 +50,7 @@ public:
 
 	void addComponent(Component component);
 	const Component* find(const std::string& name) const;
-	bool areFractionsComplete(FRACTION_TYPE type) const;
+	std::pair<nDbl, nDbl> getSums() const;
 	inline const std::vector <Component>& getComponents() const { return components; };
 	void sort();
 
@@ -66,7 +66,7 @@ protected:
 	bool fillInMissingData();
 	bool areFractionsConsistent() const;
 	
-	std::vector <nDbl> computeFractions(FRACTION_TYPE type) const;	// mass from atom and vice-versa
+	std::vector <nDbl> computeFractions(FRACTION_TYPE computedType) const;	// mass from atom and vice-versa
 
 	void removeZeroFractions();
 	friend class Material;
@@ -178,8 +178,8 @@ public:
 
 	inline const Composition& getNeutronComposition() const { return neutronComposition; };
 	inline const Composition& getPhotonComposition() const { return photonComposition; };
-	inline void addNeutronComponent(Component cmpnt) { neutronComposition.addComponent(cmpnt); };
-	inline void addPhotonComponent(Component cmpnt) { photonComposition.addComponent(cmpnt); };
+	inline void addNeutronComponent(Component component) { neutronComposition.addComponent(component); };
+	inline void addPhotonComponent(Component component) { photonComposition.addComponent(component); };
 
 	bool sanityCheck() const;			// Perform sanity check before adding to materialMap.
 	bool fillInMissingData();

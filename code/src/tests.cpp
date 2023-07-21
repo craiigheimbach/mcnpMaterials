@@ -1,5 +1,5 @@
 #include<string>
-#include <cmath>
+//#include <cmath>
 #include "tests.h"
 #include "utilities.h"
 #include "nullableMath.h"
@@ -10,6 +10,7 @@
 Logger lgT;					// Logger for tests. Goes to a separate file.
 extern Logger lg;
 extern std::unique_ptr<MaterialMap>  materialMap;
+bool errorsInTesting = false;
 
 //  ***************************************************************************
 template <typename T>
@@ -26,22 +27,20 @@ std::string vectorToString(std::vector<T> vec)
 }
 
 //  ***************************************************************************
-std::string details(const Component& cmpnt)
+std::string details(const Component& component)
 {
 	std::ostringstream oss;
-	oss << "{ name: " << cmpnt.getName() << "  mass: " <<
-		cmpnt.getFraction(MASS) << "  atom: " << cmpnt.getFraction(ATOM) << " }";
+	oss << "{ name: " << component.getName() << "  mass: " <<
+		component.getFraction(MASS) << "  atom: " << component.getFraction(ATOM) << " }";
 	return oss.str();
 }
 
 //  ***************************************************************************
-bool handleError(bool reset = false)
+void handleError()
 {
-	static bool ok = true;
-	if (reset) ok = true;
 	if (lgT.getVerbosity() > 0)
 	{
-		ok = false;
+		errorsInTesting = true;
 		lgT.writeToLog();
 	}
 	else
@@ -49,7 +48,6 @@ bool handleError(bool reset = false)
 		lgT.clear();
 	}
 	lg.clear();		// remove errors auto-generated in othe modules. 
-	return ok;
 }
 
 
@@ -62,15 +60,14 @@ void runTests()
 	lgT.setLoggerFileName("test_out.txt");
 	lgT.setCoutVerbosity(4);		// put to screen. Skip boilerplate.
 	lgT.setFileVerbosity(4);		// put to file. Skip boilerplate.
-	handleError(true);
+	handleError();
 
 	runUtilitiesTests();
 	runNullableMathTests();
 	runMaterialTests();
 	runFunctionalTests();
 	lg.clear();				// clean up messages created during testing.
-	bool ok = handleError();
-	if (!ok)
+	if (errorsInTesting)
 	{
 		lg.bump(MAX_VERBOSITY) << ERR << "Error in testing. See test_out.txt file.\n";
 	}
@@ -385,10 +382,10 @@ void testToLongNullable()
 		lgT.bump(1) << ERR << "toLongNullable('0.1') => " << testConvert.first <<
 			"  " << testConvert.second << '\n';
 	}
-	testConvert = toLongNullable("abc");
+	testConvert = toLongNullable("cat");
 	if (testConvert.first != false || testConvert.second != std::nullopt)
 	{
-		lgT.bump(1) << ERR << "toLongNullable('abc') => " << testConvert.first <<
+		lgT.bump(1) << ERR << "toLongNullable('cat') => " << testConvert.first <<
 			"  " << testConvert.second << '\n';
 	}
 	testConvert = toLongNullable("123a");
@@ -453,10 +450,10 @@ void testToDoubleNullable()
 		lgT.bump(1) << ERR << "toLongNullable('0.1') => " << testConvert.first <<
 			"  " << testConvert.second << '\n';
 	}
-	testConvert = toDoubleNullable("abc");
+	testConvert = toDoubleNullable("cat");
 	if (testConvert.first != false || !match(testConvert.second, std::nullopt))
 	{
-		lgT.bump(1) << ERR << "toLongNullable('abc') => " << testConvert.first <<
+		lgT.bump(1) << ERR << "toLongNullable('cat') => " << testConvert.first <<
 			"  " << testConvert.second << '\n';
 	}
 	testConvert = toDoubleNullable("-.2e5");
@@ -510,7 +507,7 @@ void testComponent()
 	if (cmpnt1.getName() != "name" || cmpnt1.getFraction(MASS) != 1.0 ||
 		cmpnt1.getFraction(ATOM) != std::nullopt)
 	{
-		lgT << ERR << "      expected   found    in component test\n";
+		lgT.bump(1) << ERR << "      expected   found    in component test\n";
 		lgT << ERR << "name  " << "name     " << cmpnt1.getName() << '\n';
 		lgT << ERR << "massF " << "1.0      " << cmpnt1.getFraction(MASS) << '\n';
 		lgT << ERR << "atomF " << "-      " << cmpnt1.getFraction(ATOM) << '\n';
@@ -521,7 +518,7 @@ void testComponent()
 	cmpnt1.setFraction(ATOM, 1.0);
 	if (cmpnt1.getFraction(MASS) != std::nullopt || cmpnt1.getFraction(ATOM) != 1.0)
 	{
-		lgT << ERR << "      expected   found    in component test\n";
+		lgT.bump(1) << ERR << "      expected   found    in component test\n";
 		lgT << ERR << "name  " << "name     " << cmpnt1.getName() << '\n';
 		lgT << ERR << "massF " << " -       " << cmpnt1.getFraction(MASS) << '\n';
 		lgT << ERR << "atomF " << "1.0      " << cmpnt1.getFraction(ATOM) << '\n';
@@ -532,7 +529,7 @@ void testComponent()
 	auto spl = split(str);					// OK if spacing changes
 	if (spl.size() != 3)
 	{
-		lgT << ERR << "in component output, should have three items: name '-' 1 \n";
+		lgT.bump(1) << ERR << "in component output, should have three items: name '-' 1 \n";
 		lgT << ERR << "had:\n ";
 		for (const auto& item : spl)
 		{
@@ -541,7 +538,7 @@ void testComponent()
 	}
 	if (spl.size() != 3 || spl[0] != "name" || spl[1] != "-" || spl[2] != "1")
 	{
-		lgT << ERR << "in component output\n";
+		lgT.bump(1) << ERR << "in component output\n";
 		lgT << ERR << "should have name, -, 1\n";
 		lgT << ERR << "had '" << spl[0] << ", " << spl[1] << ", " << spl[2] << '\n';
 	}
@@ -569,30 +566,29 @@ void testComponent()
 	cmpnt2.setName(" 22000 ");
 	if (cmpnt2.getName() != "22000")
 	{
-		lgT << "component setName does not accepts '22000' input \n";
+		lgT.bump(1) << "component setName does not accepts '22000' input \n";
 	}
 	cmpnt2.setName("H 1");
 	if (cmpnt2.getName() != "")
 	{
-		lgT << "component setName accepts 'H 1' input \n";
+		lgT.bump(1) << "component setName accepts 'H 1' input \n";
 	}
 	cmpnt2.setName("Hydrogen-1");
 	if (cmpnt2.getName() != "Hydrogen-1")
 	{
-		lgT << "component setName does not accepts 'Hydrogen-1' input \n";
+		lgT.bump(1) << "component setName does not accepts 'Hydrogen-1' input \n";
 	}
 	cmpnt2.setName("20");
 	if (cmpnt2.getName() != "")
 	{
-		lgT << "component setName accepts '20' input. (<1000) \n";
+		lgT.bump(1) << "component setName accepts '20' input. (<1000) \n";
 	}
 	cmpnt2.setName("20z");
 	if (cmpnt2.getName() != "")
 	{
-		lgT << "component setName accepts '20z' input." <<
+		lgT.bump(1) << "component setName accepts '20z' input." <<
 			" (zzaaa or start with alphabetic char) \n";
 	}
-	lg.clear();
 	// test bad inputs (negative is rejected. 0.0 or >1 are accepted.)
 	auto cmpnt3 = Component("bad", -.01, 1.01);
 	if (cmpnt3.getFraction(MASS) != std::nullopt)
@@ -618,41 +614,60 @@ void testComposition()
 	cmp.addComponent(Component("B", 0.7, 0.1));
 	cmp.addComponent(Component("B", 0.1, 0.1));
 	cmp.addComponent(Component("A", 0.2, 0.8));
-	if (!cmp.areFractionsComplete(MASS))
+	auto sums = cmp.getSums();
+	if (!sums.first.has_value())
 	{
-		lgT << ERR << "In testComposition, mass fractions show as not complete.\n";
+		lgT.bump(1) << ERR << "In testComposition, mass fractions show as not complete.\n";
 		lgT << ERR << cmp << '\n';
 	}
-	if (!cmp.areFractionsComplete(ATOM))
+	if (!sums.second.has_value())
 	{
-		lgT << ERR << "In testComposition, atom fractions show as not complete.\n";
+		lgT.bump(1) << ERR << "In testComposition, atom fractions show as not complete.\n";
 		lgT << ERR << cmp;
 	}
 
 	Composition cmp1;
 	cmp1.addComponent(Component("B", 0.7, 0.7));
 	cmp1.addComponent(Component("A", 0.4, 0.2));		// sums != 1.0
-	if (cmp1.areFractionsComplete(MASS))
+	sums = cmp1.getSums();
+	if (!sums.first.has_value())
 	{
-		lgT << ERR << "mass fractions show as complete, sum to 1.1\n";
+		lgT.bump(1) << ERR << "mass fractions show as invalid, should be 1.1\n";
 		lgT << ERR << cmp1 << '\n';
 	}
-	if (cmp1.areFractionsComplete(ATOM))
+	else
 	{
-		lgT << ERR << "atom fractions show as complete, sum to 0.9\n";
-		lgT << ERR << cmp1;
+		if (!match(sums.first, 1.1))
+		{
+			lgT.bump(1) << ERR << "mass fractions do not sum to 1.1\n";
+			lgT << ERR << cmp1 << '\n';
+		}
+	}
+	if (!sums.second.has_value())
+	{
+		lgT.bump(1) << ERR << "mass fractions show as invalid, should be 0.9\n";
+		lgT << ERR << cmp1 << '\n';
+	}
+	else
+	{
+		if (!match(sums.second, 0.9))
+		{
+			lgT.bump(1) << ERR << "mass fractions do not sum to 0.9\n";
+			lgT << ERR << cmp1 << '\n';
+		}
 	}
 
 	Composition cmp2;
 	cmp2.addComponent(Component("B", std::nullopt, std::nullopt));
-	if (cmp2.areFractionsComplete(MASS))
+	sums = cmp2.getSums();
+	if (sums.first.has_value())
 	{
-		lgT << ERR << "In testComposition, mass fractions show as complete.\n";
+		lgT.bump(1) << ERR << "In testComposition cmp2, mass fraction sum is valid.\n";
 		lgT << STD << cmp2 << '\n';
 	}
-	if (cmp2.areFractionsComplete(ATOM))
+	if (sums.second.has_value())
 	{
-		lgT << ERR << "In testComposition, atom fractions show as complete.\n";
+		lgT.bump(1) << ERR << "In testComposition cmp2, atom fractions sum is valid.\n";
 		lgT << STD << cmp2 << '\n';
 	}
 	handleError();
@@ -719,13 +734,13 @@ void testMassAtomConversion()
 	nDbl massD = mat.getAtomDensity() * mat.getAtomicWeight() / AVOGADRO;
 	if (massD != mat.getMassDensity())
 	{
-		lgT << ERR << "Incorrect conversion from atom to mass density.\n";
+		lgT.bump(1) << ERR << "Incorrect conversion from atom to mass density.\n";
 		lgT << ERR << "Found: " << massD << "   Should be: " << mat.getMassDensity();
 	}
 	nDbl atomD = mat.getMassDensity() * AVOGADRO / mat.getAtomicWeight();
 	if (atomD != mat.getAtomDensity())
 	{
-		lgT << ERR << "Incorrect conversion from mass to atom density.\n";
+		lgT.bump(1) << ERR << "Incorrect conversion from mass to atom density.\n";
 		lgT << ERR << "Found: " << atomD << "   Should be: " << mat.getAtomDensity();
 	}
 	handleError();
@@ -759,7 +774,6 @@ void functionalTest1()
 	}
 
 	//  Basic test of material read.
-	lg.clear();
 	auto mat = materialMap->find("Al");
 	if (mat == nullptr)
 	{
@@ -959,17 +973,17 @@ void functionalTest3()
 	auto mat = materialMap->find("circular");	// should not work
 	if (mat)
 	{
-		lgT << ERR << " Read 'circular' and did not return nullptr.\n";
+		lgT.bump(1) << ERR << " Read 'circular' and did not return nullptr.\n";
 	}
 	mat = materialMap->find("circRef");	// should not work
 	if (mat)
 	{
-		lgT << ERR << " Read 'circRef' and did not return nullptr.\n";
+		lgT.bump(1) << ERR << " Read 'circRef' and did not return nullptr.\n";
 	}
 	mat = materialMap->find("circ2");	// should not work
 	if (mat)
 	{
-		lgT << ERR << " Read 'circRef' and did not return nullptr.\n";
+		lgT.bump(1) << ERR << " Read 'circRef' and did not return nullptr.\n";
 	}
 	handleError();
 }

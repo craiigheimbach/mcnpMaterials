@@ -101,7 +101,7 @@ bool MaterialFileReader::compareMaterialFile(const std::string& fileName)
 }
 
 //  ***************************************************************************
-//  Returns ok == true for good matrial or empty (ignored) material.
+//  Returns ok == true for good material or empty (ignored) material.
 //			If empty, sets mat to nullptr
 //  If ok == false, mat != nullptr, but is malformed.
 //
@@ -117,7 +117,7 @@ bool MaterialFileReader::readNextMaterial()
 	{
 		line = removeComments(line);	// Also trims
 		if (line.empty()) continue;
-		if (line.find_first_not_of("-") == std::string::npos) return ok;	// New material separator
+		if (line.find_first_not_of('-') == std::string::npos) return ok;	// New material separator
 		if (line[0] == '*')
 		{
 			if (line == "*ignore*" || line == "*Ignore*")
@@ -259,8 +259,14 @@ bool MaterialFileReader::processIsBasic(const std::string& line)
 	{
 		mat->setBasic(false);
 	}
-	else if (std::any_of(trueKey.begin(), trueKey.end(), [text](std::string s) {return s == text; })) mat->setBasic(true);
-	else if (std::any_of(falseKey.begin(), falseKey.end(), [text](std::string s) {return s == text; })) mat->setBasic(false);
+	else if (matchAny(text, trueKey))
+	{
+		mat->setBasic(true);
+	}
+	else if (matchAny(text, falseKey))
+	{
+		mat->setBasic(false);
+	}
 	else
 	{
 		mat->setBasic(false);				// default

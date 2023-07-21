@@ -160,27 +160,16 @@ bool Composition::setFractions(FRACTION_TYPE type, std::vector <nDbl>& newFracti
 }
 
 //  ***************************************************************************
-bool Composition::areFractionsComplete(FRACTION_TYPE type) const
+std::pair<nDbl, nDbl> Composition::getSums() const
 {
-	if (components.empty()) return true;
-	double sum = 0.0;
-	for (const auto& comp: components)
+	nDbl sumMass = 0;
+	nDbl sumAtom = 0;
+	for (const auto& comp : components)
 	{
-		auto& name = comp.getName();
-		if (name.empty()) return false;
-		nDbl fraction = comp.getFraction(type);
-		if (!fraction.has_value()) return false;
-		sum = sum + fraction.value();
+		sumMass = sumMass + comp.getFraction(MASS);
+		sumAtom = sumAtom + comp.getFraction(ATOM);
 	}
-	if (!match(sum, 1.00))
-	{
-		lg.bump(5) << ERR;
-		if (type == MASS) lg << "Mass ";
-		else lg << "Atom ";
-		 lg << "Fractions do not sum to 1.0. Sum to " << sum << '\n';
-		return true;		// not renormalized to 1.0
-	}
-	return true;
+	return std::make_pair(sumMass, sumAtom);
 }
 
 //  ***************************************************************************
@@ -270,30 +259,43 @@ bool Composition::basicMaterialSanityCheck(const std::string& zzaaa) const
 }
 
 //  ***************************************************************************
-//  Compute mass fractions from atom fractions.
+//  Compute mass fractions from atom fractions and vice-versa.
 //  Need atomic weights of components.
-//  One nullopt ruins the entire calculation.
-//  Normalizes fractions to unity.
+//  One computed nullopt fraction makes all computed fraction nullopt.
+//  Maintains normalization.
 //
-std::vector <nDbl> Composition::computeFractions(FRACTION_TYPE type) const
+std::vector <nDbl> Composition::computeFractions(FRACTION_TYPE computedType) const
 {
-	nDbl sumFractions = 0.0;
+	nDbl sumOriginalFractions = 0.0;
+	nDbl sumDerivedlFractions = 0.0;
 	size_t numComponents = components.size();
-	std::vector <nDbl> computedFractions(numComponents, std::nullopt);
+	std::vector <nDbl> derivedFraction(numComponents, std::nullopt);
 
 	for (size_t ia = 0; ia < numComponents; ++ia)
 	{
-		auto& cpnt = components[ia];
-		auto otherFrac = (type == MASS)?cpnt.getFraction(ATOM): cpnt.getFraction(MASS);
-		auto mat = materialMap->find(cpnt.getName());
-		if (!mat) return std::vector <nDbl>(components.size(), std::nullopt);
-		if (type == MASS) computedFractions[ia] = mat->convertMassAtom(MASS, otherFrac);
-		else computedFractions[ia] = mat->convertMassAtom(ATOM, otherFrac);
-		sumFractions = sumFractions + computedFractions[ia];
-		if (!sumFractions.has_value()) return std::vector <nDbl> (components.size(), std::nullopt);
+		nDbl originalFraction = std::nullopt;
+
+		auto& originalComponent = components[ia];
+		auto mat = materialMap->find(originalComponent.getName());
+		if (!mat) return std::vector <nDbl>(numComponents, std::nullopt);
+		// To get mass fraction, start with atom fraction and vice-versa
+		if (computedType == MASS)
+		{
+			originalFraction = originalComponent.getFraction(ATOM);
+			derivedFraction[ia] = mat->convertMassAtom(MASS, originalFraction);
+		}
+		else
+		{
+			originalFraction = originalComponent.getFraction(MASS);
+			derivedFraction[ia] = mat->convertMassAtom(ATOM, originalFraction);
+		}
+		sumOriginalFractions = sumOriginalFractions + originalFraction;
+		sumDerivedlFractions = sumDerivedlFractions + derivedFraction[ia];
 	}
-	for (auto&  frac : computedFractions) frac = frac / sumFractions;
-	return computedFractions;
+	nDbl normalization = sumOriginalFractions / sumDerivedlFractions;
+	if (!normalization.has_value()) return std::vector <nDbl>(numComponents, std::nullopt);
+	for (auto&  frac : derivedFraction) frac = frac * normalization;
+	return derivedFraction;
 }
 
 //  ***************************************************************************
@@ -330,9 +332,9 @@ const Component* Composition::find(const std::string& name) const
 bool Composition::compositionSanityCheck() const
 {
 	if (components.empty()) return true;
-	for (const auto& cpnt : components)
+	for (const auto& component : components)
 	{
-		if (!cpnt.sanityCheck()) return false;
+		if (!component.sanityCheck()) return false;
 	}
 	return true;
 }
@@ -342,8 +344,9 @@ bool Composition::compositionSanityCheck() const
 bool Composition::fillInMissingData()
 {
 	if (components.size() == 0) return true;
-	bool hasAtomData = areFractionsComplete(ATOM);
-	bool hasMassData = areFractionsComplete(MASS);
+	auto sums = getSums();
+	bool hasMassData = sums.first.has_value();
+	bool hasAtomData = sums.second.has_value();
 	if (hasAtomData == true && hasMassData == true) return true;
 	if (hasAtomData == false && hasMassData == false)
 	{
@@ -394,8 +397,12 @@ void Composition::removeZeroFractions()
 //  ***************************************************************************
 bool match(const Composition& left, const Composition& right)
 {
-	auto& leftComponents = left.getComponents();
-	auto& rightComponents = right.getComponents();
+	Composition leftSorted = left;
+	leftSorted.sort();
+	Composition rightSorted = right;
+	rightSorted.sort();
+	auto& leftComponents = leftSorted.getComponents();
+	auto& rightComponents = rightSorted.getComponents();
 	if (leftComponents.size() != rightComponents.size()) return false;
 	for (size_t index = 0; index < leftComponents.size(); ++index)
 	{
@@ -410,11 +417,20 @@ std::ostream& operator<<(std::ostream& os, const Composition& comp)
 {
 	os << "  Isotope      Mass      Atom\n";
 	os << "             Fraction  Fraction\n";
+	nDbl sumMass = 0.0;
+	nDbl sumAtom = 0.0;
     for (auto& component : comp.components)
     {
+		sumMass = sumMass + component.getFraction(MASS);
+		sumAtom = sumAtom + component.getFraction(ATOM);
         os << component << '\n';
     }
-    os << '\n';
+	Component sum = Component("sum", sumMass, sumAtom);
+	if (!match(sumMass, 1.0, 0.001) || !match(sumAtom, 1.0, 0.001))
+	{
+		os << sum << '\n';
+		os << '\n';
+	}
     return os;
 }
 
@@ -496,7 +512,16 @@ std::string Composition::showMcnpFormat(int across, int precision, NumFormat fmt
 		oss << std::defaultfloat;
 	}
 
-	oss << "c Mass Fractions\n";
+	// Extra test for sums
+	auto [sumMass, sumAtom] = getSums();
+	Component sum = Component("sum", sumMass, sumAtom);
+
+	oss << "c Mass Fractions  ";
+	if (!match(sumMass, 1.0, 0.001))
+	{
+		oss << "sum = " << sumMass;
+	}
+	oss << '\n';
 	int nAcross = 0;
 	for (auto& component : components)
 	{
@@ -509,7 +534,12 @@ std::string Composition::showMcnpFormat(int across, int precision, NumFormat fmt
 		oss << "  " << std::left << std::setw(7) << component.getName();
 		oss << " " << std::setw(width) << - 1.0 * component.getFraction(MASS);
 	}
-	oss << "\nc Atom Fractions\n";
+	oss << "\nc Atom Fractions  ";
+	if (!match(sumAtom, 1.0, 0.001))
+	{
+		oss << "sum = " << std::setprecision(6) << sumAtom;
+	}
+	oss << '\n';
 	nAcross = 0;
 	for (auto& component : components)
 	{
@@ -530,16 +560,17 @@ std::string Composition::showMcnpFormat(int across, int precision, NumFormat fmt
 //  ***************************************************************************
 NeutronComposition::NeutronComposition()
 {
-
 };
 
 //  ***************************************************************************
 nDbl NeutronComposition::computeAtomicWeight() const
 {
-	if (!areFractionsComplete(ATOM))
+	auto sums = getSums();
+	if (!sums.second.has_value())
 	{
 		return std::nullopt;
 	}
+
 	nDbl average = 0.0;
 	for (Component comp : components)
 	{
@@ -582,7 +613,7 @@ bool NeutronComposition::areFractionsConsistent() const
 		static const int componentNameWidth = 10;
 		static const int floatPrecision = 4;
 		static const int minFloatWidth = floatPrecision + 5;
-		static const int floatWidth = std::max(minFloatWidth, 13); // Neet room for column titles
+		static const int floatWidth = std::max(minFloatWidth, 13); // Need room for column titles
 		static const std::string columnSeparator = " | ";
 		static std::vector <std::string> columnHeader {"massF given", "massF derived",
 			"Ratio", "atomF given", "atomF derived", "Ratio"};

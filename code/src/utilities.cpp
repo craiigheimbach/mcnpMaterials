@@ -106,12 +106,12 @@ std::string removeComments(const std::string& str)
 //  ***************************************************************************
 std::string toLower(const std::string& str)
 {
-    std::string newstring = str;
-    for (char& chr: newstring)
+    std::string newString = str;
+    for (char& chr: newString)
     {
         chr = std::tolower(chr);
     }
-    return newstring;
+    return newString;
 }
 
 //  ***************************************************************************
