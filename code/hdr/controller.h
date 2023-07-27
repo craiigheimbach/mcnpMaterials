@@ -2,7 +2,6 @@
 #include <iostream> 
 #include <fstream>
 
-#include "logger.h"
 #include "materials.h"
 
 //  ***************************************************************************
@@ -14,7 +13,6 @@ public:
 	void execute();
 
 private:
-//	Logger lg;
 	std::ifstream ifs;
 	MaterialFileReader materials;
 	int lineNumber;
