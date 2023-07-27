@@ -746,8 +746,12 @@ Material::~Material()
 //  ***************************************************************************
 void Material::normalize()
 {
-//	 const NeutronComposition nComp = getNeutronComposition();
-
+	 NeutronComposition nComp = getNeutronComposition(); // lose const
+	 nComp.normalize();
+	 neutronComposition = nComp;
+	 PhotonComposition pComp = getPhotonComposition(); 
+	 pComp.normalize();
+	 photonComposition = pComp;
 }
 
 //  ***************************************************************************

@@ -376,5 +376,5 @@ void Controller::normalize(const std::string& target)
 		lg << STD << "Cannot normalizing.\n";
 		return;
 	}
-//	mat->getNeutronComposition().normalize();
+	mat->normalize();
 }
