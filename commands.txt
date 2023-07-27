@@ -4,6 +4,8 @@ loadData NistNoGamma
 loaddata PnnlMaterials_withPhoton
 //loadData compare.txt
 show H
+normalize H
+show H
 //loaddata PnnlMaterials_withPhoton
 //show Hydrogen
 //consistency H

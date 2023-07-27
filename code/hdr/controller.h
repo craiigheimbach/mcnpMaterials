@@ -25,5 +25,6 @@ private:
 	void listNames(const std::string& target);
 	void compare(const std::string& target);
 	void showMcnpFormat(const std::string& target);
+	void normalize(const std::string& target);
 };
 

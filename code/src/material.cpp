@@ -228,6 +228,17 @@ bool Composition::areFractionsConsistent() const
 }
 
 //  ***************************************************************************
+void Composition::normalize()
+{
+	auto [sumMass, sumAtom] = getSums();
+	for (auto& component : components)
+	{
+		component.setFraction(MASS, component.getFraction(MASS) / sumMass);
+		component.setFraction(ATOM, component.getFraction(ATOM) / sumAtom);
+	}
+}
+
+//  ***************************************************************************
 //  For basic materials only
 //
 bool Composition::basicMaterialSanityCheck(const std::string& zzaaa) const
@@ -680,17 +691,24 @@ bool NeutronComposition::expandToBasic()
 //  change zzaaaa to zz000.
 //  If componentNames not in zzaaa form, just return neutron form.
 //
-Composition NeutronComposition::convertToPhotonForm()
+PhotonComposition NeutronComposition::convertToPhotonForm() const
 {
-	Composition photonForm;
+	PhotonComposition photonForm;
 
 	for (const auto& comp : components)
 	{
+		std::string newName = "";
 		okLong zz = toLongNullable(comp.getName());
-		if (!zz.first) return *this;
-		if (!zz.second.has_value()) return *this;
-		long newName = (zz.second.value() / 1000) * 1000;
-		photonForm.addComponent(Component(std::to_string(newName), comp.getFraction(MASS), comp.getFraction(ATOM)));
+		if (!zz.first or !zz.second.has_value())
+		{
+			newName = comp.getName();
+		}
+		else
+		{
+			newName = std::to_string((zz.second.value() / 1000) * 1000);
+		}
+
+		photonForm.addComponent(Component(newName, comp.getFraction(MASS), comp.getFraction(ATOM)));
 	}
 	return photonForm;
 }
@@ -723,6 +741,13 @@ Material::Material()
 //  ***************************************************************************
 Material::~Material()
 {
+}
+
+//  ***************************************************************************
+void Material::normalize()
+{
+//	 const NeutronComposition nComp = getNeutronComposition();
+
 }
 
 //  ***************************************************************************
@@ -787,7 +812,7 @@ bool Material::isAtomicWeightConsistent() const
 }
 
 //  ***************************************************************************
-bool Material::doNeutronAndPhotonCompsMatch()
+bool Material::doNeutronAndPhotonCompsMatch() const
 {
 	if (match(neutronComposition, photonComposition)) return true;
 	auto derived = neutronComposition.convertToPhotonForm();
@@ -836,7 +861,7 @@ void Material::cleanPhotonComposition()
 	}
 	//  Verify component names are of form zzaaa.
 	//  Do not expand photons because of possible problems with atomic weight.
-	Composition newComposition;
+	PhotonComposition newComposition;
 	for (const Component& cmpnt : photonComposition.getComponents())
 	{
 		auto& currentName = cmpnt.getName();

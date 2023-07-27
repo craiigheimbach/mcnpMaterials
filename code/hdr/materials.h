@@ -65,6 +65,7 @@ protected:
 	bool basicMaterialSanityCheck(const std::string& zzaaa) const;
 	bool fillInMissingData();
 	bool areFractionsConsistent() const;
+	void normalize();
 	
 	std::vector <nDbl> computeFractions(FRACTION_TYPE computedType) const;	// mass from atom and vice-versa
 
@@ -73,22 +74,6 @@ protected:
 };
 
 bool match(const Composition& left, const Composition& right);
-
-//  ***************************************************************************
-class NeutronComposition : public Composition
-{
-public:
-	NeutronComposition();
-	~NeutronComposition() {};
-
-	Composition convertToPhotonForm();
-	nDbl computeAtomicWeight() const;
-	bool areFractionsConsistent() const;
-	bool expandToBasic();
-
-protected:
-
-};
 
 //  ***************************************************************************
 class PhotonComposition : public Composition
@@ -102,6 +87,23 @@ public:
 protected:
 
 };
+
+//  ***************************************************************************
+class NeutronComposition : public Composition
+{
+public:
+	NeutronComposition();
+	~NeutronComposition() {};
+
+	PhotonComposition convertToPhotonForm() const;
+	nDbl computeAtomicWeight() const;
+	bool areFractionsConsistent() const;
+	bool expandToBasic();
+
+protected:
+
+};
+
 
 //  ***************************************************************************
 //  Material has 3 possible names: long, short, zzaaa
@@ -176,17 +178,18 @@ public:
 		return (toType == MASS) ? fromVal * atomicWeight : fromVal / atomicWeight;
 	}
 
-	inline const Composition& getNeutronComposition() const { return neutronComposition; };
-	inline const Composition& getPhotonComposition() const { return photonComposition; };
+	inline const NeutronComposition& getNeutronComposition() const { return neutronComposition; };
+	inline const PhotonComposition& getPhotonComposition() const { return photonComposition; };
 	inline void addNeutronComponent(Component component) { neutronComposition.addComponent(component); };
 	inline void addPhotonComponent(Component component) { photonComposition.addComponent(component); };
 
 	bool sanityCheck() const;			// Perform sanity check before adding to materialMap.
 	bool fillInMissingData();
-	bool isMaterialSelfConsistent();
+	bool isMaterialSelfConsistent();		// not const : fills in missing data before checking.
 	bool areDensitiesConsistent() const;
 	bool isAtomicWeightConsistent() const;
-	bool doNeutronAndPhotonCompsMatch();
+	bool doNeutronAndPhotonCompsMatch() const; 
+	void normalize();
 
 	friend std::ostream& operator<<(std::ostream& os, const Material& mat);
 	const std::string str();
@@ -207,7 +210,7 @@ protected:
 	std::optional<double> atomDensity;
 	std::optional<double> atomicWeight;
 	NeutronComposition neutronComposition;
-	Composition photonComposition = Composition();
+	PhotonComposition photonComposition;
 };
 
 //  ***************************************************************************

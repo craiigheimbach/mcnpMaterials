@@ -56,7 +56,7 @@ okDbl toDoubleNullable(const std::string& str, bool showMsg)
 //  ***************************************************************************
 std::pair<bool, nLong> toLongNullable(const std::string& str, bool showMsg)
 {
-    showMsg = false;
+ //   showMsg = false;
 
     std::size_t nextChar;
     long lng;

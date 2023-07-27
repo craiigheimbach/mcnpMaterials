@@ -56,6 +56,7 @@ void Controller::execute()
 		else if (command == "logfile")			lg.setLoggerFileName(target);
 		else if (command == "show")				showMaterial(target);
 		else if (command == "mcnp")				showMcnpFormat(target);
+		else if (command == "normalize")		normalize(target);
 		else if (command == "tests")
 		{
 			if (target != "")  std::cout << target << " ignored in command " << originalLine << "\n";
@@ -355,4 +356,25 @@ void Controller::compare(const std::string& target)
 	lg.forceWriteToLog();
 
 	return;
+}
+
+//  ***************************************************************************
+//  Normalize a material composition to 1.0
+//
+void Controller::normalize(const std::string& target)
+{
+	if (target.empty())
+	{
+		lg.bump(MAX_VERBOSITY) << ERR << "No target for evaluation.\n";
+		return;
+	}
+	auto mat = materialMap->find(target);
+	if (!mat)
+	{
+		lg.prepend(STD + "normalizing " + target + '\n');
+		lg.bump(MAX_VERBOSITY) << ERR << "material '" << target << "' not found.\n";
+		lg << STD << "Cannot normalizing.\n";
+		return;
+	}
+//	mat->getNeutronComposition().normalize();
 }
