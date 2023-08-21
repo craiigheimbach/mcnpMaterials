@@ -1,3 +1,6 @@
+// Boron and Lithium changed.
+// Neon is basic here. Really is derived from components.
+// Some material names changed from (xxx)-yyy to ch(xxx)-yyy to keep first letter alphabetic
 ------------------------------
 LongName = A-150_Tissue-Equivalent_Plastic(A150TEP)
 ShortName = 
@@ -112,12 +115,13 @@ Isotope    Mass      Atom
 7014    0.15721    0.07692
 8016    0.35916    0.15385
 ------------------------------
+*ignore*
 LongName = Aluminum
 ShortName = Al
-ZZAAA = 
+ZZAAA = 13027
 comment = None
 atomic weight = None
-isBasic = False
+isBasic = True
 mass density = 2.69890
 atom density = 0.06024
 Neutron composition:
@@ -206,7 +210,7 @@ Li    0.02250    0.08352
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.02250    0.08352
+3000     0.02250    0.08352
 12000    1.63000e-03    1.72800e-03
 13027    0.94400    0.90142
 14000    6.50000e-04    5.96000e-04
@@ -415,6 +419,7 @@ Isotope    Mass      Atom
 1001    0.05655    0.41667
 6000    0.94345    0.58333
 ------------------------------
+*ignore*
 LongName = Argon
 ShortName = Ar
 ZZAAA = 18000
@@ -548,7 +553,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 9019    0.21672    0.66666
-Ba    0.78328    0.33334
+56000    0.78328    0.33334
 ------------------------------
 LongName = Barium_Sulfate
 ShortName = BaSO4
@@ -569,7 +574,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 8016    0.27421    0.66668
 16000    0.13737    0.16664
-Ba    0.58842    0.16667
+56000    0.58842    0.16667
 ------------------------------
 LongName = Benzene
 ShortName = C6H6
@@ -590,6 +595,7 @@ Isotope    Mass      Atom
 1001    0.07742    0.49998
 6000    0.92258    0.50002
 ------------------------------
+*ignore*
 LongName = Beryllium
 ShortName = Be
 ZZAAA = 
@@ -645,6 +651,7 @@ Isotope    Mass      Atom
 4009    0.36032    0.50000
 8016    0.63968    0.50000
 ------------------------------
+*ignore*
 LongName = Bismuth
 ShortName = Bi
 ZZAAA = 
@@ -680,7 +687,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 8016    0.15413    0.63165
-Ge    0.17482    0.15780
+32000    0.17482    0.15780
 83209    0.67105    0.21055
 ------------------------------
 LongName = Blood(ICRP)
@@ -861,8 +868,8 @@ B    0.27400    0.45451
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.27400    0.45451
-6000    0.07600    0.11348
+5000     0.27400    0.45451
+6000     0.07600    0.11348
 13027    0.65000    0.43202
 ------------------------------
 LongName = Boral(Aluminum_10%_Boron_Alloy)
@@ -876,20 +883,20 @@ atom density = 0.06647
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.10000    0.21788
+B    	 0.10000    0.21788
 11023    5.00000e-03    5.12300e-03
-13027    0.87900    0.76737
+13027    0.87900   	 	0.76737
 14000    2.50000e-03    2.09700e-03
-19000    0.01000    6.02500e-03
+19000    0.01000    	6.02500e-03
 22000    5.00000e-04    2.46000e-04
 26000    3.00000e-03    1.26500e-03
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.10000    0.21788
-11023    5.00000e-03    5.12300e-03
+5000     0.10000    0.21788
+11023    5.00000e-03  5.12300e-03
 13027    0.87900    0.76737
-14000    2.50000e-03    2.09700e-03
+14000    2.50000e-03  2.09700e-03
 19000    0.01000    6.02500e-03
 22000    5.00000e-04    2.46000e-04
 26000    3.00000e-03    1.26500e-03
@@ -915,10 +922,10 @@ B    0.05000    0.11655
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.05000    0.11655
-11023    5.00000e-03    5.48100e-03
+5000     0.05000    0.11655
+11023    5.00000e-03  5.48100e-03
 13027    0.92950    0.86812
-14000    2.00000e-03    1.79400e-03
+14000    2.00000e-03  1.79400e-03
 19000    0.01000    6.44500e-03
 22000    5.00000e-04    2.63000e-04
 26000    3.00000e-03    1.35400e-03
@@ -935,16 +942,16 @@ Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.05286    0.46512
-B    0.11339    0.09302
+B    	0.11339    0.09302
 8016    0.71319    0.39535
 11023    0.12056    0.04651
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.05286    0.46512
-B    0.11339    0.09302
+5000    0.11339    0.09302
 8016    0.71319    0.39535
-11023    0.12056    0.04651
+11023   0.12056    0.04651
 ------------------------------
 LongName = Boric_Acid
 ShortName = H3BO3
@@ -958,19 +965,20 @@ Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.04890    0.42857
-B    0.17484    0.14286
+B    	0.17484    0.14286
 8016    0.77626    0.42857
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.04890    0.42857
-B    0.17484    0.14286
+5000   	0.17484    0.14286
 8016    0.77626    0.42857
 ------------------------------
+*ignore*
 LongName = Boron
 ShortName = B
 ZZAAA = 5000
-comment = None
+comment = Use NIST Boron
 atomic weight = 10.81103
 isBasic = True
 mass density = 2.37000
@@ -995,12 +1003,12 @@ atom density = 0.13730
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.78261    0.79998
+B    	0.78261    0.79998
 6000    0.21739    0.20002
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.78261    0.79998
+5000   	0.78261    0.79998
 6000    0.21739    0.20002
 ------------------------------
 LongName = Boron_Fluoride(B2F4)
@@ -1014,12 +1022,12 @@ atom density = 1.50200e-04
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.22150    0.33333
+B    	0.22150    0.33333
 9019    0.77850    0.66667
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.22150    0.33333
+5000   	0.22150    0.33333
 9019    0.77850    0.66667
 ------------------------------
 LongName = Boron_Fluoride(BF3)
@@ -1033,12 +1041,12 @@ atom density = 1.00600e-04
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.15944    0.25000
+B   	 0.15944    0.25000
 9019    0.84056    0.75000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.15944    0.25000
+5000   	0.15944    0.25000
 9019    0.84056    0.75000
 ------------------------------
 LongName = Boron_Oxide
@@ -1052,12 +1060,12 @@ atom density = 0.07837
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.31055    0.39998
+B    	0.31055    0.39998
 8016    0.68945    0.60002
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.31055    0.39998
+5000   	0.31055    0.39998
 8016    0.68945    0.60002
 ------------------------------
 LongName = Brain(ICRP)
@@ -1233,10 +1241,10 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 13027    0.02853    0.06561
-14000    3.33900e-03    7.37800e-03
-25055    3.55500e-03    4.01500e-03
+14000    3.33900e-03   7.37800e-03
+25055    3.55500e-03   4.01500e-03
 26000    0.01021    0.01134
-28000    6.71800e-03    7.10300e-03
+28000    6.71800e-03   7.10300e-03
 29000    0.87416    0.85367
 30000    0.03604    0.03419
 50000    0.02450    0.01281
@@ -1257,7 +1265,7 @@ Isotope    Mass      Atom
 6000    0.50161    0.45813
 8016    4.52700e-03    3.10400e-03
 9019    0.46521    0.26861
-14000    3.97300e-03    1.55200e-03
+14000   3.97300e-03    1.55200e-03
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
@@ -1265,12 +1273,13 @@ Isotope    Mass      Atom
 6000    0.50161    0.45813
 8016    4.52700e-03    3.10400e-03
 9019    0.46521    0.26861
-14000    3.97300e-03    1.55200e-03
+14000   3.97300e-03    1.55200e-03
 ------------------------------
+*ignore*
 LongName = Cadmium
 ShortName = Cd
 ZZAAA = 48000
-comment = None
+comment = Use NIST Cadmium
 atomic weight = 112.41156
 isBasic = True
 mass density = 8.65000
@@ -1324,7 +1333,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 48000    0.46836    0.50000
-Te    0.53165    0.50000
+52000    0.53165    0.50000
 ------------------------------
 LongName = Cadmium_Tungstate(CWO)
 ShortName = CdWO4
@@ -1481,7 +1490,7 @@ B    1.00000e-06    1.00000e-06
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    1.00000e-06    1.00000e-06
+5000    1.00000e-06    1.00000e-06
 6000    1.00000    1.00000
 ------------------------------
 LongName = Carbon_Amorphous
@@ -1500,7 +1509,7 @@ B    1.00000e-06    1.00000e-06
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    1.00000e-06    1.00000e-06
+5000    1.00000e-06    1.00000e-06
 6000    1.00000    1.00000
 ------------------------------
 LongName = Carbon_Graphite(Reactor_Grade)
@@ -1519,7 +1528,7 @@ B    1.00000e-06    1.00000e-06
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    1.00000e-06    1.00000e-06
+5000    1.00000e-06    1.00000e-06
 6000    1.00000    1.00000
 ------------------------------
 LongName = Cat_Litter(Clumping)_Na0.2Ca0.1Al2Si4O10
@@ -1647,7 +1656,7 @@ Isotope    Mass      Atom
 7014    8.00000e-04    3.53000e-04
 8016    0.87498    0.33766
 16000    0.01463    2.81600e-03
-Ce    2.00100e-03    8.80000e-05
+58000    2.00100e-03    8.80000e-05
 ------------------------------
 LongName = Cerium_Fluoride
 ShortName = CeF3
@@ -1661,12 +1670,12 @@ Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 9019    0.28915    0.75000
-Ce    0.71085    0.25000
+Ce      0.71085    0.25000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-9019    0.28915    0.75000
-Ce    0.71085    0.25000
+9019     0.28915    0.75000
+58000    0.71085    0.25000
 ------------------------------
 LongName = Cesium_Iodide
 ShortName = CsI
@@ -1687,6 +1696,7 @@ Isotope    Mass      Atom
 53127    0.48845    0.50000
 55133    0.51155    0.50000
 ------------------------------
+*ignore*
 LongName = Chromium
 ShortName = Cr
 ZZAAA = 24000
@@ -1847,7 +1857,7 @@ Isotope    Mass      Atom
 16000    0.10786    0.10365
 20000    0.05019    0.03859
 26000    0.04750    0.02621
-Ba    0.46340    0.10398
+56000    0.46340    0.10398
 ------------------------------
 LongName = Concrete_Barytes-limonite
 ShortName = 
@@ -1884,7 +1894,7 @@ Isotope    Mass      Atom
 20000    0.05391    0.03117
 25055    1.40500e-03    5.93000e-04
 26000    0.13714    0.05690
-Ba    0.32095    0.05416
+56000    0.32095    0.05416
 ------------------------------
 LongName = Concrete_Boron_Frits-baryte
 ShortName = 
@@ -1916,7 +1926,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    5.62600e-03    0.14752
-B    0.01045    0.02554
+5000    0.01045    0.02554
 8016    0.33960    0.56094
 9019    2.31100e-03    3.21500e-03
 11023    0.01216    0.01397
@@ -1929,7 +1939,7 @@ B    0.01045    0.02554
 25055    2.01000e-04    9.70000e-05
 26000    0.02200    0.01041
 30000    6.63100e-03    2.67900e-03
-Ba    0.40320    0.07759
+56000    0.40320    0.07759
 ------------------------------
 LongName = Concrete_Colemanite-baryte
 ShortName = 
@@ -1958,7 +1968,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    8.56400e-03    0.20873
-B    9.87400e-03    0.02244
+5000    9.87400e-03    0.02244
 8016    0.35154    0.53975
 11023    1.10800e-03    1.18400e-03
 12000    2.21700e-03    2.24000e-03
@@ -1968,7 +1978,7 @@ B    9.87400e-03    0.02244
 20000    0.08524    0.05225
 25055    1.01000e-04    4.50000e-05
 26000    0.01038    4.56500e-03
-Ba    0.41008    0.07336
+56000    0.41008    0.07336
 ------------------------------
 LongName = Concrete_Ferro-phosphorus
 ShortName = 
@@ -2223,7 +2233,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.01096    0.24768
-B    8.84600e-03    0.01864
+5000    8.84600e-03    0.01864
 8016    0.37143    0.52894
 11023    1.10600e-03    1.09600e-03
 12000    1.40700e-03    1.31900e-03
@@ -2234,7 +2244,7 @@ B    8.84600e-03    0.01864
 22000    0.01277    6.07700e-03
 25055    1.20600e-03    5.00000e-04
 26000    0.03086    0.01259
-Ba    0.38792    0.06436
+56000    0.38792    0.06436
 ------------------------------
 LongName = Concrete_Luminite-Portland-colemanite-baryte
 ShortName = 
@@ -2264,7 +2274,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.01113    0.24827
-B    0.01032    0.02146
+5000    0.01032    0.02146
 8016    0.37402    0.52581
 11023    1.11300e-03    1.08800e-03
 12000    2.02300e-03    1.87200e-03
@@ -2275,7 +2285,7 @@ B    0.01032    0.02146
 22000    7.18000e-04    3.37000e-04
 25055    4.05000e-04    1.66000e-04
 26000    0.01891    7.61800e-03
-Ba    0.38464    0.06300
+5600    0.38464    0.06300
 ------------------------------
 LongName = Concrete_M-1
 ShortName = 
@@ -2300,7 +2310,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    8.00000e-03    0.24469
-B    9.00000e-03    0.02566
+5000    9.00000e-03    0.02566
 8016    0.10700    0.20617
 12000    0.04300    0.05454
 17000    0.02100    0.01826
@@ -2732,6 +2742,7 @@ Isotope    Mass      Atom
 24000    9.09000e-04    2.73000e-04
 26000    0.03091    8.63300e-03
 ------------------------------
+*ignore*
 LongName = Copper
 ShortName = Cu
 ZZAAA = 29000
@@ -3248,7 +3259,7 @@ Isotope    Mass      Atom
 17000    0.47792    0.49816
 19000    0.51185    0.48379
 20000    2.76000e-04    2.54000e-04
-Br    3.30000e-04    1.53000e-04
+35000    3.30000e-04    1.53000e-04
 ------------------------------
 LongName = Fiberglass_Type_C
 ShortName = 
@@ -3273,7 +3284,7 @@ B    0.01858    0.03504
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.01858    0.03504
+5000    0.01858    0.03504
 8016    0.47863    0.60997
 11023    0.05917    0.05248
 12000    0.01804    0.01513
@@ -3308,7 +3319,7 @@ B    0.02280    0.04376
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.02280    0.04376
+5000    0.02280    0.04376
 8016    0.47195    0.61196
 9019    4.89500e-03    5.34500e-03
 11023    7.26200e-03    6.55400e-03
@@ -3385,7 +3396,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 6000    0.05724    0.20000
 9019    0.18110    0.40000
-Br    0.76166    0.40000
+35000    0.76166    0.40000
 ------------------------------
 LongName = Freon-13
 ShortName = 
@@ -3427,7 +3438,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 6000    0.08066    0.20000
 9019    0.38275    0.60000
-Br    0.53659    0.20000
+35000    0.53659    0.20000
 ------------------------------
 LongName = Freon-13I1
 ShortName = 
@@ -3450,6 +3461,7 @@ Isotope    Mass      Atom
 9019    0.29092    0.60000
 53127    0.64777    0.20000
 ------------------------------
+*ignore*
 LongName = Gadolinium
 ShortName = Gd
 ZZAAA = 64000
@@ -3571,11 +3583,11 @@ Isotope    Mass      Atom
 6000    0.84300    0.31063
 ------------------------------
 LongName = Germanium_High_Purity
-ShortName = Ge
-ZZAAA = 32000
+ShortName = 
+ZZAAA = 
 comment = Germanium_High_Purity
 atomic weight = 72.62755
-isBasic = True
+isBasic = False
 mass density = 5.32300
 atom density = 0.04413
 Neutron composition:
@@ -3607,12 +3619,12 @@ Ce    0.03415    4.74200e-03
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.02787    0.07813
+3000    0.02787    0.07813
 8016    0.47794    0.58120
 12000    0.14473    0.11585
 13027    0.05822    0.04198
 14000    0.25709    0.17810
-Ce    0.03415    4.74200e-03
+58000    0.03415    4.74200e-03
 ------------------------------
 LongName = Glass_Scintillator_Li_Doped(GS10_GS20_GS30)
 ShortName = 
@@ -3634,12 +3646,12 @@ Ce    0.03415    4.24200e-03
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.08362    0.20969
+3000    0.08362    0.20969
 8016    0.50108    0.54511
 12000    0.02412    0.01727
 13027    0.09527    0.06145
 14000    0.26176    0.16222
-Ce    0.03415    4.24200e-03
+58000    0.03415    4.24200e-03
 ------------------------------
 LongName = Glass_Scintillator_Li_Doped(GSF1)
 ShortName = 
@@ -3661,12 +3673,12 @@ Ce    0.02053    2.71600e-03
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.04655    0.12430
+3000    0.04655    0.12430
 8016    0.50581    0.58595
 11023    0.01784    0.01438
 13027    0.09546    0.06557
 14000    0.31381    0.20709
-Ce    0.02053    2.71600e-03
+58000    0.02053    2.71600e-03
 ------------------------------
 LongName = Glass_Scintillator_Li_Doped(KG1_KG2_KG3)
 ShortName = 
@@ -3686,10 +3698,10 @@ Ce    0.04269    5.18200e-03
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.09756    0.23907
+3000    0.09756    0.23907
 8016    0.51385    0.54627
 14000    0.34590    0.20948
-Ce    0.04269    5.18200e-03
+58000    0.04269    5.18200e-03
 ------------------------------
 LongName = Glass_Borosilicate(Pyrex_Glass)
 ShortName = 
@@ -3711,7 +3723,7 @@ B    0.04006    0.07045
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.04006    0.07045
+5000    0.04006    0.07045
 8016    0.53956    0.64109
 11023    0.02819    0.02331
 13027    0.01164    8.20400e-03
@@ -3739,7 +3751,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    1.00000e-03    0.01872
-B    0.01500    0.02618
+5000    0.01500    0.02618
 8016    0.53400    0.62968
 11023    0.16100    0.13212
 14000    0.27900    0.18742
@@ -3814,6 +3826,7 @@ Isotope    Mass      Atom
 6000    0.39126    0.21429
 8016    0.52119    0.21429
 ------------------------------
+*ignore*
 LongName = Gold
 ShortName = Au
 ZZAAA = 
@@ -3855,11 +3868,11 @@ Isotope    Mass      Atom
 20000    0.23280    0.08334
 ------------------------------
 LongName = He-3_Proportional_Gas
-ShortName = He-3
-ZZAAA = 2003
+ShortName = 
+ZZAAA = 
 comment = None
 atomic weight = 3.01603
-isBasic = True
+isBasic = False
 mass density = 1.25000e-04
 atom density = 2.50100e-05
 Neutron composition:
@@ -3872,9 +3885,9 @@ Isotope    Mass      Atom
 2003    1.00000    1.00000
 ------------------------------
 LongName = Helium_Natural
-ShortName = He
+ShortName = 
 ZZAAA = 
-comment = None
+comment = Not the same as NIST He
 atomic weight = None
 isBasic = False
 mass density = 1.66000e-04
@@ -3888,11 +3901,12 @@ Isotope    Mass      Atom
          Fraction  Fraction
 2004    1.00000    1.00000
 ------------------------------
+*ignore*
 LongName = Hydrogen
-ShortName = H2
+ShortName = H
 ZZAAA = 
-comment = None
-atomic weight = None
+comment = Not the same as NIST Hydrogen
+atomic weight = 1.00794
 isBasic = False
 mass density = 8.40000e-05
 atom density = 5.00400e-05
@@ -4041,7 +4055,7 @@ B    5.00000e-05    2.67000e-04
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    5.00000e-05    2.67000e-04
+5000    5.00000e-05    2.67000e-04
 6000    7.30000e-04    3.50700e-03
 13027    5.00000e-03    0.01069
 14000    3.18000e-03    6.53400e-03
@@ -4057,6 +4071,7 @@ B    5.00000e-05    2.67000e-04
 41093    0.05125    0.03183
 42000    0.03050    0.01835
 ------------------------------
+*ignore*
 LongName = Indium
 ShortName = In
 ZZAAA = 49000
@@ -4074,6 +4089,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 49000    1.00000    1.00000
 ------------------------------
+*ignore*
 LongName = Iron
 ShortName = Fe
 ZZAAA = 26000
@@ -4107,7 +4123,7 @@ B    0.08825    0.33333
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.08825    0.33333
+5000    0.08825    0.33333
 26000    0.91175    0.66667
 ------------------------------
 LongName = Iron_Boride(FeB)
@@ -4126,7 +4142,7 @@ B    0.16217    0.49997
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.16217    0.49997
+5000    0.16217    0.49997
 26000    0.83783    0.50003
 ------------------------------
 LongName = Iron_Armco_Ingot
@@ -4231,7 +4247,7 @@ B    2.48000e-04    4.68000e-04
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    2.48000e-04    4.68000e-04
+5000    2.48000e-04    4.68000e-04
 8016    0.50006    0.63610
 13027    0.23816    0.17964
 14000    0.24363    0.17654
@@ -4302,7 +4318,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.02951    0.32000
-B    0.15824    0.16000
+5000    0.15824    0.16000
 8016    0.64400    0.44000
 11023    0.16825    0.08000
 ------------------------------
@@ -4325,10 +4341,11 @@ Isotope    Mass      Atom
 1001    0.16000    0.69416
 6000    0.84000    0.30584
 ------------------------------
+*ignore*
 LongName = Krypton
 ShortName = Kr
 ZZAAA = 36000
-comment = None
+comment = Not the same as NIST Krypton
 atomic weight = 83.79800
 isBasic = True
 mass density = 3.47800e-03
@@ -4363,10 +4380,11 @@ Isotope    Mass      Atom
 6000    0.37513    0.33333
 9019    0.59338    0.33333
 ------------------------------
+*ignore*
 LongName = Lead
 ShortName = Pb
 ZZAAA = 82000
-comment = None
+comment = Not the same as NIST lrad
 atomic weight = 207.21691
 isBasic = True
 mass density = 11.35000
@@ -4401,10 +4419,11 @@ Isotope    Mass      Atom
 74000    0.40401    0.16667
 82000    0.45535    0.16667
 ------------------------------
+*Ignore*
 LongName = Lithium
 ShortName = Li
 ZZAAA = 3000
-comment = None
+comment = Use NIST Lithium
 atomic weight = 6.94004
 isBasic = True
 mass density = 0.53400
@@ -4430,13 +4449,13 @@ Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.08778    0.49999
-Li    0.30226    0.25000
+Li      0.30226    0.25000
 7014    0.60996    0.25000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.08778    0.49999
-Li    0.30226    0.25000
+3000    0.30226    0.25000
 7014    0.60996    0.25000
 ------------------------------
 LongName = Lithium_Fluoride
@@ -4450,12 +4469,12 @@ atom density = 0.12230
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.26759    0.50000
+Li      0.26759    0.50000
 9019    0.73242    0.50000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.26759    0.50000
+3000    0.26759    0.50000
 9019    0.73242    0.50000
 ------------------------------
 LongName = Lithium_Gadrium_Borate(LGB)
@@ -4498,7 +4517,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.12680    0.49999
-Li    0.87320    0.50001
+3000    0.87320    0.50001
 ------------------------------
 LongName = Lithium_Iodide(High_Density)
 ShortName = LiI_HD
@@ -4516,7 +4535,7 @@ Li    0.05186    0.50000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.05186    0.50000
+3000     0.05186    0.50000
 53127    0.94814    0.50000
 ------------------------------
 LongName = Lithium_Iodide(Low_Density)
@@ -4535,7 +4554,7 @@ Li    0.05186    0.50000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.05186    0.50000
+3000    0.05186    0.50000
 53127    0.94814    0.50000
 ------------------------------
 LongName = Lithium_Oxide
@@ -4554,7 +4573,7 @@ Li    0.46457    0.66667
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.46457    0.66667
+3000    0.46457    0.66667
 8016    0.53543    0.33333
 ------------------------------
 LongName = Lithium_Tetraborate
@@ -4574,8 +4593,8 @@ B    0.25568    0.30767
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Li    0.08209    0.15385
-B    0.25568    0.30767
+3000    0.08209    0.15385
+5000    0.25568    0.30767
 8016    0.66224    0.53848
 ------------------------------
 LongName = Lucite
@@ -4618,7 +4637,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 8016    0.22540    0.60000
 13027    0.15838    0.25000
-Lu    0.61623    0.15000
+71000    0.61623    0.15000
 ------------------------------
 LongName = Lutetium_Orthoaluminate(LuAP)
 ShortName = LuAlO3
@@ -4637,9 +4656,9 @@ Lu    0.70002    0.20000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-8016    0.19203    0.60000
+8016     0.19203    0.60000
 13027    0.10795    0.20000
-Lu    0.70002    0.20000
+71000    0.70002    0.20000
 ------------------------------
 LongName = Lutetium_Oxyorthosilicate(LSO)
 ShortName = Lu2SiO5
@@ -4658,9 +4677,9 @@ Lu    0.76402    0.25000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-8016    0.17466    0.62500
+8016     0.17466    0.62500
 14000    0.06132    0.12500
-Lu    0.76402    0.25000
+71000    0.76402    0.25000
 ------------------------------
 LongName = Lutetium_Yttrium_OxyorthoSilicate(LYSO)
 ShortName = Lu2Y2SiO5
@@ -4673,22 +4692,23 @@ atom density = 0.06914
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-8016    0.12582    0.50000
+8016     0.12582    0.50000
 14000    0.04417    0.10000
 39089    0.27965    0.20000
-Lu    0.55036    0.20000
+Lu       0.55036    0.20000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-8016    0.12582    0.50000
+8016     0.12582    0.50000
 14000    0.04417    0.10000
 39089    0.27965    0.20000
-Lu    0.55036    0.20000
+71000    0.55036    0.20000
 ------------------------------
+*ignore*
 LongName = Magnesium
 ShortName = Mg
 ZZAAA = 12000
-comment = None
+comment = Not the same as NIST Magnesium
 atomic weight = 24.30505
 isBasic = True
 mass density = 1.74000
@@ -4738,7 +4758,7 @@ B    0.24084    0.33331
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.24084    0.33331
+5000    0.24084    0.33331
 8016    0.62379    0.58335
 12000    0.13537    0.08334
 ------------------------------
@@ -4784,10 +4804,11 @@ Isotope    Mass      Atom
 6000    0.39731    0.27778
 7014    0.55601    0.33333
 ------------------------------
+*ignore*
 LongName = Mercury
 ShortName = Hg
 ZZAAA = 80000
-comment = None
+comment = Not the same as NIST Mercury
 atomic weight = 200.59917
 isBasic = True
 mass density = 13.54600
@@ -4881,10 +4902,11 @@ Isotope    Mass      Atom
 6000    0.14142    0.20000
 17000    0.83485    0.40000
 ------------------------------
+*ignore*
 LongName = Molybdenum
 ShortName = Mo
 ZZAAA = 42000
-comment = None
+comment = Not the same as NIST Molybdenum
 atomic weight = 95.95979
 isBasic = True
 mass density = 10.22000
@@ -5041,11 +5063,12 @@ Isotope    Mass      Atom
 16000    5.00000e-03    9.76000e-04
 19000    3.00000e-03    4.80000e-04
 ------------------------------
+*ignore*
 LongName = Neon
 ShortName = Ne
 ZZAAA = 
-comment = None
-atomic weight = None
+comment = not the same as NIST Neon
+atomic weight = 20.1797
 isBasic = False
 mass density = 8.39000e-04
 atom density = 2.50200e-05
@@ -5058,10 +5081,11 @@ Isotope    Mass      Atom
          Fraction  Fraction
 10020    1.00000    1.00000
 ------------------------------
+*ignore*
 LongName = Nickel
 ShortName = Ni
 ZZAAA = 28000
-comment = None
+comment = Not the same as NIST Nickel
 atomic weight = 58.69335
 isBasic = True
 mass density = 8.90200
@@ -5075,12 +5099,13 @@ Isotope    Mass      Atom
          Fraction  Fraction
 28000    1.00000    1.00000
 ------------------------------
+*ignore*
 LongName = Niobium
 ShortName = Nb
-ZZAAA = 
+ZZAAA = 41093
 comment = None
 atomic weight = None
-isBasic = False
+isBasic = True
 mass density = 8.57000
 atom density = 0.05555
 Neutron composition:
@@ -5092,10 +5117,11 @@ Isotope    Mass      Atom
          Fraction  Fraction
 41093    1.00000    1.00000
 ------------------------------
+*ignore*
 LongName = Nitrogen
-ShortName = N2
+ShortName = N
 ZZAAA = 
-comment = None
+comment = Not the same as NIST nitrogen
 atomic weight = None
 isBasic = False
 mass density = 1.16500e-03
@@ -5360,10 +5386,11 @@ Isotope    Mass      Atom
 6000    0.77865    0.34483
 8016    0.10372    0.03448
 ------------------------------
+*ignore*
 LongName = Oxygen
-ShortName = O2
+ShortName = O
 ZZAAA = 
-comment = None
+comment = Not the same as NIST Oxygen
 atomic weight = None
 isBasic = False
 mass density = 1.33200e-03
@@ -5419,10 +5446,11 @@ Isotope    Mass      Atom
 6000    0.01550    0.04167
 18000    0.97930    0.79167
 ------------------------------
+*ignore*
 LongName = Palladium
 ShortName = Pd
 ZZAAA = 46000
-comment = None
+comment = not the same as NIST data
 atomic weight = 106.41533
 isBasic = True
 mass density = 12.02000
@@ -5485,7 +5513,7 @@ Isotope    Mass      Atom
 6000    0.21070    0.25525
 7014    0.07210    0.07490
 8016    0.16320    0.14842
-Br    0.22280    0.04057
+35000    0.22280    0.04057
 47000    0.30070    0.04056
 ------------------------------
 LongName = Photographic_Emulsion_Standard_Nuclear
@@ -5515,14 +5543,15 @@ Isotope    Mass      Atom
 7014    0.01932    0.04014
 8016    0.06610    0.12023
 16000    1.89000e-03    1.71500e-03
-Br    0.34910    0.12714
+35000    0.34910    0.12714
 47000    0.47410    0.12790
 53127    3.12000e-03    7.15000e-04
 ------------------------------
+*ignore*
 LongName = Platinum
 ShortName = Pt
 ZZAAA = 78000
-comment = None
+comment = Not the same as NIST data
 atomic weight = 195.08446
 isBasic = True
 mass density = 21.45000
@@ -5557,7 +5586,7 @@ Br    0.50062    0.75000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-Br    0.50062    0.75000
+35000    0.50062    0.75000
 94238    2.50000e-04    1.26000e-04
 94239    0.46692    0.23382
 94240    0.02996    0.01494
@@ -6129,7 +6158,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.12535    0.62776
-B    0.10000    0.04669
+5000    0.10000    0.04669
 6000    0.77465    0.32555
 ------------------------------
 LongName = Polyethylene_Non-borated
@@ -6799,7 +6828,7 @@ Isotope    Mass      Atom
 8016    0.22354    0.10417
 14000    0.37457    0.09943
 ------------------------------
-LongName = Salt_Water(T=0øC)
+LongName = Salt_Water(T=0C)
 ShortName = H2O:NaCl_0
 ZZAAA = 
 comment = None
@@ -6822,7 +6851,7 @@ Isotope    Mass      Atom
 11023    0.10338    0.03413
 17000    0.15942    0.03413
 ------------------------------
-LongName = Salt_Water(T=20øC)
+LongName = Salt_Water(T=20C)
 ShortName = H2O:NaCl_20
 ZZAAA = 
 comment = None
@@ -6936,7 +6965,7 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.10798    0.66160
-B    5.00000e-06    3.00000e-06
+5000    5.00000e-06    3.00000e-06
 8016    0.85880    0.33150
 9019    1.00000e-06    0.00000e+00
 11023    0.01078    2.89700e-03
@@ -6945,8 +6974,8 @@ B    5.00000e-06    3.00000e-06
 17000    0.01935    3.37100e-03
 19000    3.99000e-04    6.30000e-05
 20000    4.12000e-04    6.40000e-05
-Br    6.70000e-05    5.00000e-06
-Sr    8.00000e-06    1.00000e-06
+35000    6.70000e-05    5.00000e-06
+38000    8.00000e-06    1.00000e-06
 ------------------------------
 LongName = Sepiolite_Mg4Si6O15(OH)2-
 ShortName = 
@@ -6971,10 +7000,11 @@ Isotope    Mass      Atom
 12000    0.15007    0.08511
 14000    0.26012    0.12766
 ------------------------------
+*ignore*
 LongName = Silicon
 ShortName = Si
 ZZAAA = 14000
-comment = None
+comment = Not the same as NISR data
 atomic weight = 28.08550
 isBasic = True
 mass density = 2.33000
@@ -7045,10 +7075,11 @@ Isotope    Mass      Atom
 8016    0.53256    0.66667
 14000    0.46743    0.33333
 ------------------------------
+*ignore*
 LongName = Silver
 ShortName = Ag
 ZZAAA = 47000
-comment = None
+comment = Not the same as NIST data
 atomic weight = 107.86815
 isBasic = True
 mass density = 10.50000
@@ -7103,6 +7134,7 @@ Isotope    Mass      Atom
 26000    1.00000e-05    1.00000e-06
 30000    1.00000e-05    1.00000e-06
 ------------------------------
+*ignore*
 LongName = Sodium
 ShortName = Na
 ZZAAA = 
@@ -7232,7 +7264,7 @@ atom density = 0.08978
 Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.01000    0.04883
+B       0.01000    0.04883
 6000    3.96000e-04    1.74000e-03
 14000    4.95000e-03    9.30400e-03
 15031    2.28000e-04    3.88000e-04
@@ -7244,8 +7276,8 @@ B    0.01000    0.04883
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
-B    0.01000    0.04883
-6000    3.96000e-04    1.74000e-03
+5000     0.01000    0.04883
+6000     3.96000e-04    1.74000e-03
 14000    4.95000e-03    9.30400e-03
 15031    2.28000e-04    3.88000e-04
 16000    1.49000e-04    2.44000e-04
@@ -7613,27 +7645,27 @@ Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 6000    6.75000e-03    0.03041
-14000    6.50000e-03    0.01252
-15031    2.60000e-04    4.54000e-04
-16000    2.00000e-04    3.37000e-04
-24000    0.17000    0.17689
-25055    6.50000e-03    6.40100e-03
-26000    0.79505    0.77024
-42000    4.88000e-03    2.75200e-03
+14000    6.50000e-03   0.01252
+15031    2.60000e-04   4.54000e-04
+16000    2.00000e-04   3.37000e-04
+24000    0.17000       0.17689
+25055    6.50000e-03   6.40100e-03
+26000    0.79505       0.77024
+42000    4.88000e-03   2.75200e-03
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 6000    6.75000e-03    0.03041
-14000    6.50000e-03    0.01252
-15031    2.60000e-04    4.54000e-04
-16000    2.00000e-04    3.37000e-04
-24000    0.17000    0.17689
-25055    6.50000e-03    6.40100e-03
-26000    0.79505    0.77024
-42000    4.88000e-03    2.75200e-03
+14000    6.50000e-03   0.01252
+15031    2.60000e-04   4.54000e-04
+16000    2.00000e-04   3.37000e-04
+24000    0.17000       0.17689
+25055    6.50000e-03   6.40100e-03
+26000    0.79505       0.77024
+42000    4.88000e-03   2.75200e-03
 ------------------------------
 LongName = Sterotex
-ShortName = (C17H35CO2)3-C3H5
+ShortName = ch(C17H35CO2)3-C3H5
 ZZAAA = 
 comment = None
 atomic weight = None
@@ -7672,10 +7704,11 @@ Isotope    Mass      Atom
 1001    0.05655    0.41667
 6000    0.94345    0.58333
 ------------------------------
+*ignore*
 LongName = Sulphur
 ShortName = S
 ZZAAA = 16000
-comment = None
+comment = Not the same as NIST data
 atomic weight = 32.06479
 isBasic = True
 mass density = 2.00000
@@ -7689,10 +7722,11 @@ Isotope    Mass      Atom
          Fraction  Fraction
 16000    1.00000    1.00000
 ------------------------------
+*ignore*
 LongName = Tantalum
 ShortName = Ta
 ZZAAA = 
-comment = None
+comment = Not the same as NIST Tantalum
 atomic weight = None
 isBasic = False
 mass density = 16.65400
@@ -7706,6 +7740,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 73181    1.00000    1.00000
 ------------------------------
+*ignore*
 LongName = Thorium
 ShortName = Th
 ZZAAA = 
@@ -7742,10 +7777,11 @@ Isotope    Mass      Atom
 8016    0.12119    0.66667
 90232    0.87881    0.33333
 ------------------------------
+*ignore*
 LongName = Tin
 ShortName = Sn
 ZZAAA = 50000
-comment = None
+comment = Not the same as NIST data
 atomic weight = 118.71011
 isBasic = True
 mass density = 7.31000
@@ -8116,10 +8152,11 @@ Isotope    Mass      Atom
 17000    2.00000e-03    3.46000e-04
 19000    2.00000e-03    3.14000e-04
 ------------------------------
+*ignore*
 LongName = Titanium
 ShortName = Ti
 ZZAAA = 22000
-comment = None
+comment = Not the same as NIST Titanium
 atomic weight = 47.86674
 isBasic = True
 mass density = 4.54000
@@ -8240,12 +8277,12 @@ Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 1001    0.11825    0.62791
-B    0.04697    0.02326
+5000    0.04697    0.02326
 6000    0.62623    0.27907
 8016    0.20855    0.06977
 ------------------------------
 LongName = Tributyl_Phosphate(TBP)
-ShortName = (C4H9)3PO4
+ShortName = ch(C4H9)3PO4
 ZZAAA = 
 comment = None
 atomic weight = None
@@ -8267,10 +8304,11 @@ Isotope    Mass      Atom
 8016    0.24031    0.09091
 15031    0.11631    0.02273
 ------------------------------
+*ignore*
 LongName = Tungsten
 ShortName = W
 ZZAAA = 74000
-comment = None
+comment = Not the same as NIST Tungsten
 atomic weight = 183.84178
 isBasic = True
 mass density = 19.30000
@@ -8621,9 +8659,9 @@ Isotope    Mass      Atom
 92238    0.05415    0.05350
 ------------------------------
 LongName = Uranium_Low_Enriched(LEU)
-ShortName = U
+ShortName = LEU
 ZZAAA = 
-comment = None
+comment = Changed short name from U to LEU
 atomic weight = None
 isBasic = False
 mass density = 18.94439
@@ -8644,9 +8682,9 @@ Isotope    Mass      Atom
 92238    0.96959    0.96922
 ------------------------------
 LongName = Uranium_Natural(NU)
-ShortName = 
+ShortName = NU
 ZZAAA = 
-comment = None
+comment = Close to NIST Uranium 'U'
 atomic weight = None
 isBasic = False
 mass density = 18.95000
@@ -8964,10 +9002,11 @@ Isotope    Mass      Atom
 19000    1.98800e-03    3.97000e-04
 20000    1.98800e-03    3.88000e-04
 ------------------------------
+*ignore*
 LongName = Xenon
 ShortName = Xe
 ZZAAA = 54000
-comment = None
+comment = Not the same as NIST Xenon
 atomic weight = 131.29276
 isBasic = True
 mass density = 5.48500e-03
@@ -9070,9 +9109,10 @@ Isotope    Mass      Atom
 14000    0.22160    0.13043
 ------------------------------
 LongName = Zinc
+*ignore*
 ShortName = Zn
 ZZAAA = 30000
-comment = None
+comment = Use NIST zinc
 atomic weight = 65.37778
 isBasic = True
 mass density = 7.13300
@@ -9098,12 +9138,12 @@ Neutron composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 30000    0.45307    0.50000
-Se    0.54693    0.50000
+Se       0.54693    0.50000
 Photon composition:
 Isotope    Mass      Atom
          Fraction  Fraction
 30000    0.45307    0.50000
-Se    0.54693    0.50000
+34000    0.54693    0.50000
 ------------------------------
 LongName = Zinc_Sulfide
 ShortName = ZnS
@@ -9177,11 +9217,12 @@ Isotope    Mass      Atom
 50000    0.01396    0.01068
 ------------------------------
 LongName = Zirconium
+*ignore*
 ShortName = Zr
 ZZAAA = 40000
-comment = None
-atomic weight = None
-isBasic = False
+comment = Use NIST zirconium
+atomic weight = 91.224
+isBasic = True
 mass density = 6.50600
 atom density = 0.04295
 Neutron composition:

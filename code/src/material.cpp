@@ -160,7 +160,7 @@ bool Composition::setFractions(FRACTION_TYPE type, std::vector <nDbl>& newFracti
 }
 
 //  ***************************************************************************
-std::pair<nDbl, nDbl> Composition::getSums() const
+CompositionSums Composition::getSums() const
 {
 	nDbl sumMass = 0;
 	nDbl sumAtom = 0;
@@ -169,7 +169,7 @@ std::pair<nDbl, nDbl> Composition::getSums() const
 		sumMass = sumMass + comp.getFraction(MASS);
 		sumAtom = sumAtom + comp.getFraction(ATOM);
 	}
-	return std::make_pair(sumMass, sumAtom);
+	return CompositionSums(sumMass, sumAtom);
 }
 
 //  ***************************************************************************
@@ -355,9 +355,9 @@ bool Composition::compositionSanityCheck() const
 bool Composition::fillInMissingData()
 {
 	if (components.size() == 0) return true;
-	auto sums = getSums();
-	bool hasMassData = sums.first.has_value();
-	bool hasAtomData = sums.second.has_value();
+	auto sum = getSums();
+	bool hasMassData = sum.mass.has_value();
+	bool hasAtomData = sum.atom.has_value();
 	if (hasAtomData == true && hasMassData == true) return true;
 	if (hasAtomData == false && hasMassData == false)
 	{
@@ -576,8 +576,8 @@ NeutronComposition::NeutronComposition()
 //  ***************************************************************************
 nDbl NeutronComposition::computeAtomicWeight() const
 {
-	auto sums = getSums();
-	if (!sums.second.has_value())
+	auto sum = getSums();
+	if (!sum.atom.has_value())
 	{
 		return std::nullopt;
 	}

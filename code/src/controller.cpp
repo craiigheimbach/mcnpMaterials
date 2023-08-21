@@ -276,7 +276,7 @@ void Controller::showConsistency(std::shared_ptr<Material> mat, bool ok)
 	static std::ostringstream errMsg;
 	if (ok)
 	{
-		lg.clear();					// Ignore warnings and errors if conswistent.
+		lg.clear();					// Ignore warnings and errors if consistent.
 		lg << STD << "Material " << mat->get3Names() << " is consistent within ";
 		lg << getPrecisionForMatching() * 100 << "%.\n";
 	}
@@ -376,5 +376,16 @@ void Controller::normalize(const std::string& target)
 		lg << STD << "Cannot normalizing.\n";
 		return;
 	}
+	CompositionSums sum = mat->getNeutronComposition().getSums();
+	lg << MNR << "Before\n";
+	lg << STD << "Neutron composition:   Mass " << sum.mass << "  Atom " << sum.atom << '\n';
+	sum = mat->getPhotonComposition().getSums();
+	lg << STD << "Photon composition:    Mass " << sum.mass << "  Atom " << sum.atom << '\n';
 	mat->normalize();
+	sum = mat->getNeutronComposition().getSums();
+	lg << '\n' << MNR << "After\n";
+	lg << STD << "Neutron composition:   Mass " << sum.mass << "  Atom " << sum.atom << '\n';
+	sum = mat->getPhotonComposition().getSums();
+	lg << STD << "Photon composition:    Mass " << sum.mass << "  Atom " << sum.atom << '\n';
+	lg.forceWriteToLog();
 }

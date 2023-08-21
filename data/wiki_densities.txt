@@ -1,0 +1,846 @@
+https://en.wikipedia.org/wiki/Densities_of_the_elements_(data_page)
+Densities of the elements (data page)
+
+From Wikipedia, the free encyclopedia
+Density, solid phase
+
+In the following table, the use row is the value recommended for use in other Wikipedia pages in order to maintain consistency across content.
+2 He helium-4
+Hoffer et al. 	
+0.19085 g/cm3   (from 20.9730 cm3/mole; hcp crystal melting to He-II superfluid at 0 K, 25.00 atm)
+0.19083 g/cm3   (from 20.9749 cm3/mole; at local min. density, hcp melting to He-II: 0.884 K, 25.00 atm)
+0.19142 g/cm3   (from 20.910 cm3/mole; hcp at triple point hcp−bcc−He-II: 1.463 K, 26.036 atm)
+0.18971 g/cm3   (from 21.098 cm3/mole; bcc at triple point hcp−bcc−He-II: 1.463 K, 26.036 atm)
+0.19406 g/cm3   (from 20.626 cm3/mole; hcp at triple point hcp−bcc−He-I: 1.772 K, 30.016 atm)
+0.19208 g/cm3   (from 20.8381 cm3/mole; bcc at triple point hcp−bcc−He-I: 1.772 K, 30.016 atm)
+3 Li lithium
+use 	0.534 g/cm3
+WEL 	(near r.t.) 535 kg/m3
+LNG 	(at 20 °C) 0.534 g/cm3
+CRC 	(near r.t.) 0.534 g/cm3
+4 Be beryllium
+use 	1.85 g/cm3
+WEL 	(near r.t.) 1848 kg/m3
+LNG 	(at 20 °C) 1.8477 g/cm3
+CRC 	(near r.t.) 1.85 g/cm3
+5 B boron
+use 	2.34 g/cm3
+WEL 	(near r.t.) 2460 kg/m3
+LNG 	(at r.t.) 2.34 g/cm3
+CRC 	(near r.t.) 2.34 g/cm3
+6 C carbon (graphite)
+use 	2.267 g/cm3
+WEL 	(near r.t.) 2267 kg/m3
+LNG 	(at r.t.) 2.267 g/cm3
+CRC 	(near r.t.) 2.2 g/cm3
+6 C carbon (diamond)
+use 	3.513 g/cm3
+LNG 	(at r.t.) 3.513 g/cm3
+CRC 	(near r.t.) 3.513 g/cm3
+11 Na sodium
+use 	0.968 g/cm3
+WEL 	(near r.t.) 968 kg/m3
+LNG 	(at 20 °C) 0.968 g/cm3
+CRC 	(near r.t.) 0.97 g/cm3
+12 Mg magnesium
+use 	1.738 g/cm3
+WEL 	(near r.t.) 1738 kg/m3
+LNG 	(at 20 °C) 1.738 g/cm3
+CRC 	(near r.t.) 1.74 g/cm3
+13 Al aluminum
+use 	2.70 g/cm3
+WEL 	(near r.t.) 2700 kg/m3
+LNG 	(at r.t.) 2.70 g/cm3
+CRC 	(near r.t.) 2.70 g/cm3
+14 Si silicon
+use 	2.33 g/cm3
+WEL 	(near r.t.) 2330 kg/m3
+LNG 	(at r.t.) 2.33 g/cm3
+CRC 	(near r.t.) 2.3290 g/cm3
+15 P phosphorus (white)
+use 	1.823 g/cm3
+WEL 	(near r.t.) 1823 kg/m3
+LNG 	(at 25 °C) 1.823 g/cm3
+CRC 	(near r.t.) 1.823 g/cm3
+15 P phosphorus (red)
+use 	2.34 g/cm3
+LNG 	(at r.t.) 2.34 g/cm3
+CRC 	(near r.t.) 2.16 g/cm3
+15 P phosphorus (black)
+use 	2.69 g/cm3
+CRC 	(near r.t.) 2.69 g/cm3
+16 S sulfur (orthorhombic, alpha)
+use 	2.08 g/cm3
+WEL 	? (1960 kg/m3)
+LNG 	(at 20 °C) 2.08 g/cm3
+CRC 	(near r.t.) 2.07 g/cm3
+16 S sulfur (monoclinic, beta)
+use 	1.96 g/cm3
+WEL 	? (1960 kg/m3)
+LNG 	(at r.t.) 1.96 g/cm3
+CRC 	? (near r.t.) 2.07 g/cm3
+16 S sulfur (gamma)
+use 	1.92 g/cm3
+LNG 	(at r.t.) 1.92 g/cm3
+19 K potassium
+use 	0.89 g/cm3
+WEL 	(near r.t.) 856 kg/m3
+LNG 	(at r.t.) 0.89 g/cm3
+CRC 	(near r.t.) 0.89 g/cm3
+20 Ca calcium
+use 	1.55 g/cm3
+WEL 	(near r.t.) 1550 kg/m3
+LNG 	(at r.t.) 1.55 g/cm3
+CRC 	(near r.t.) 1.54 g/cm3
+21 Sc scandium (hexagonal ?)
+use 	2.985 g/cm3
+WEL 	(near r.t.) 2985 kg/m3
+LNG 	(at r.t.) (hexagonal) 2.985 g/cm3
+CRC 	(near r.t.) 2.99 g/cm3
+22 Ti titanium (hexagonal ?)
+use 	4.506 g/cm3
+WEL 	(near r.t.) 4507 kg/m3
+LNG 	(at r.t.) (hexagonal) 4.506 g/cm3
+CRC 	(near r.t.) 4.506 g/cm3
+23 V vanadium
+use 	6.11 g/cm3
+WEL 	(near r.t.) 6110 kg/m3
+LNG 	(at 19 °C) 6.11 g/cm3
+CRC 	(near r.t.) 6.0 g/cm3
+24 Cr chromium
+use 	7.15 g/cm3
+WEL 	(near r.t.) 7140 kg/m3
+LNG 	(at r.t.) 7.15 g/cm3
+CRC 	(near r.t.) 7.15 g/cm3
+25 Mn manganese
+use 	7.21 g/cm3
+WEL 	(near r.t.) 7470 kg/m3
+LNG 	(at 20 °C) 7.21 g/cm3
+CRC 	(near r.t.) 7.3 g/cm3
+26 Fe iron
+use 	7.86 g/cm3
+WEL 	(near r.t.) 7874 kg/m3
+LNG 	(at r.t.) 7.86 g/cm3
+CRC 	(near r.t.) 7.87 g/cm3
+27 Co cobalt
+use 	8.90 g/cm3
+WEL 	(near r.t.) 8900 kg/m3
+LNG 	(at r.t.) 8.90 g/cm3
+CRC 	(near r.t.) 8.86 g/cm3
+28 Ni nickel
+use 	8.908 g/cm3
+WEL 	(near r.t.) 8908 kg/m3
+LNG 	(at 20 °C) 8.908 g/cm3
+CRC 	(near r.t.) 8.90 g/cm3
+29 Cu copper
+use 	8.96 g/cm3
+WEL 	(near r.t.) 8920 kg/m3
+LNG 	(at 20 °C) 8.96 g/cm3
+CRC 	(near r.t.) 8.96 g/cm3
+30 Zn zinc
+use 	7.14 g/cm3
+WEL 	(near r.t.) 7140 kg/m3
+LNG 	(at r.t.) 7.14 g/cm3
+CRC 	(near r.t.) 7.14 g/cm3
+31 Ga gallium
+use 	5.91 g/cm3
+WEL 	(near r.t.) 5904 kg/m3
+LNG 	(at 29.6 °C) 5.904 g/cm3
+CRC 	(near r.t.) 5.91 g/cm3
+32 Ge germanium
+use 	5.323 g/cm3
+WEL 	(near r.t.) 5323 kg/m3
+LNG 	(at r.t.) 5.323 g/cm3
+CRC 	(near r.t.) 5.3234 g/cm3
+33 As arsenic
+use 	5.727 g/cm3
+WEL 	(near r.t.) 5727 kg/m3
+LNG 	(at 25 °C) (5.727 rel. to water at 4 °C)
+CRC 	(near r.t.) 5.75 g/cm3
+34 Se selenium (hexagonal, gray)
+use 	4.81 g/cm3
+WEL 	(near r.t.) 4819 kg/m3
+LNG 	(at 20 °C) (4.81 rel. to water at 4 °C)
+CRC 	(near r.t.) 4.81 g/cm3
+34 Se selenium (alpha)
+use 	4.39 g/cm3
+WEL 	? (4819 kg/m3)
+CRC 	(near r.t.) 4.39 g/cm3
+34 Se selenium (vitreous)
+use 	4.28 g/cm3
+WEL 	? (4819 kg/m3)
+CRC 	(near r.t.) 4.28 g/cm3
+37 Rb rubidium
+use 	1.532 g/cm3
+WEL 	(near r.t.) 1532 kg/m3
+LNG 	(at r.t.) 1.532 g/cm3
+CRC 	(near r.t.) 1.53 g/cm3
+38 Sr strontium
+use 	2.64 g/cm3
+WEL 	(near r.t.) 2630 kg/m3
+LNG 	(at r.t.) 2.64 g/cm3
+CRC 	(near r.t.) 2.64 g/cm3
+39 Y yttrium
+use 	4.472 g/cm3
+WEL 	(near r.t.) 4472 kg/m3
+LNG 	(at r.t.) 4.472 g/cm3
+CRC 	(near r.t.) 4.47 g/cm3
+40 Zr zirconium
+use 	6.52 g/cm3
+WEL 	(near r.t.) 6511 kg/m3
+LNG 	(at r.t.) 6.52 g/cm3
+CRC 	(near r.t.) 6.52 g/cm3
+41 Nb niobium
+use 	8.57 g/cm3
+WEL 	(near r.t.) 8570 kg/m3
+LNG 	(at 20 °C) 8.57 g/cm3
+CRC 	(near r.t.) 8.57 g/cm3
+42 Mo molybdenum
+use 	10.28 g/cm3
+WEL 	(near r.t.) 10280 kg/m3
+LNG 	(at r.t.) 10.28 g/cm3
+CRC 	(near r.t.) 10.2 g/cm3
+43 Tc technetium (Tc-98 ?)
+use 	11 g/cm3
+WEL 	(near r.t.) 11500 kg/m3
+LNG 	(at r.t.) (Tc-98) 11 g/cm3
+CRC 	(near r.t.) 11 g/cm3
+44 Ru ruthenium
+use 	12.45 g/cm3
+WEL 	(near r.t.) 12370 kg/m3
+LNG 	(at 20 °C) (12.45 rel. to water at 4 °C)
+CRC 	(near r.t.) 12.1 g/cm3
+45 Rh rhodium
+use 	12.41 g/cm3
+WEL 	(near r.t.) 12450 kg/m3
+LNG 	(at 20 °C) 12.41 g/cm3
+CRC 	(near r.t.) 12.4 g/cm3
+46 Pd palladium
+use 	12.023 g/cm3
+WEL 	(near r.t.) 12023 kg/m3
+LNG 	(at 20 °C) 12.023 g/cm3
+CRC 	(near r.t.) 12.0 g/cm3
+47 Ag silver
+use 	10.49 g/cm3
+WEL 	(near r.t.) 10490 kg/m3
+LNG 	(at r.t.) 10.49 g/cm3
+CRC 	(near r.t.) 10.5 g/cm3
+48 Cd cadmium
+use 	8.65 g/cm3
+WEL 	(near r.t.) 8650 kg/m3
+LNG 	(at 25 °C) 8.65 g/cm3
+CRC 	(near r.t.) 8.69 g/cm3
+49 In indium
+use 	7.31 g/cm3
+WEL 	(near r.t.) 7310 kg/m3
+LNG 	(at r.t.) 7.31 g/cm3
+CRC 	(near r.t.) 7.31 g/cm3
+50 Sn tin (white)
+use 	7.265 g/cm3
+WEL 	(near r.t.) 7310 kg/m3
+LNG 	(at r.t.) 7.265 g/cm3
+CRC 	(near r.t.) 7.265 g/cm3
+50 Sn tin (gray)
+use 	5.769 g/cm3
+CRC 	(near r.t.) 5.769 g/cm3
+51 Sb antimony
+use 	6.697 g/cm3
+WEL 	(near r.t.) 6697 kg/m3
+LNG 	(at 25 °C) 6.697 g/cm3
+CRC 	(near r.t.) 6.68 g/cm3
+52 Te tellurium
+use 	6.24 g/cm3
+WEL 	(near r.t.) 6240 kg/m3
+LNG 	(at r.t.) 6.24 g/cm3
+CRC 	(near r.t.) 6.24 g/cm3
+53 I iodine (I2)
+use 	4.933 g/cm3
+WEL 	(near r.t.) 4940 kg/m3
+LNG 	(at 25 °C) 4.63 g/cm3
+CRC 	(near r.t.) 4.933 g/cm3
+55 Cs cesium
+use 	1.93 g/cm3
+WEL 	(near r.t.) 1879 kg/m3
+LNG 	(at 15 °C) 1.8785 g/cm3
+CRC 	(near r.t.) 1.93 g/cm3
+56 Ba barium
+use 	3.51 g/cm3
+WEL 	(near r.t.) 3510 kg/m3
+LNG 	(at 20 °C) 3.51 g/cm3
+CRC 	(near r.t.) 3.62 g/cm3
+57 La lanthanum
+use 	6.162 g/cm3
+WEL 	(near r.t.) 6146 kg/m3
+LNG 	(at r.t.) 6.162 g/cm3
+CRC 	(near r.t.) 6.15 g/cm3
+58 Ce cerium
+use 	6.770 g/cm3
+WEL 	(near r.t.) 6689 kg/m3
+LNG 	(at r.t.) 6.773 g/cm3
+CRC 	(near r.t.) 6.770 g/cm3
+59 Pr praseodymium (alpha ?)
+use 	6.77 g/cm3
+WEL 	(near r.t.) 6640 kg/m3
+LNG 	(at r.t.) (alpha) 6.475 g/cm3
+CRC 	(near r.t.) 6.77 g/cm3
+60 Nd neodymium
+use 	7.01 g/cm3
+WEL 	(near r.t.) 6800 kg/m3
+LNG 	(at r.t.) 7.01 g/cm3
+CRC 	(near r.t.) 7.01 g/cm3
+61 Pm promethium (Pm-147 ?)
+use 	7.26 g/cm3
+WEL 	(near r.t.) 7264 kg/m3
+LNG 	(at r.t.) (Pm-147) 7.22 g/cm3
+CRC 	(near r.t.) 7.26 g/cm3
+62 Sm samarium
+use 	7.52 g/cm3
+WEL 	(near r.t.) 7353 kg/m3
+LNG 	(at r.t.) 7.52 g/cm3
+CRC 	(near r.t.) 7.52 g/cm3
+63 Eu europium
+use 	5.244 g/cm3
+WEL 	(near r.t.) 5244 kg/m3
+LNG 	(at r.t.) 5.244 g/cm3
+CRC 	(near r.t.) 5.24 g/cm3
+64 Gd gadolinium
+use 	7.90 g/cm3
+WEL 	(near r.t.) 7901 kg/m3
+LNG 	(at r.t.) 7.90 g/cm3
+CRC 	(near r.t.) 7.90 g/cm3
+65 Tb terbium
+use 	8.23 g/cm3
+WEL 	(near r.t.) 8219 kg/m3
+LNG 	(at r.t.) 8.23 g/cm3
+CRC 	(near r.t.) 8.23 g/cm3
+66 Dy dysprosium
+use 	8.540 g/cm3
+WEL 	(near r.t.) 8551 kg/m3
+LNG 	(at 25 °C) 8.540 g/cm3
+CRC 	(near r.t.) 8.55 g/cm3
+67 Ho holmium
+use 	8.79 g/cm3
+WEL 	(near r.t.) 8795 kg/m3
+LNG 	(at r.t.) 8.79 g/cm3
+CRC 	(near r.t.) 8.80 g/cm3
+68 Er erbium
+use 	9.066 g/cm3
+WEL 	(near r.t.) 9066 kg/m3
+LNG 	(at r.t.) 9.066 g/cm3
+CRC 	(near r.t.) 9.07 g/cm3
+69 Tm thulium
+use 	9.32 g/cm3
+WEL 	(near r.t.) 9321 kg/m3
+LNG 	(at r.t.) 9.32 g/cm3
+CRC 	(near r.t.) 9.32 g/cm3
+70 Yb ytterbium
+use 	6.90 g/cm3
+WEL 	(near r.t.) 6570 kg/m3
+LNG 	(at r.t.) 6.90 g/cm3
+CRC 	(near r.t.) 6.90 g/cm3
+71 Lu lutetium
+use 	9.841 g/cm3
+WEL 	(near r.t.) 9841 kg/m3
+LNG 	(at r.t.) 9.841 g/cm3
+CRC 	(near r.t.) 9.84 g/cm3
+72 Hf hafnium
+use 	13.31 g/cm3
+WEL 	(near r.t.) 13310 kg/m3
+LNG 	(at r.t.) 13.31 g/cm3
+CRC 	(near r.t.) 13.3 g/cm3
+73 Ta tantalum
+use 	16.69 g/cm3
+WEL 	(near r.t.) 16650 kg/m3
+LNG 	(at r.t.) 16.69 g/cm3
+CRC 	(near r.t.) 16.4 g/cm3
+74 W tungsten
+use 	19.25 g/cm3
+WEL 	(near r.t.) 19250 kg/m3
+LNG 	(at r.t.) 19.25 g/cm3
+CRC 	(near r.t.) 19.3 g/cm3
+75 Re rhenium
+use 	21.02 g/cm3
+WEL 	(near r.t.) 21020 kg/m3
+LNG 	(at r.t.) 21.02 g/cm3
+CRC 	(near r.t.) 20.8 g/cm3
+76 Os osmium
+use 	22.59 g/cm3
+WEL 	(near r.t.) 22610 kg/m3
+LNG 	(at 20 °C) 22.61 g/cm3
+CRC 	(near r.t.) 22.59 g/cm3
+77 Ir iridium
+use 	22.56 g/cm3
+WEL 	(near r.t.) 22650 kg/m3
+LNG 	(at 20 °C) (22.65 rel. to water at 4 °C)
+CRC 	(near r.t.) 22.5 g/cm3
+78 Pt platinum
+use 	21.45 g/cm3
+WEL 	(near r.t.) 21090 kg/m3
+LNG 	(at 20 °C) 21.09 g/cm3
+CRC 	(near r.t.) 21.5 g/cm3
+
+References according to http://hypertextbook.com/facts/2004/OliviaTai.shtml:
+
+    21.45 g/cm3 — Zumdahl, Steven S., Zumdahl, Susan L., & Decoste, Donald J. World of Chemistry. Boston: Houghton Mifflin Company, 2002: 141.
+    21.45×103 kg/m3 — Grigoriev, Igor S. & Meilikhov, Evgenii Z. Handbook of Physical Quantities. Boca Raton: CRC Press, 1997: 116.
+    21.450 g/cm3 — Savitskii, E.M. Physical Metallurgy of Platinum Metals. New York: Pergamon Press, 1978: 31.
+    (20 °C) 21.45 g/cm3 — Vines, R.F. The Platinum Metals and their Alloys. New York: The International Nickel Company, Inc., 1941: 16. — "Values ranging from 21.3 to 21.5 gm/cm³ at 20°C have been reported for the density of annealed platinum; the best value being about 21.45 gm/cm³ at 20°C."
+    21.46 g/cm3 — Rose, T. Kirke. The Precious Metals, Comprising Gold, Silver and Platinum. New York: D. Van Nostrand Company, 1909: 255. — "Pure platinum, according to G. Matthey has a density of 21.46."
+
+79 Au gold
+use 	19.3 g/cm3
+WEL 	(near r.t.) 19300 kg/m3
+LNG 	(at r.t.) 19.3 g/cm3
+CRC 	(near r.t.) 19.3 g/cm3
+81 Tl thallium
+use 	11.85 g/cm3
+WEL 	(near r.t.) 11850 kg/m3
+LNG 	(at r.t.) 11.85 g/cm3
+CRC 	(near r.t.) 11.8 g/cm3
+82 Pb lead
+use 	11.34 g/cm3
+WEL 	(near r.t.) 11340 kg/m3
+LNG 	(at 20 °C) (face-centered cubic) (11.34 rel. to water at 4 °C)
+CRC 	(near r.t.) 11.3 g/cm3
+83 Bi bismuth
+use 	9.78 g/cm3
+WEL 	(near r.t.) 9780 kg/m3
+LNG 	(at r.t.) 9.78 g/cm3
+CRC 	(near r.t.) 9.79 g/cm3
+84 Po polonium (alpha)
+use 	9.196 g/cm3
+WEL 	(near r.t.) 9196 kg/m3
+LNG 	(at r.t.) 9.196 g/cm3
+CRC 	(near r.t.) 9.20 g/cm3
+84 Po polonium (beta)
+use 	9.398 g/cm3
+LNG 	(at r.t.) 9.398 g/cm3
+85 At astatine
+use 	? 7 g/cm3
+87 Fr francium
+use 	? 2.48 g/cm3
+88 Ra radium
+use 	5.5 g/cm3
+WEL 	(near r.t.) 5000 kg/m3
+LNG 	(at r.t.) 5.5 g/cm3
+CRC 	(near r.t.) 5 g/cm3
+89 Ac actinium (Ac-227 ?)
+use 	10 g/cm3
+WEL 	(near r.t.) 10070 kg/m3
+LNG 	(at r.t.) (Ac-227) 10.07 g/cm3
+CRC 	(near r.t.) 10 g/cm3
+90 Th thorium
+use 	11.7 g/cm3
+WEL 	(near r.t.) 11724 kg/m3
+LNG 	(at r.t.) 11.7 g/cm3
+CRC 	(near r.t.) 11.7 g/cm3
+91 Pa protactinium
+use 	15.37 g/cm3
+WEL 	(near r.t.) 15370 kg/m3
+CRC 	(near r.t.) 15.4 g/cm3
+92 U uranium
+use 	19.1 g/cm3
+WEL 	(near r.t.) 19050 kg/m3
+LNG 	(at r.t.) 19.1 g/cm3
+CRC 	(near r.t.) 19.1 g/cm3
+93 Np neptunium
+use 	20.2 g/cm3
+WEL 	(near r.t.) 20450 kg/m3
+LNG 	(at r.t.) 20.2 g/cm3
+CRC 	(near r.t.) 20.2 g/cm3
+94 Pu plutonium
+use 	19.816 g/cm3
+WEL 	(near r.t.) 19816 kg/m3
+LNG 	(at 20 °C) (19.816 rel. to water at 4 °C)
+CRC 	(near r.t.) 19.7 g/cm3
+95 Am americium
+use 	12 g/cm3
+LNG 	(at r.t.) 12 g/cm3
+CRC 	(near r.t.) 12 g/cm3
+96 Cm curium (Cm-244 ?)
+use 	13.51 g/cm3
+WEL 	(near r.t.) 13510 kg/m3
+LNG 	(at r.t.) (Cm-244) 13.51 g/cm3
+CRC 	(near r.t.) 13.51 g/cm3
+97 Bk berkelium (alpha)
+use 	14.78 g/cm3
+WEL 	(near r.t.) 14780 kg/m3
+LNG 	(at r.t.) 14.78 g/cm3
+CRC 	(near r.t.) 14.78 g/cm3
+97 Bk berkelium (beta)
+use 	13.25 g/cm3
+LNG 	(at r.t.) 13.25 g/cm3
+CRC 	(near r.t.) 13.25 g/cm3
+98 Cf californium
+use 	15.1 g/cm3
+WEL 	(near r.t.) 15100 kg/m3
+CRC 	(near r.t.) 15.1 g/cm3
+99 Es einsteinium
+use 	8.84 g/cm3
+LNG 	(at r.t.) 8.84 g/cm3
+Density, liquid phase
+2 He helium-4
+Donnelly et al. 	0.1249772 g/cm3   (He-I at boiling point: 4.222 K)
+0.1461087 g/cm3   (at lambda transition He-I/He-II: 2.1768 K, saturated vapor pressure)
+0.1451397 g/cm3   (He-II superfluid at 0 K, saturated vapor pressure)
+Hoffer et al. 	0.17309 g/cm3   (from 23.125 cm3/mole; He-II from hcp melt at 0 K, 25.00 atm)
+0.17308 g/cm3   (from 23.1256 cm3/mole; at local min. density, from hcp melt at 0.699 K, 24.993 atm)
+0.17443 g/cm3   (from 22.947 cm3/mole; He-II at triple point hcp−bcc−He-II: 1.463 K, 26.036 atm)
+0.1807 g/cm3   (from 22.150 cm3/mole; He-I at triple point hcp−bcc−He-I: 1.772 K, 30.016 atm)
+3 Li lithium
+use 	0.512 g/cm3
+CR2 	(at m.p.) 0.512 g/cm3
+4 Be beryllium
+use 	1.690 g/cm3
+CR2 	(at m.p.) 1.690 g/cm3
+5 B boron
+use 	2.08 g/cm3
+CR2 	(at m.p.) 2.08 g/cm3
+11 Na sodium
+use 	0.927 g/cm3
+CR2 	(at m.p.) 0.927 g/cm3
+12 Mg magnesium
+use 	1.584 g/cm3
+CR2 	(at m.p.) 1.584 g/cm3
+13 Al aluminum
+use 	2.375 g/cm3
+CR2 	(at m.p.) 2.375 g/cm3
+14 Si silicon
+use 	2.57 g/cm3
+CR2 	(at m.p.) 2.57 g/cm3
+16 S sulfur
+use 	1.819 g/cm3
+CR2 	(at m.p.) 1.819 g/cm3
+17 Cl chlorine
+use 	1.5649 g/cm3 (at −35 °C)
+LNG 	1.5649 g/cm3 (at −35 °C) 
+19 K potassium
+use 	0.828 g/cm3
+CR2 	(at m.p.) 0.828 g/cm3
+20 Ca calcium
+use 	1.378 g/cm3
+CR2 	(at m.p.) 1.378 g/cm3
+21 Sc scandium
+use 	2.80 g/cm3
+CR2 	(at m.p.) 2.80 g/cm3
+22 Ti titanium
+use 	4.11 g/cm3
+CR2 	(at m.p.) 4.11 g/cm3
+23 V vanadium
+use 	5.5 g/cm3
+CR2 	(at m.p.) 5.5 g/cm3
+24 Cr chromium
+use 	6.3 g/cm3
+CR2 	(at m.p.) 6.3 g/cm3
+25 Mn manganese
+use 	5.95 g/cm3
+CR2 	(at m.p.) 5.95 g/cm3
+26 Fe iron
+use 	6.98 g/cm3
+CR2 	(at m.p.) 6.98 g/cm3
+27 Co cobalt
+use 	7.75 g/cm3
+CR2 	(at m.p.) 7.75 g/cm3
+28 Ni nickel
+use 	7.81 g/cm3
+CR2 	(at m.p.) 7.81 g/cm3
+29 Cu copper
+use 	8.02 g/cm3
+CR2 	(at m.p.) 8.02 g/cm3
+30 Zn zinc
+use 	6.57 g/cm3
+CR2 	(at m.p.) 6.57 g/cm3
+31 Ga gallium
+use 	6.095 g/cm3
+LNG 	(at 29.8 °C, m.p. is 29.7646 °C) 6.095 g/cm3
+CR2 	(at m.p.) 6.08 g/cm3
+32 Ge germanium
+use 	5.60 g/cm3
+CR2 	(at m.p.) 5.60 g/cm3
+33 As arsenic
+use 	5.22 g/cm3
+CR2 	(at m.p.) 5.22 g/cm3
+34 Se selenium
+use 	3.99 g/cm3
+CR2 	(at m.p.) 3.99 g/cm3
+35 Br bromine (Br2)
+use 	 3.1028 g/cm3 (near r.t.) 
+LNG 	(at 25 °C) (3.1023 rel. to water at 4 °C)
+CRC 	(near r.t.) 3.1028 g/cm3
+37 Rb rubidium
+use 	1.46 g/cm3
+CR2 	(at m.p.) 1.46 g/cm3
+38 Sr strontium
+use 	6.980 g/cm3
+CR2 	(at m.p.) 6.980 g/cm3
+39 Y yttrium
+use 	4.24 g/cm3
+CR2 	(at m.p.) 4.24 g/cm3
+40 Zr zirconium
+use 	5.8 g/cm3
+CR2 	(at m.p.) 5.8 g/cm3
+42 Mo molybdenum
+use 	9.33 g/cm3
+CR2 	(at m.p.) 9.33 g/cm3
+44 Ru ruthenium
+use 	10.65 g/cm3
+CR2 	(at m.p.) 10.65 g/cm3
+45 Rh rhodium
+use 	10.7 g/cm3
+CR2 	(at m.p.) 10.7 g/cm3
+46 Pd palladium
+use 	10.38 g/cm3
+CR2 	(at m.p.) 10.38 g/cm3
+47 Ag silver
+use 	9.320 g/cm3
+CR2 	(at m.p.) 9.320 g/cm3
+48 Cd cadmium
+use 	7.996 g/cm3
+CR2 	(at m.p.) 7.996 g/cm3
+49 In indium
+use 	7.02 g/cm3
+CR2 	(at m.p.) 7.02 g/cm3
+50 Sn tin
+use 	6.99 g/cm3
+CR2 	(at m.p.) 6.99 g/cm3
+51 Sb antimony
+use 	6.53 g/cm3
+CR2 	(at m.p.) 6.53 g/cm3
+52 Te tellurium
+use 	5.70 g/cm3
+CR2 	(at m.p.) 5.70 g/cm3
+55 Cs caesium
+use 	1.843 g/cm3
+CR2 	(at m.p. (28.44 °C, near r.t.)) 1.843 g/cm3
+56 Ba barium
+use 	3.338 g/cm3
+CR2 	(at m.p.) 3.338 g/cm3
+57 La lanthanum
+use 	5.94 g/cm3
+CR2 	(at m.p.) 5.94 g/cm3
+58 Ce cerium
+use 	6.55 g/cm3
+CR2 	(at m.p.) 6.55 g/cm3
+59 Pr praseodymium
+use 	6.50 g/cm3
+CR2 	(at m.p.) 6.50 g/cm3
+60 Nd neodymium
+use 	6.89 g/cm3
+CR2 	(at m.p.) 6.89 g/cm3
+62 Sm samarium
+use 	7.16 g/cm3
+CR2 	(at m.p.) 7.16 g/cm3
+63 Eu europium
+use 	5.13 g/cm3
+CR2 	(at m.p.) 5.13 g/cm3
+64 Gd gadolinium
+use 	7.4 g/cm3
+CR2 	(at m.p.) 7.4 g/cm3
+65 Tb terbium
+use 	7.65 g/cm3
+CR2 	(at m.p.) 7.65 g/cm3
+66 Dy dysprosium
+use 	8.37 g/cm3
+CR2 	(at m.p.) 8.37 g/cm3
+67 Ho holmium
+use 	8.34 g/cm3
+CR2 	(at m.p.) 8.34 g/cm3
+68 Er erbium
+use 	8.86 g/cm3
+CR2 	(at m.p.) 8.86 g/cm3
+69 Tm thulium
+use 	8.56 g/cm3
+CR2 	(at m.p.) 8.56 g/cm3
+70 Yb ytterbium
+use 	6.21 g/cm3
+CR2 	(at m.p.) 6.21 g/cm3
+71 Lu lutetium
+use 	9.3 g/cm3
+CR2 	(at m.p.) 9.3 g/cm3
+72 Hf hafnium
+use 	12 g/cm3
+CR2 	(at m.p.) 12 g/cm3
+73 Ta tantalum
+use 	15 g/cm3
+CR2 	(at m.p.) 15 g/cm3
+74 W tungsten
+use 	17.6 g/cm3
+CR2 	(at m.p.) 17.6 g/cm3
+75 Re rhenium
+use 	18.9 g/cm3
+CR2 	(at m.p.) 18.9 g/cm3
+76 Os osmium
+use 	20 g/cm3
+CR2 	(at m.p.) 20 g/cm3
+77 Ir iridium
+use 	19 g/cm3
+CR2 	(at m.p.) 19 g/cm3
+78 Pt platinum
+use 	19.77 g/cm3
+CR2 	(at m.p.) 19.77 g/cm3
+79 Au gold
+use 	17.31 g/cm3
+CR2 	(at m.p.) 17.31 g/cm3
+80 Hg mercury
+use 	13.534 g/cm3 (at r.t.) 
+LNG 	13.534 g/cm3 (at r.t.) 
+CRC 	13.5336 g/cm3 (near r.t.) 
+81 Tl thallium
+use 	11.22 g/cm3
+CR2 	(at m.p.) 11.22 g/cm3
+82 Pb lead
+use 	10.66 g/cm3
+CR2 	(at m.p.) 10.66 g/cm3
+83 Bi bismuth
+use 	10.05 g/cm3
+CR2 	(at m.p.) 10.05 g/cm3
+92 U uranium
+use 	17.3 g/cm3
+CR2 	(at m.p.) 17.3 g/cm3
+94 Pu plutonium
+use 	16.63 g/cm3
+CR2 	(at m.p.) 16.63 g/cm3
+
+
+Density, gas phase
+	value 	conditions
+1 H hydrogen (H2)
+use 	0.08988 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 0.082 g/L 	25 °C, 101.325 kPa
+KCH 	0.08988 kg/m3 	0 °C, 101.3 kPa
+VDW 	0.08988 g/L 	0 °C, 101.325 kPa
+(lit. source) 0.08988 g/L 	
+2 He helium
+use 	0.1786 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 0.164 g/L 	25 °C, 101.325 kPa
+LNG 	0.176 g/L 	room temperature
+KCH 	0.1785 kg/m3 	0 °C, 101.3 kPa
+VDW 	0.1786 g/L 	0 °C, 101.325 kPa
+(lit. source) 0.1785 g/L 	0 °C, 1 atm
+7 N nitrogen (N2)
+use 	1.251 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 1.145 g/L 	25 °C, 101.325 kPa
+LNG 	1.165 g/L 	20 °C
+KCH 	1.2505 kg/m3 	0 °C, 101.3 kPa
+VDW 	1.251 g/L 	0 °C, 101.325 kPa
+(lit. source) 1.2506 g/L 	
+8 O oxygen (O2)
+use 	1.429 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 1.308 g/L 	25 °C, 101.325 kPa
+LNG 	1.331 g/L 	20 °C
+KCH 	1.42895 kg/m3 	0 °C, 101.3 kPa
+VDW 	1.429 g/L 	0 °C, 101.325 kPa
+(lit. source) 1.429 g/L 	0 °C
+9 F fluorine (F2)
+use 	1.7 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 1.553 g/L 	25 °C, 101.325 kPa
+VDW 	(lit. source) 1.696 g/L 	
+[1] 	1.6074 kg/m3 	15 °C, 1.013 bar
+[2] Archived 2007-09-28 at the Wayback Machine 	0.0983 lb/ft3 	70 °F (21 °C), 1 atm
+10 Ne neon
+use 	0.9002 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 0.825 g/L 	25 °C, 101.325 kPa
+LNG 	0.8999 g/L 	0 °C
+KCH 	0.9002 kg/m3 	0 °C, 101.3 kPa
+VDW 	0.9002 g/L 	0 °C, 101.325 kPa
+(lit. source) 0.89990 g/L 	0 °C, 1 atm
+17 Cl chlorine (Cl2)
+use 	3.2 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 2.898 g/L 	25 °C, 101.325 kPa
+LNG 	2.98 g/L 	20 °C
+KCH 	3.214 kg/m3 	0 °C, 101.3 kPa
+VDW 	3.116 g/L 	0 °C, 101.325 kPa
+(lit. source) 3.214 g/L 	
+18 Ar argon
+use 	1.784 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 1.633 g/L 	25 °C, 101.325 kPa
+LNG 	1.7824 g/L 	0 °C
+KCH 	1.784 kg/m3 	0 °C, 101.3 kPa
+VDW 	1.784 g/L 	0 °C, 101.325 kPa
+(lit. source) 1.7837 g/L 	
+36 Kr krypton
+use 	3.749 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 3.425 g/L 	25 °C, 101.325 kPa
+LNG 	3.7493 g/L 	room temperature
+KCH 	3.744 kg/m3 	0 °C, 101.3 kPa
+VDW 	3.749 g/L 	0 °C, 101.325 kPa
+(lit. source) 3.733 g/L 	0 °C
+54 Xe xenon
+use 	5.894 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 5.366 g/L 	25 °C, 101.325 kPa
+LNG 	5.761 g/L 	room temperature
+KCH 	5.897 kg/m3 	0 °C, 101.3 kPa
+VDW 	5.894 g/L 	0 °C, 101.325 kPa
+(lit. source) 5.88 g/L 	
+86 Rn radon (Radon-222 ?)
+use 	9.73 g/L 	0 °C, 101.325 kPa
+CRC 	(calc. ideal gas) 9.074 g/L 	25 °C, 101.325 kPa
+LNG 	9.73 g/L 	room temperature
+VDW 	(lit. source) 9.73 g/L 	
+ICT.a 	9.73 g/L 	0 °C, 1 An (=101.325 kPa)
+formula weight = 222
+Notes
+
+    The suggested values for solid densities refer to "near room temperature (r.t.)" by default.
+    The suggested values for liquid densities refer to "at the melting point (m.p.)" by default.
+
+See also
+
+    Hardnesses of the elements (data page)
+
+References
+WEL
+
+As quoted at http://www.webelements.com/ from these sources:
+
+    A.M. James and M.P. Lord in Macmillan's Chemical and Physical Data, Macmillan, London, UK, 1992.
+    D.R. Lide, (ed.) in Chemical Rubber Company handbook of chemistry and physics, CRC Press, Boca Raton, Florida, USA, 77th edition, 1996.
+    J.A. Dean (ed) in Lange's Handbook of Chemistry, McGraw-Hill, New York, USA, 14th edition, 1992.
+    G.W.C. Kaye and T.H. Laby in Tables of physical and chemical constants, Longman, London, UK, 15th edition, 1993.
+
+CRC
+
+As quoted from various sources in an online version of:
+
+    David R. Lide (ed), CRC Handbook of Chemistry and Physics, 84th Edition. CRC Press. Boca Raton, Florida, 2003; Section 4, Properties of the Elements and Inorganic Compounds; Physical Constants of Inorganic Compounds
+
+CR2
+
+    David R. Lide (ed), CRC Handbook of Chemistry and Physics, 84th Edition. CRC Press. Boca Raton, Florida, 2003; Section 4, Properties of the Elements and Inorganic Compounds; Density of Molten Elements and Representative Salts
+
+LNG
+
+As quoted from an online version of:
+
+    J.A. Dean (ed), Lange's Handbook of Chemistry (15th Edition), McGraw-Hill, 1999; Section 3; Table 3.2 Physical Constants of Inorganic Compounds
+
+VDW
+
+The following molar volumes and densities for the majority of the gaseous elements were calculated from the van der Waals equation of state, using the quoted values of the van der Waals constants. The source for the van der Waals constants and for the literature densities was: R. C. Weast (Ed.), Handbook of Chemistry and Physics (53rd Edn.), Cleveland:Chemical Rubber Co., 1972.
+Donnelly et al.
+
+    Donnelly, Russell J.; Barenghi, Carlo F. (1998). "The Observed Properties of Liquid Helium at the Saturated Vapor Pressure". Journal of Physical and Chemical Reference Data. 27 (6): 1217–74. Bibcode:1998JPCRD..27.1217D. doi:10.1063/1.556028.
+
+Hoffer et al.
+
+    Hoffer, J. K.; Gardner, W. R.; Waterfield, C. G.; Phillips, N. E. (April 1976). "Thermodynamic properties of 4He. II. The bcc phase and the P-T and VT phase diagrams below 2 K". Journal of Low Temperature Physics. 23 (1): 63–102. Bibcode:1976JLTP...23...63H. doi:10.1007/BF00117245. S2CID 120473493.
+
+	van der Waals constants 	25 °C, 100.0 kPa 	0 °C, 1 atm 	Lit.
+	a (L2bar/mol2) 	b (L/mol) 	Vm (L) 	d (g/L) 	Vm (L) 	d (g/L) 	d (g/L)
+Argon 	   1.363 	0.03219 	24.77 	1.613 	22.39 	1.784 	1.7837
+Chlorine 	6.579 	0.05622 	25.11 	2.824 	22.75 	3.116 	3.214
+Fluorine 	not available 	1.696
+Helium 	    0.03457 	0.02370 	24.81 	0.1613 	22.44 	0.1786 	0.1785 (0 °C, 1 atm)
+Hydrogen 	0.2476 	0.02661 	24.81 	0.08127 	22.43 	0.08988 	0.08988
+Krypton 	2.349 	0.03978 	24.73 	3.388 	22.35 	3.749 	3.733 (0 °C)
+Neon 	   0.2135 	0.01709 	24.80 	0.8139 	22.42 	0.9002 	0.89990 (0 °C, 1 atm)
+Nitrogen 	1.408 	0.03913 	24.77 	1.131 	22.39 	1.251 	1.2506
+Oxygen 	    1.378 	0.03183 	24.77 	1.292 	22.39 	1.429 	1.429 (0 °C)
+Radon 	    not available 	9.73
+Xenon 	4.250 	0.05105 	24.69 	5.323 	22.28 	5.894 	5.88
+Other
+
+    KCH: Kuchling, Horst, Taschenbuch der Physik, 13. Auflage, Verlag Harri Deutsch, Thun und Frankfurt/Main, German edition, 1991. ISBN 3-8171-1020-0
+
+        (a) Gray and Ramsay, Proceedings of the Royal Society (London). A. Mathematical and Physical Sciences. 84: 536; (1911)
+

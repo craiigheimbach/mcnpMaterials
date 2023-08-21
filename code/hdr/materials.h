@@ -41,6 +41,16 @@ protected:
 
 bool match(const Component& left, const Component& right);
 
+class CompositionSums
+{
+public:
+	CompositionSums(nDbl sumMass, nDbl sumAtom)
+		:mass(sumMass), atom(sumAtom)
+	{};
+	nDbl mass = std::nullopt;
+	nDbl atom = std::nullopt;;
+};
+
 //  ***************************************************************************
 class Composition
 {
@@ -50,7 +60,7 @@ public:
 
 	void addComponent(Component component);
 	const Component* find(const std::string& name) const;
-	std::pair<nDbl, nDbl> getSums() const;
+	CompositionSums getSums() const;
 	inline const std::vector <Component>& getComponents() const { return components; };
 	void sort();
 

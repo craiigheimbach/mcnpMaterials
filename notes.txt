@@ -10,7 +10,12 @@ normalization
 tests have no verbosity?
 abs vs fabs <cmath>
 show normalization in mcnp
-nist values do not sum to 1.0
+nist values do not sum to 1.0 exactly
+not all isotopes in nist. Not all elements are well defined Rn,Tc
+question mark in densities
+https://physics.nist.gov/cgi-bin/Star/compos.pl
+Hg and Br are liquids
+remove zzaaa from graphitr, etc.
 
 To do:
 

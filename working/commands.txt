@@ -1,29 +1,23 @@
 coutVerbosity 4
 fileVerbosity 4
-loadData NistNoGamma
-loaddata PnnlMaterials_withPhoton
+loadData elements.txt
+loaddata PnnlMaterials_withPhoton.txt
 //loadData compare.txt
-//show H
+show H
 normalize H
 //show H
-//loaddata PnnlMaterials_withPhoton
-//show Hydrogen
 //consistency H
 //coutVerbosity 3
 //fileVerbosity 3
 errorLimit  0.05
 //compare compare.txt
 consistency H
-//consistency Uranyl_Nitrate
-//consistency all-
-//consistency Sea_Water_Standard
+//consistency all-			// all does all loaded materials. '-' -> show only inconsistent
 //ListNames l		//szl
 //show Hydrogen//show Acetone
 //show C2H2
 //show Sea_Water_Standard
 //mcnp a3 p3 default Sea_Water_Standard
-//consistency Asphalt
-//show H
 //consistency Bi4Ge3O12
 mcnp a3 p4 default H		 // a->numbers across   p->precision default/fixed/scientific
 tests

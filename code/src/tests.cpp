@@ -614,13 +614,13 @@ void testComposition()
 	cmp.addComponent(Component("B", 0.7, 0.1));
 	cmp.addComponent(Component("B", 0.1, 0.1));
 	cmp.addComponent(Component("A", 0.2, 0.8));
-	auto sums = cmp.getSums();
-	if (!sums.first.has_value())
+	auto sum = cmp.getSums();
+	if (!sum.mass.has_value())
 	{
 		lgT.bump(1) << ERR << "In testComposition, mass fractions show as not complete.\n";
 		lgT << ERR << cmp << '\n';
 	}
-	if (!sums.second.has_value())
+	if (!sum.atom.has_value())
 	{
 		lgT.bump(1) << ERR << "In testComposition, atom fractions show as not complete.\n";
 		lgT << ERR << cmp;
@@ -629,43 +629,43 @@ void testComposition()
 	Composition cmp1;
 	cmp1.addComponent(Component("B", 0.7, 0.7));
 	cmp1.addComponent(Component("A", 0.4, 0.2));		// sums != 1.0
-	sums = cmp1.getSums();
-	if (!sums.first.has_value())
+	sum = cmp1.getSums();
+	if (!sum.mass.has_value())
 	{
 		lgT.bump(1) << ERR << "mass fractions show as invalid, should be 1.1\n";
 		lgT << ERR << cmp1 << '\n';
 	}
 	else
 	{
-		if (!match(sums.first, 1.1))
+		if (!match(sum.mass, 1.1))
 		{
 			lgT.bump(1) << ERR << "mass fractions do not sum to 1.1\n";
 			lgT << ERR << cmp1 << '\n';
 		}
 	}
-	if (!sums.second.has_value())
+	if (!sum.atom.has_value())
 	{
 		lgT.bump(1) << ERR << "mass fractions show as invalid, should be 0.9\n";
 		lgT << ERR << cmp1 << '\n';
 	}
 	else
 	{
-		if (!match(sums.second, 0.9))
+		if (!match(sum.atom, 0.9))
 		{
-			lgT.bump(1) << ERR << "mass fractions do not sum to 0.9\n";
+			lgT.bump(1) << ERR << "atom fractions do not sum to 0.9\n";
 			lgT << ERR << cmp1 << '\n';
 		}
 	}
 
 	Composition cmp2;
 	cmp2.addComponent(Component("B", std::nullopt, std::nullopt));
-	sums = cmp2.getSums();
-	if (sums.first.has_value())
+	sum = cmp2.getSums();
+	if (sum.mass.has_value())
 	{
 		lgT.bump(1) << ERR << "In testComposition cmp2, mass fraction sum is valid.\n";
 		lgT << STD << cmp2 << '\n';
 	}
-	if (sums.second.has_value())
+	if (sum.atom.has_value())
 	{
 		lgT.bump(1) << ERR << "In testComposition cmp2, atom fractions sum is valid.\n";
 		lgT << STD << cmp2 << '\n';

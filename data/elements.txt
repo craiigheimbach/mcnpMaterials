@@ -1,0 +1,4696 @@
+--------------------
+LongName = Hydrogen-1
+ShortName = H-1
+ZZAAA = 1001
+comment = None
+atomic weight = 1.00782503223
+isBasic = True
+mass density = 8.98666e-05
+atom density = None
+--------------------
+LongName = Deuterium
+ShortName = H-2
+ZZAAA = 1002
+comment = None
+atomic weight = 2.01410177812
+isBasic = True
+mass density = 1.79595e-04
+atom density = None
+--------------------
+LongName = Tritium
+ShortName = H-3
+ZZAAA = 1003
+comment = None
+atomic weight = 3.0160492779
+isBasic = True
+mass density = 2.68938e-04
+atom density = None
+--------------------
+LongName = Hydrogen
+ShortName = H
+ZZAAA = 1000
+comment = None
+atomic weight = 1.007975
+isBasic = False
+mass density = 8.98800e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    None    0.999885
+1002    None    0.000115
+--------------------
+LongName = Helium-3
+ShortName = He-3
+ZZAAA = 2003
+comment = None
+atomic weight = 3.0160293201
+isBasic = True
+mass density = 1.34578e-04
+atom density = None
+--------------------
+LongName = Helium-4
+ShortName = He-4
+ZZAAA = 2004
+comment = None
+atomic weight = 4.00260325413
+isBasic = True
+mass density = 1.78600e-04
+atom density = None
+--------------------
+LongName = Helium
+ShortName = He
+ZZAAA = 2000
+comment = None
+atomic weight = 4.002602
+isBasic = False
+mass density = 1.78600e-04
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+2003    None    1.34e-06
+2004    None    0.99999866
+--------------------
+LongName = Lithium-6
+ShortName = Li-6
+ZZAAA = 3006
+comment = None
+atomic weight = 6.0151228874
+isBasic = True
+mass density = 4.61008e-01
+atom density = None
+--------------------
+LongName = Lithium-7
+ShortName = Li-7
+ZZAAA = 3007
+comment = None
+atomic weight = 7.0160034366
+isBasic = True
+mass density = 5.37717e-01
+atom density = None
+--------------------
+LongName = Lithium
+ShortName = Li
+ZZAAA = 3000
+comment = None
+atomic weight = 6.967499999999999
+isBasic = False
+mass density = 5.34000e-01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+3006    None    0.0759
+3007    None    0.9241
+--------------------
+LongName = Beryllium-9
+ShortName = Be-9
+ZZAAA = 4009
+comment = None
+atomic weight = 9.012183065
+isBasic = True
+mass density = 1.85000e+00
+atom density = None
+--------------------
+LongName = Beryllium
+ShortName = Be
+ZZAAA = 4000
+comment = None
+atomic weight = 9.0121831
+isBasic = False
+mass density = 1.85000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+4009    None    1.0
+--------------------
+LongName = Boron-10
+ShortName = B-10
+ZZAAA = 5010
+comment = None
+atomic weight = 10.01293695
+isBasic = True
+mass density = 2.16676e+00
+atom density = None
+--------------------
+LongName = Boron-11
+ShortName = B-11
+ZZAAA = 5011
+comment = None
+atomic weight = 11.00930536
+isBasic = True
+mass density = 2.38237e+00
+atom density = None
+--------------------
+LongName = Boron
+ShortName = B
+ZZAAA = 5000
+comment = None
+atomic weight = 10.8135
+isBasic = False
+mass density = None
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+5010    None    0.199
+5011    None    0.801
+--------------------
+LongName = Carbon-12
+ShortName = C-12
+ZZAAA = 6012
+comment = Carbon density varies
+atomic weight = 12.0
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Carbon-13
+ShortName = C-13
+ZZAAA = 6013
+comment = Carbon density varies
+atomic weight = 13.00335483507
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Carbon-14
+ShortName = C-14
+ZZAAA = 6014
+comment = Carbon density varies
+atomic weight = 14.0032419884
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Carbon
+ShortName = C
+ZZAAA = 6000
+comment = See graphite or diamond
+atomic weight = 12.0106
+isBasic = False
+mass density = None
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+6012    None    0.9893
+6013    None    0.0107
+--------------------
+LongName = Graphite
+ShortName = 
+ZZAAA = 
+comment = See diamond
+atomic weight = 12.0106
+isBasic = False
+mass density = 2.267
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+6012    None    0.9893
+6013    None    0.0107
+--------------------
+LongName = Diamond
+ShortName = 3.513
+ZZAAA = 
+comment = See graphite
+atomic weight = 12.0106
+isBasic = False
+mass density = 2.267
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+6012    None    0.9893
+6013    None    0.0107
+--------------------
+LongName = Nitrogen-14
+ShortName = N-14
+ZZAAA = 7014
+comment = None
+atomic weight = 14.00307400443
+isBasic = True
+mass density = 1.25066e-03
+atom density = None
+--------------------
+LongName = Nitrogen-15
+ShortName = N-15
+ZZAAA = 7015
+comment = None
+atomic weight = 15.00010889888
+isBasic = True
+mass density = 1.33971e-03
+atom density = None
+--------------------
+LongName = Nitrogen
+ShortName = N
+ZZAAA = 7000
+comment = None
+atomic weight = 14.006855
+isBasic = False
+mass density = 1.25100e-03
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+7014    None    0.99636
+7015    None    0.00364
+--------------------
+LongName = Oxygen-16
+ShortName = O-16
+ZZAAA = 8016
+comment = None
+atomic weight = 15.99491461957
+isBasic = True
+mass density = 1.42860e-03
+atom density = None
+--------------------
+LongName = Oxygen-17
+ShortName = O-17
+ZZAAA = 8017
+comment = None
+atomic weight = 16.9991317565
+isBasic = True
+mass density = 1.51829e-03
+atom density = None
+--------------------
+LongName = Oxygen-18
+ShortName = O-18
+ZZAAA = 8018
+comment = None
+atomic weight = 17.99915961286
+isBasic = True
+mass density = 1.60761e-03
+atom density = None
+--------------------
+LongName = Oxygen
+ShortName = O
+ZZAAA = 8000
+comment = None
+atomic weight = 15.9994
+isBasic = False
+mass density = 1.42900e-03
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+8016    None    0.99757
+8017    None    0.00038
+8018    None    0.00205
+--------------------
+LongName = Fluorine-19
+ShortName = F-19
+ZZAAA = 9019
+comment = None
+atomic weight = 18.99840316273
+isBasic = True
+mass density = 1.70000e-03
+atom density = None
+--------------------
+LongName = Fluorine
+ShortName = F
+ZZAAA = 9000
+comment = None
+atomic weight = 18.998403163
+isBasic = False
+mass density = 1.70000e-03
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+9019    None    1.0
+--------------------
+LongName = Neon-20
+ShortName = Ne-20
+ZZAAA = 10020
+comment = None
+atomic weight = 19.9924401762
+isBasic = True
+mass density = 8.91846e-04
+atom density = None
+--------------------
+LongName = Neon-21
+ShortName = Ne-21
+ZZAAA = 10021
+comment = None
+atomic weight = 20.993846685
+isBasic = True
+mass density = 9.36518e-04
+atom density = None
+--------------------
+LongName = Neon-22
+ShortName = Ne-22
+ZZAAA = 10022
+comment = None
+atomic weight = 21.991385114
+isBasic = True
+mass density = 9.81018e-04
+atom density = None
+--------------------
+LongName = Neon
+ShortName = Ne
+ZZAAA = 10000
+comment = None
+atomic weight = 20.1797
+isBasic = False
+mass density = 9.00200e-04
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+10020    None    0.9048
+10021    None    0.0027
+10022    None    0.0925
+--------------------
+LongName = Sodium-23
+ShortName = Na-23
+ZZAAA = 11023
+comment = None
+atomic weight = 22.989769282
+isBasic = True
+mass density = 9.68000e-01
+atom density = None
+--------------------
+LongName = Sodium
+ShortName = Na
+ZZAAA = 11000
+comment = None
+atomic weight = 22.98976928
+isBasic = False
+mass density = 9.68000e-01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+11023    None    1.0
+--------------------
+LongName = Magnesium-24
+ShortName = Mg-24
+ZZAAA = 12024
+comment = None
+atomic weight = 23.985041697
+isBasic = True
+mass density = 1.71509e+00
+atom density = None
+--------------------
+LongName = Magnesium-25
+ShortName = Mg-25
+ZZAAA = 12025
+comment = None
+atomic weight = 24.985836976
+isBasic = True
+mass density = 1.78665e+00
+atom density = None
+--------------------
+LongName = Magnesium-26
+ShortName = Mg-26
+ZZAAA = 12026
+comment = None
+atomic weight = 25.982592968
+isBasic = True
+mass density = 1.85792e+00
+atom density = None
+--------------------
+LongName = Magnesium
+ShortName = Mg
+ZZAAA = 12000
+comment = None
+atomic weight = 24.3055
+isBasic = False
+mass density = 1.73800e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+12024    None    0.7899
+12025    None    0.1
+12026    None    0.1101
+--------------------
+LongName = Aluminum-27
+ShortName = Al-27
+ZZAAA = 13027
+comment = None
+atomic weight = 26.98153853
+isBasic = True
+mass density = 2.70000e+00
+atom density = None
+--------------------
+LongName = Aluminum
+ShortName = Al
+ZZAAA = 13000
+comment = None
+atomic weight = 26.9815385
+isBasic = False
+mass density = 2.70000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+13027    None    1.0
+--------------------
+LongName = Silicon-28
+ShortName = Si-28
+ZZAAA = 14028
+comment = None
+atomic weight = 27.97692653465
+isBasic = True
+mass density = 2.32103e+00
+atom density = None
+--------------------
+LongName = Silicon-29
+ShortName = Si-29
+ZZAAA = 14029
+comment = None
+atomic weight = 28.9764946649
+isBasic = True
+mass density = 2.40396e+00
+atom density = None
+--------------------
+LongName = Silicon-30
+ShortName = Si-30
+ZZAAA = 14030
+comment = None
+atomic weight = 29.973770136
+isBasic = True
+mass density = 2.48670e+00
+atom density = None
+--------------------
+LongName = Silicon
+ShortName = Si
+ZZAAA = 14000
+comment = None
+atomic weight = 28.085
+isBasic = False
+mass density = 2.33000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+14028    None    0.92223
+14029    None    0.04685
+14030    None    0.03092
+--------------------
+LongName = Phosphorus-31
+ShortName = P-31
+ZZAAA = 15031
+comment = See white, red, black
+atomic weight = 30.97376199842
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Phosphorus
+ShortName = P
+ZZAAA = 15000
+comment = None
+atomic weight = 30.973761998
+isBasic = False
+mass density = None
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+15031    None    1.0
+--------------------
+LongName = Phosphorus_white
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 30.973761998
+isBasic = False
+mass density = 1.823
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+15031    None    1.0
+--------------------
+LongName = Phosphorus_red
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 30.973761998
+isBasic = False
+mass density = 2.34
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+15031    None    1.0
+--------------------
+LongName = Phosphorus_black
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 30.973761998
+isBasic = False
+mass density = 2.69
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+15031    None    1.0
+--------------------
+LongName = Sulfur-32
+ShortName = S-32
+ZZAAA = 16032
+comment = For density, seeo alpha, beta, gamma
+atomic weight = 31.9720711744
+isBasic = True
+mass density = 2.07381e+00
+atom density = None
+--------------------
+LongName = Sulfur-33
+ShortName = S-33
+ZZAAA = 16033
+comment = For density, seeo alpha, beta, gamma
+atomic weight = 32.9714589098
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Sulfur-34
+ShortName = S-34
+ZZAAA = 16034
+comment = For density, seeo alpha, beta, gamma
+atomic weight = 33.967867004
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Sulfur-36
+ShortName = S-36
+ZZAAA = 16036
+comment = For density, seeo alpha, beta, gamma
+atomic weight = 35.96708071
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Sulfur
+ShortName = S
+ZZAAA = 16000
+comment = For density, seeo alpha, beta, gamma
+atomic weight = 32.067499999999995
+isBasic = False
+mass density = None
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+16032    None    0.9499
+16033    None    0.0075
+16034    None    0.0425
+16036    None    0.0001
+--------------------
+LongName = Sulfur_alpha
+ShortName = Sulfur_orthorhombic
+ZZAAA = 
+comment = None
+atomic weight = 32.067499999999995
+isBasic = False
+mass density = 2.08
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+16032    None    0.9499
+16033    None    0.0075
+16034    None    0.0425
+16036    None    0.0001
+--------------------
+LongName = Sulfur_beta
+ShortName = Sulfur_monoclinic
+ZZAAA = 
+comment = None
+atomic weight = 32.067499999999995
+isBasic = False
+mass density = 1.96
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+16032    None    0.9499
+16033    None    0.0075
+16034    None    0.0425
+16036    None    0.0001
+--------------------
+LongName = Sulfur_gamma
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 32.067499999999995
+isBasic = False
+mass density = 1.92
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+16032    None    0.9499
+16033    None    0.0075
+16034    None    0.0425
+16036    None    0.0001
+--------------------
+LongName = Chlorine-35
+ShortName = Cl-35
+ZZAAA = 17035
+comment = None
+atomic weight = 34.968852682
+isBasic = True
+mass density = 3.15643e-03
+atom density = None
+--------------------
+LongName = Chlorine-37
+ShortName = Cl-37
+ZZAAA = 17037
+comment = None
+atomic weight = 36.965902602
+isBasic = True
+mass density = 3.33670e-03
+atom density = None
+--------------------
+LongName = Chlorine
+ShortName = Cl
+ZZAAA = 17000
+comment = None
+atomic weight = 35.451499999999996
+isBasic = False
+mass density = 3.20000e-03
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+17035    None    0.7576
+17037    None    0.2424
+--------------------
+LongName = Argon-36
+ShortName = Ar-36
+ZZAAA = 18036
+comment = None
+atomic weight = 35.967545105
+isBasic = True
+mass density = 1.60624e-03
+atom density = None
+--------------------
+LongName = Argon-38
+ShortName = Ar-38
+ZZAAA = 18038
+comment = None
+atomic weight = 37.96273211
+isBasic = True
+mass density = 1.69534e-03
+atom density = None
+--------------------
+LongName = Argon-40
+ShortName = Ar-40
+ZZAAA = 18040
+comment = None
+atomic weight = 39.9623831237
+isBasic = True
+mass density = 1.78464e-03
+atom density = None
+--------------------
+LongName = Argon
+ShortName = Ar
+ZZAAA = 18000
+comment = None
+atomic weight = 39.948
+isBasic = False
+mass density = 1.78400e-03
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+18036    None    0.003336
+18038    None    0.000629
+18040    None    0.996035
+--------------------
+LongName = Potassium-39
+ShortName = K-39
+ZZAAA = 19039
+comment = None
+atomic weight = 38.9637064864
+isBasic = True
+mass density = 8.86936e-01
+atom density = None
+--------------------
+LongName = Potassium-40
+ShortName = K-40
+ZZAAA = 19040
+comment = None
+atomic weight = 39.963998166
+isBasic = True
+mass density = 9.09706e-01
+atom density = None
+--------------------
+LongName = Potassium-41
+ShortName = K-41
+ZZAAA = 19041
+comment = None
+atomic weight = 40.9618252579
+isBasic = True
+mass density = 9.32420e-01
+atom density = None
+--------------------
+LongName = Potassium
+ShortName = K
+ZZAAA = 19000
+comment = None
+atomic weight = 39.0983
+isBasic = False
+mass density = 8.90000e-01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+19039    None    0.932581
+19040    None    0.000117
+19041    None    0.067302
+--------------------
+LongName = Calcium-40
+ShortName = Ca-40
+ZZAAA = 20040
+comment = None
+atomic weight = 39.962590863
+isBasic = True
+mass density = 1.54554e+00
+atom density = None
+--------------------
+LongName = Calcium-42
+ShortName = Ca-42
+ZZAAA = 20042
+comment = None
+atomic weight = 41.95861783
+isBasic = True
+mass density = 1.62273e+00
+atom density = None
+--------------------
+LongName = Calcium-43
+ShortName = Ca-43
+ZZAAA = 20043
+comment = None
+atomic weight = 42.95876644
+isBasic = True
+mass density = 1.66141e+00
+atom density = None
+--------------------
+LongName = Calcium-44
+ShortName = Ca-44
+ZZAAA = 20044
+comment = None
+atomic weight = 43.95548156
+isBasic = True
+mass density = 1.69996e+00
+atom density = None
+--------------------
+LongName = Calcium-46
+ShortName = Ca-46
+ZZAAA = 20046
+comment = None
+atomic weight = 45.953689
+isBasic = True
+mass density = 1.77724e+00
+atom density = None
+--------------------
+LongName = Calcium-48
+ShortName = Ca-48
+ZZAAA = 20048
+comment = None
+atomic weight = 47.95252276
+isBasic = True
+mass density = 1.85454e+00
+atom density = None
+--------------------
+LongName = Calcium
+ShortName = Ca
+ZZAAA = 20000
+comment = None
+atomic weight = 40.078
+isBasic = False
+mass density = 1.55000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+20040    None    0.96941
+20042    None    0.00647
+20043    None    0.00135
+20044    None    0.02086
+20046    None    4e-05
+20048    None    0.00187
+--------------------
+LongName = Scandium-45
+ShortName = Sc-45
+ZZAAA = 21045
+comment = None
+atomic weight = 44.95590828
+isBasic = True
+mass density = 2.98500e+00
+atom density = None
+--------------------
+LongName = Scandium
+ShortName = Sc
+ZZAAA = 21000
+comment = None
+atomic weight = 44.955908
+isBasic = False
+mass density = 2.98500e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+21045    None    1.0
+--------------------
+LongName = Titanium-46
+ShortName = Ti-46
+ZZAAA = 22046
+comment = None
+atomic weight = 45.95262772
+isBasic = True
+mass density = 4.32579e+00
+atom density = None
+--------------------
+LongName = Titanium-47
+ShortName = Ti-47
+ZZAAA = 22047
+comment = None
+atomic weight = 46.95175879
+isBasic = True
+mass density = 4.41984e+00
+atom density = None
+--------------------
+LongName = Titanium-48
+ShortName = Ti-48
+ZZAAA = 22048
+comment = None
+atomic weight = 47.94794198
+isBasic = True
+mass density = 4.51362e+00
+atom density = None
+--------------------
+LongName = Titanium-49
+ShortName = Ti-49
+ZZAAA = 22049
+comment = None
+atomic weight = 48.94786568
+isBasic = True
+mass density = 4.60775e+00
+atom density = None
+--------------------
+LongName = Titanium-50
+ShortName = Ti-50
+ZZAAA = 22050
+comment = None
+atomic weight = 49.94478689
+isBasic = True
+mass density = 4.70159e+00
+atom density = None
+--------------------
+LongName = Titanium
+ShortName = Ti
+ZZAAA = 22000
+comment = None
+atomic weight = 47.867
+isBasic = False
+mass density = 4.50600e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+22046    None    0.0825
+22047    None    0.0744
+22048    None    0.7372
+22049    None    0.0541
+22050    None    0.0518
+--------------------
+LongName = Vanadium-50
+ShortName = V-50
+ZZAAA = 23050
+comment = None
+atomic weight = 49.94715601
+isBasic = True
+mass density = 5.99074e+00
+atom density = None
+--------------------
+LongName = Vanadium-51
+ShortName = V-51
+ZZAAA = 23051
+comment = None
+atomic weight = 50.94395704
+isBasic = True
+mass density = 6.11029e+00
+atom density = None
+--------------------
+LongName = Vanadium
+ShortName = V
+ZZAAA = 23000
+comment = None
+atomic weight = 50.9415
+isBasic = False
+mass density = 6.11000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+23050    None    0.0025
+23051    None    0.9975
+--------------------
+LongName = Chromium-50
+ShortName = Cr-50
+ZZAAA = 24050
+comment = None
+atomic weight = 49.94604183
+isBasic = True
+mass density = 6.86810e+00
+atom density = None
+--------------------
+LongName = Chromium-52
+ShortName = Cr-52
+ZZAAA = 24052
+comment = None
+atomic weight = 51.94050623
+isBasic = True
+mass density = 7.14236e+00
+atom density = None
+--------------------
+LongName = Chromium-53
+ShortName = Cr-53
+ZZAAA = 24053
+comment = None
+atomic weight = 52.94064815
+isBasic = True
+mass density = 7.27989e+00
+atom density = None
+--------------------
+LongName = Chromium-54
+ShortName = Cr-54
+ZZAAA = 24054
+comment = None
+atomic weight = 53.93887916
+isBasic = True
+mass density = 7.41715e+00
+atom density = None
+--------------------
+LongName = Chromium
+ShortName = Cr
+ZZAAA = 24000
+comment = None
+atomic weight = 51.9961
+isBasic = False
+mass density = 7.15000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+24050    None    0.04345
+24052    None    0.83789
+24053    None    0.09501
+24054    None    0.02365
+--------------------
+LongName = Manganese-55
+ShortName = Mn-55
+ZZAAA = 25055
+comment = None
+atomic weight = 54.93804391
+isBasic = True
+mass density = 7.21000e+00
+atom density = None
+--------------------
+LongName = Manganese
+ShortName = Mn
+ZZAAA = 25000
+comment = None
+atomic weight = 54.938044
+isBasic = False
+mass density = 7.21000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+25055    None    1.0
+--------------------
+LongName = Iron-54
+ShortName = Fe-54
+ZZAAA = 26054
+comment = None
+atomic weight = 53.93960899
+isBasic = True
+mass density = 7.59182e+00
+atom density = None
+--------------------
+LongName = Iron-56
+ShortName = Fe-56
+ZZAAA = 26056
+comment = None
+atomic weight = 55.93493633
+isBasic = True
+mass density = 7.87266e+00
+atom density = None
+--------------------
+LongName = Iron-57
+ShortName = Fe-57
+ZZAAA = 26057
+comment = None
+atomic weight = 56.93539284
+isBasic = True
+mass density = 8.01347e+00
+atom density = None
+--------------------
+LongName = Iron-58
+ShortName = Fe-58
+ZZAAA = 26058
+comment = None
+atomic weight = 57.93327443
+isBasic = True
+mass density = 8.15392e+00
+atom density = None
+--------------------
+LongName = Iron
+ShortName = Fe
+ZZAAA = 26000
+comment = None
+atomic weight = 55.845
+isBasic = False
+mass density = 7.86000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+26054    None    0.05845
+26056    None    0.91754
+26057    None    0.02119
+26058    None    0.00282
+--------------------
+LongName = Cobalt-59
+ShortName = Co-59
+ZZAAA = 27059
+comment = None
+atomic weight = 58.93319429
+isBasic = True
+mass density = 8.90000e+00
+atom density = None
+--------------------
+LongName = Cobalt
+ShortName = Co
+ZZAAA = 27000
+comment = None
+atomic weight = 58.933194
+isBasic = False
+mass density = 8.90000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+27059    None    1.0
+--------------------
+LongName = Nickel-58
+ShortName = Ni-58
+ZZAAA = 28058
+comment = None
+atomic weight = 57.93534241
+isBasic = True
+mass density = 8.79295e+00
+atom density = None
+--------------------
+LongName = Nickel-60
+ShortName = Ni-60
+ZZAAA = 28060
+comment = None
+atomic weight = 59.93078588
+isBasic = True
+mass density = 9.09580e+00
+atom density = None
+--------------------
+LongName = Nickel-61
+ShortName = Ni-61
+ZZAAA = 28061
+comment = None
+atomic weight = 60.93105557
+isBasic = True
+mass density = 9.24761e+00
+atom density = None
+--------------------
+LongName = Nickel-62
+ShortName = Ni-62
+ZZAAA = 28062
+comment = None
+atomic weight = 61.92834537
+isBasic = True
+mass density = 9.39897e+00
+atom density = None
+--------------------
+LongName = Nickel-64
+ShortName = Ni-64
+ZZAAA = 28064
+comment = None
+atomic weight = 63.92796682
+isBasic = True
+mass density = 9.70246e+00
+atom density = None
+--------------------
+LongName = Nickel
+ShortName = Ni
+ZZAAA = 28000
+comment = None
+atomic weight = 58.6934
+isBasic = False
+mass density = 8.90800e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+28058    None    0.68077
+28060    None    0.26223
+28061    None    0.011399
+28062    None    0.036346
+28064    None    0.009255
+--------------------
+LongName = Copper-63
+ShortName = Cu-63
+ZZAAA = 29063
+comment = None
+atomic weight = 62.92959772
+isBasic = True
+mass density = 8.87309e+00
+atom density = None
+--------------------
+LongName = Copper-65
+ShortName = Cu-65
+ZZAAA = 29065
+comment = None
+atomic weight = 64.9277897
+isBasic = True
+mass density = 9.15483e+00
+atom density = None
+--------------------
+LongName = Copper
+ShortName = Cu
+ZZAAA = 29000
+comment = None
+atomic weight = 63.546
+isBasic = False
+mass density = 8.96000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+29063    None    0.6915
+29065    None    0.3085
+--------------------
+LongName = Zinc-64
+ShortName = Zn-64
+ZZAAA = 30064
+comment = None
+atomic weight = 63.92914201
+isBasic = True
+mass density = 6.98156e+00
+atom density = None
+--------------------
+LongName = Zinc-66
+ShortName = Zn-66
+ZZAAA = 30066
+comment = None
+atomic weight = 65.92603381
+isBasic = True
+mass density = 7.19963e+00
+atom density = None
+--------------------
+LongName = Zinc-67
+ShortName = Zn-67
+ZZAAA = 30067
+comment = None
+atomic weight = 66.92712775
+isBasic = True
+mass density = 7.30896e+00
+atom density = None
+--------------------
+LongName = Zinc-68
+ShortName = Zn-68
+ZZAAA = 30068
+comment = None
+atomic weight = 67.92484455
+isBasic = True
+mass density = 7.41792e+00
+atom density = None
+--------------------
+LongName = Zinc-70
+ShortName = Zn-70
+ZZAAA = 30070
+comment = None
+atomic weight = 69.9253192
+isBasic = True
+mass density = 7.63638e+00
+atom density = None
+--------------------
+LongName = Zinc
+ShortName = Zn
+ZZAAA = 30000
+comment = None
+atomic weight = 65.38
+isBasic = False
+mass density = 7.14000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+30064    None    0.4917
+30066    None    0.2773
+30067    None    0.0404
+30068    None    0.1845
+30070    None    0.0061
+--------------------
+LongName = Gallium-69
+ShortName = Ga-69
+ZZAAA = 31069
+comment = None
+atomic weight = 68.9255735
+isBasic = True
+mass density = 5.84241e+00
+atom density = None
+--------------------
+LongName = Gallium-71
+ShortName = Ga-71
+ZZAAA = 31071
+comment = None
+atomic weight = 70.92470258
+isBasic = True
+mass density = 6.01186e+00
+atom density = None
+--------------------
+LongName = Gallium
+ShortName = Ga
+ZZAAA = 31000
+comment = None
+atomic weight = 69.723
+isBasic = False
+mass density = 5.91000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+31069    None    0.60108
+31071    None    0.39892
+--------------------
+LongName = Germanium-70
+ShortName = Ge-70
+ZZAAA = 32070
+comment = None
+atomic weight = 69.92424875
+isBasic = True
+mass density = 5.12470e+00
+atom density = None
+--------------------
+LongName = Germanium-72
+ShortName = Ge-72
+ZZAAA = 32072
+comment = None
+atomic weight = 71.922075826
+isBasic = True
+mass density = 5.27112e+00
+atom density = None
+--------------------
+LongName = Germanium-73
+ShortName = Ge-73
+ZZAAA = 32073
+comment = None
+atomic weight = 72.923458956
+isBasic = True
+mass density = 5.34451e+00
+atom density = None
+--------------------
+LongName = Germanium-74
+ShortName = Ge-74
+ZZAAA = 32074
+comment = None
+atomic weight = 73.921177761
+isBasic = True
+mass density = 5.41763e+00
+atom density = None
+--------------------
+LongName = Germanium-76
+ShortName = Ge-76
+ZZAAA = 32076
+comment = None
+atomic weight = 75.921402726
+isBasic = True
+mass density = 5.56422e+00
+atom density = None
+--------------------
+LongName = Germanium
+ShortName = Ge
+ZZAAA = 32000
+comment = None
+atomic weight = 72.63
+isBasic = False
+mass density = 5.32300e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+32070    None    0.2057
+32072    None    0.2745
+32073    None    0.0775
+32074    None    0.365
+32076    None    0.0773
+--------------------
+LongName = Arsenic-75
+ShortName = As-75
+ZZAAA = 33075
+comment = None
+atomic weight = 74.92159457
+isBasic = True
+mass density = 5.72700e+00
+atom density = None
+--------------------
+LongName = Arsenic
+ShortName = As
+ZZAAA = 33000
+comment = None
+atomic weight = 74.921595
+isBasic = False
+mass density = 5.72700e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+33075    None    1.0
+--------------------
+LongName = Selenium-74
+ShortName = Se-74
+ZZAAA = 34074
+comment = See gray, alpha, vitreous
+atomic weight = None
+isBasic = True
+mass density = 4.50250e+00
+atom density = None
+--------------------
+LongName = Selenium-76
+ShortName = Se-76
+ZZAAA = 34076
+comment = See gray, alpha, vitreous
+atomic weight = 75.919213704
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Selenium-77
+ShortName = Se-77
+ZZAAA = 34077
+comment = See gray, alpha, vitreous
+atomic weight = 76.919914154
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Selenium-78
+ShortName = Se-78
+ZZAAA = 34078
+comment = See gray, alpha, vitreous
+atomic weight = 77.91730928
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Selenium-80
+ShortName = Se-80
+ZZAAA = 34080
+comment = See gray, alpha, vitreous
+atomic weight = 79.9165218
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Selenium-82
+ShortName = Se-82
+ZZAAA = 34082
+comment = See gray, alpha, vitreous
+atomic weight = 81.9166995
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Selenium
+ShortName = Se
+ZZAAA = 34000
+comment = None
+atomic weight = 78.971
+isBasic = False
+mass density = None
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+34074    None    0.0089
+34076    None    0.0937
+34077    None    0.0763
+34078    None    0.2377
+34080    None    0.4961
+34082    None    0.0873
+--------------------
+LongName = Selenium_gray
+ShortName = Selenium_hexagonal
+ZZAAA = 
+comment = None
+atomic weight = 78.971
+isBasic = False
+mass density = 4.81
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+34074    None    0.0089
+34076    None    0.0937
+34077    None    0.0763
+34078    None    0.2377
+34080    None    0.4961
+34082    None    0.0873
+--------------------
+LongName = Selenium_alpha
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 78.971
+isBasic = False
+mass density = 4.39
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+34074    None    0.0089
+34076    None    0.0937
+34077    None    0.0763
+34078    None    0.2377
+34080    None    0.4961
+34082    None    0.0873
+--------------------
+LongName = Selenium_vitreous
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 78.971
+isBasic = False
+mass density = 4.28
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+34074    None    0.0089
+34076    None    0.0937
+34077    None    0.0763
+34078    None    0.2377
+34080    None    0.4961
+34082    None    0.0873
+--------------------
+LongName = Bromine-79
+ShortName = Br-79
+ZZAAA = 35079
+comment = None
+atomic weight = 78.9183376
+isBasic = True
+mass density = 3.06453e+00
+atom density = None
+--------------------
+LongName = Bromine-81
+ShortName = Br-81
+ZZAAA = 35081
+comment = None
+atomic weight = 80.9162897
+isBasic = True
+mass density = 3.14211e+00
+atom density = None
+--------------------
+LongName = Bromine
+ShortName = Br
+ZZAAA = 35000
+comment = Liquid
+atomic weight = 79.904
+isBasic = False
+mass density = 3.10280e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+35079    None    0.5069
+35081    None    0.4931
+--------------------
+LongName = Krypton-78
+ShortName = Kr-78
+ZZAAA = 36078
+comment = None
+atomic weight = 77.92036494
+isBasic = True
+mass density = 3.48604e-03
+atom density = None
+--------------------
+LongName = Krypton-80
+ShortName = Kr-80
+ZZAAA = 36080
+comment = None
+atomic weight = 79.91637808
+isBasic = True
+mass density = 3.57534e-03
+atom density = None
+--------------------
+LongName = Krypton-82
+ShortName = Kr-82
+ZZAAA = 36082
+comment = None
+atomic weight = 81.91348273
+isBasic = True
+mass density = 3.66469e-03
+atom density = None
+--------------------
+LongName = Krypton-83
+ShortName = Kr-83
+ZZAAA = 36083
+comment = None
+atomic weight = 82.91412716
+isBasic = True
+mass density = 3.70946e-03
+atom density = None
+--------------------
+LongName = Krypton-84
+ShortName = Kr-84
+ZZAAA = 36084
+comment = None
+atomic weight = 83.9114977282
+isBasic = True
+mass density = 3.75408e-03
+atom density = None
+--------------------
+LongName = Krypton-86
+ShortName = Kr-86
+ZZAAA = 36086
+comment = None
+atomic weight = 85.9106106269
+isBasic = True
+mass density = 3.84352e-03
+atom density = None
+--------------------
+LongName = Krypton
+ShortName = Kr
+ZZAAA = 36000
+comment = None
+atomic weight = 83.798
+isBasic = False
+mass density = 3.74900e-03
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+36078    None    0.00355
+36080    None    0.02286
+36082    None    0.11593
+36083    None    0.115
+36084    None    0.56987
+36086    None    0.17279
+--------------------
+LongName = Rubidium-85
+ShortName = Rb-85
+ZZAAA = 37085
+comment = None
+atomic weight = 84.9117897379
+isBasic = True
+mass density = 1.52203e+00
+atom density = None
+--------------------
+LongName = Rubidium-87
+ShortName = Rb-87
+ZZAAA = 37087
+comment = None
+atomic weight = 86.909180531
+isBasic = True
+mass density = 1.55784e+00
+atom density = None
+--------------------
+LongName = Rubidium
+ShortName = Rb
+ZZAAA = 37000
+comment = None
+atomic weight = 85.4678
+isBasic = False
+mass density = 1.53200e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+37085    None    0.7217
+37087    None    0.2783
+--------------------
+LongName = Strontium-84
+ShortName = Sr-84
+ZZAAA = 38084
+comment = None
+atomic weight = 83.9134191
+isBasic = True
+mass density = 2.52832e+00
+atom density = None
+--------------------
+LongName = Strontium-86
+ShortName = Sr-86
+ZZAAA = 38086
+comment = None
+atomic weight = 85.9092606
+isBasic = True
+mass density = 2.58846e+00
+atom density = None
+--------------------
+LongName = Strontium-87
+ShortName = Sr-87
+ZZAAA = 38087
+comment = None
+atomic weight = 86.9088775
+isBasic = True
+mass density = 2.61857e+00
+atom density = None
+--------------------
+LongName = Strontium-88
+ShortName = Sr-88
+ZZAAA = 38088
+comment = None
+atomic weight = 87.9056125
+isBasic = True
+mass density = 2.64861e+00
+atom density = None
+--------------------
+LongName = Strontium
+ShortName = Sr
+ZZAAA = 38000
+comment = None
+atomic weight = 87.62
+isBasic = False
+mass density = 2.64000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+38084    None    0.0056
+38086    None    0.0986
+38087    None    0.07
+38088    None    0.8258
+--------------------
+LongName = Yttrium-89
+ShortName = Y-89
+ZZAAA = 39089
+comment = None
+atomic weight = 88.9058403
+isBasic = True
+mass density = 4.47200e+00
+atom density = None
+--------------------
+LongName = Yttrium
+ShortName = Y
+ZZAAA = 39000
+comment = None
+atomic weight = 88.90584
+isBasic = False
+mass density = 4.47200e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+39089    None    1.0
+--------------------
+LongName = Zirconium-90
+ShortName = Zr-90
+ZZAAA = 40090
+comment = None
+atomic weight = 89.9046977
+isBasic = True
+mass density = 6.42571e+00
+atom density = None
+--------------------
+LongName = Zirconium-91
+ShortName = Zr-91
+ZZAAA = 40091
+comment = None
+atomic weight = 90.9056396
+isBasic = True
+mass density = 6.49725e+00
+atom density = None
+--------------------
+LongName = Zirconium-92
+ShortName = Zr-92
+ZZAAA = 40092
+comment = None
+atomic weight = 91.9050347
+isBasic = True
+mass density = 6.56868e+00
+atom density = None
+--------------------
+LongName = Zirconium-94
+ShortName = Zr-94
+ZZAAA = 40094
+comment = None
+atomic weight = 93.9063108
+isBasic = True
+mass density = 6.71171e+00
+atom density = None
+--------------------
+LongName = Zirconium-96
+ShortName = Zr-96
+ZZAAA = 40096
+comment = None
+atomic weight = 95.9082714
+isBasic = True
+mass density = 6.85480e+00
+atom density = None
+--------------------
+LongName = Zirconium
+ShortName = Zr
+ZZAAA = 40000
+comment = None
+atomic weight = 91.224
+isBasic = False
+mass density = 6.52000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+40090    None    0.5145
+40091    None    0.1122
+40092    None    0.1715
+40094    None    0.1738
+40096    None    0.028
+--------------------
+LongName = Niobium-93
+ShortName = Nb-93
+ZZAAA = 41093
+comment = None
+atomic weight = 92.906373
+isBasic = True
+mass density = 8.57000e+00
+atom density = None
+--------------------
+LongName = Niobium
+ShortName = Nb
+ZZAAA = 41000
+comment = None
+atomic weight = 92.90637
+isBasic = False
+mass density = 8.57000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+41093    None    1.0
+--------------------
+LongName = Molybdenum-92
+ShortName = Mo-92
+ZZAAA = 42092
+comment = None
+atomic weight = 91.90680796
+isBasic = True
+mass density = 9.84682e+00
+atom density = None
+--------------------
+LongName = Molybdenum-94
+ShortName = Mo-94
+ZZAAA = 42094
+comment = None
+atomic weight = 93.9050849
+isBasic = True
+mass density = 1.00609e+01
+atom density = None
+--------------------
+LongName = Molybdenum-95
+ShortName = Mo-95
+ZZAAA = 42095
+comment = None
+atomic weight = 94.90583877
+isBasic = True
+mass density = 1.01681e+01
+atom density = None
+--------------------
+LongName = Molybdenum-96
+ShortName = Mo-96
+ZZAAA = 42096
+comment = None
+atomic weight = 95.90467612
+isBasic = True
+mass density = 1.02751e+01
+atom density = None
+--------------------
+LongName = Molybdenum-97
+ShortName = Mo-97
+ZZAAA = 42097
+comment = None
+atomic weight = 96.90601812
+isBasic = True
+mass density = 1.03824e+01
+atom density = None
+--------------------
+LongName = Molybdenum-98
+ShortName = Mo-98
+ZZAAA = 42098
+comment = None
+atomic weight = 97.90540482
+isBasic = True
+mass density = 1.04895e+01
+atom density = None
+--------------------
+LongName = Molybdenum-100
+ShortName = Mo-100
+ZZAAA = 42100
+comment = None
+atomic weight = 99.9074718
+isBasic = True
+mass density = 1.07040e+01
+atom density = None
+--------------------
+LongName = Molybdenum
+ShortName = Mo
+ZZAAA = 42000
+comment = None
+atomic weight = 95.95
+isBasic = False
+mass density = 1.02800e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+42092    None    0.1453
+42094    None    0.0915
+42095    None    0.1584
+42096    None    0.1667
+42097    None    0.096
+42098    None    0.2439
+42100    None    0.0982
+--------------------
+LongName = Technetium-97
+ShortName = Tc-97
+ZZAAA = 43097
+comment = None
+atomic weight = 96.9063667
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Technetium-98
+ShortName = Tc-98
+ZZAAA = 43098
+comment = None
+atomic weight = 97.9072124
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Technetium-99
+ShortName = Tc-99
+ZZAAA = 43099
+comment = None
+atomic weight = 98.9062508
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Ruthenium-96
+ShortName = Ru-96
+ZZAAA = 44096
+comment = None
+atomic weight = 95.90759025
+isBasic = True
+mass density = 1.18141e+01
+atom density = None
+--------------------
+LongName = Ruthenium-98
+ShortName = Ru-98
+ZZAAA = 44098
+comment = None
+atomic weight = 97.9052868
+isBasic = True
+mass density = 1.20602e+01
+atom density = None
+--------------------
+LongName = Ruthenium-99
+ShortName = Ru-99
+ZZAAA = 44099
+comment = None
+atomic weight = 98.9059341
+isBasic = True
+mass density = 1.21834e+01
+atom density = None
+--------------------
+LongName = Ruthenium-100
+ShortName = Ru-100
+ZZAAA = 44100
+comment = None
+atomic weight = 99.9042143
+isBasic = True
+mass density = 1.23064e+01
+atom density = None
+--------------------
+LongName = Ruthenium-101
+ShortName = Ru-101
+ZZAAA = 44101
+comment = None
+atomic weight = 100.9055769
+isBasic = True
+mass density = 1.24297e+01
+atom density = None
+--------------------
+LongName = Ruthenium-102
+ShortName = Ru-102
+ZZAAA = 44102
+comment = None
+atomic weight = 101.9043441
+isBasic = True
+mass density = 1.25528e+01
+atom density = None
+--------------------
+LongName = Ruthenium-104
+ShortName = Ru-104
+ZZAAA = 44104
+comment = None
+atomic weight = 103.9054275
+isBasic = True
+mass density = 1.27993e+01
+atom density = None
+--------------------
+LongName = Ruthenium
+ShortName = Ru
+ZZAAA = 44000
+comment = None
+atomic weight = 101.07
+isBasic = False
+mass density = 1.24500e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+44096    None    0.0554
+44098    None    0.0187
+44099    None    0.1276
+44100    None    0.126
+44101    None    0.1706
+44102    None    0.3155
+44104    None    0.1862
+--------------------
+LongName = Rhodium-103
+ShortName = Rh-103
+ZZAAA = 45103
+comment = None
+atomic weight = 102.905498
+isBasic = True
+mass density = 1.24100e+01
+atom density = None
+--------------------
+LongName = Rhodium
+ShortName = Rh
+ZZAAA = 45000
+comment = None
+atomic weight = 102.9055
+isBasic = False
+mass density = 1.24100e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+45103    None    1.0
+--------------------
+LongName = Palladium-102
+ShortName = Pd-102
+ZZAAA = 46102
+comment = None
+atomic weight = 101.9056022
+isBasic = True
+mass density = 1.15130e+01
+atom density = None
+--------------------
+LongName = Palladium-104
+ShortName = Pd-104
+ZZAAA = 46104
+comment = None
+atomic weight = 103.9040305
+isBasic = True
+mass density = 1.17388e+01
+atom density = None
+--------------------
+LongName = Palladium-105
+ShortName = Pd-105
+ZZAAA = 46105
+comment = None
+atomic weight = 104.9050796
+isBasic = True
+mass density = 1.18518e+01
+atom density = None
+--------------------
+LongName = Palladium-106
+ShortName = Pd-106
+ZZAAA = 46106
+comment = None
+atomic weight = 105.9034804
+isBasic = True
+mass density = 1.19646e+01
+atom density = None
+--------------------
+LongName = Palladium-108
+ShortName = Pd-108
+ZZAAA = 46108
+comment = None
+atomic weight = 107.9038916
+isBasic = True
+mass density = 1.21906e+01
+atom density = None
+--------------------
+LongName = Palladium-110
+ShortName = Pd-110
+ZZAAA = 46110
+comment = None
+atomic weight = 109.9051722
+isBasic = True
+mass density = 1.24167e+01
+atom density = None
+--------------------
+LongName = Palladium
+ShortName = Pd
+ZZAAA = 46000
+comment = None
+atomic weight = 106.42
+isBasic = False
+mass density = 1.20230e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+46102    None    0.0102
+46104    None    0.1114
+46105    None    0.2233
+46106    None    0.2733
+46108    None    0.2646
+46110    None    0.1172
+--------------------
+LongName = Silver-107
+ShortName = Ag-107
+ZZAAA = 47107
+comment = None
+atomic weight = 106.9050916
+isBasic = True
+mass density = 1.03963e+01
+atom density = None
+--------------------
+LongName = Silver-109
+ShortName = Ag-109
+ZZAAA = 47109
+comment = None
+atomic weight = 108.9047553
+isBasic = True
+mass density = 1.05908e+01
+atom density = None
+--------------------
+LongName = Silver
+ShortName = Ag
+ZZAAA = 47000
+comment = None
+atomic weight = 107.8682
+isBasic = False
+mass density = 1.04900e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+47107    None    0.51839
+47109    None    0.48161
+--------------------
+LongName = Cadmium-106
+ShortName = Cd-106
+ZZAAA = 48106
+comment = None
+atomic weight = 105.9064599
+isBasic = True
+mass density = 8.14926e+00
+atom density = None
+--------------------
+LongName = Cadmium-108
+ShortName = Cd-108
+ZZAAA = 48108
+comment = None
+atomic weight = 107.9041834
+isBasic = True
+mass density = 8.30298e+00
+atom density = None
+--------------------
+LongName = Cadmium-110
+ShortName = Cd-110
+ZZAAA = 48110
+comment = None
+atomic weight = 109.90300661
+isBasic = True
+mass density = 8.45678e+00
+atom density = None
+--------------------
+LongName = Cadmium-111
+ShortName = Cd-111
+ZZAAA = 48111
+comment = None
+atomic weight = 110.90418287
+isBasic = True
+mass density = 8.53382e+00
+atom density = None
+--------------------
+LongName = Cadmium-112
+ShortName = Cd-112
+ZZAAA = 48112
+comment = None
+atomic weight = 111.90276287
+isBasic = True
+mass density = 8.61066e+00
+atom density = None
+--------------------
+LongName = Cadmium-113
+ShortName = Cd-113
+ZZAAA = 48113
+comment = None
+atomic weight = 112.90440813
+isBasic = True
+mass density = 8.68774e+00
+atom density = None
+--------------------
+LongName = Cadmium-114
+ShortName = Cd-114
+ZZAAA = 48114
+comment = None
+atomic weight = 113.90336509
+isBasic = True
+mass density = 8.76460e+00
+atom density = None
+--------------------
+LongName = Cadmium-116
+ShortName = Cd-116
+ZZAAA = 48116
+comment = None
+atomic weight = 115.90476315
+isBasic = True
+mass density = 8.91861e+00
+atom density = None
+--------------------
+LongName = Cadmium
+ShortName = Cd
+ZZAAA = 48000
+comment = None
+atomic weight = 112.414
+isBasic = False
+mass density = 8.65000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+48106    None    0.0125
+48108    None    0.0089
+48110    None    0.1249
+48111    None    0.128
+48112    None    0.2413
+48113    None    0.1222
+48114    None    0.2873
+48116    None    0.0749
+--------------------
+LongName = Indium-113
+ShortName = In-113
+ZZAAA = 49113
+comment = None
+atomic weight = 112.90406184
+isBasic = True
+mass density = 7.18815e+00
+atom density = None
+--------------------
+LongName = Indium-115
+ShortName = In-115
+ZZAAA = 49115
+comment = None
+atomic weight = 114.903878776
+isBasic = True
+mass density = 7.31547e+00
+atom density = None
+--------------------
+LongName = Indium
+ShortName = In
+ZZAAA = 49000
+comment = None
+atomic weight = 114.818
+isBasic = False
+mass density = 7.31000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+49113    None    0.0429
+49115    None    0.9571
+--------------------
+LongName = Tin-112
+ShortName = Sn-112
+ZZAAA = 50112
+comment = For density, see white or gray
+atomic weight = 111.90482387
+isBasic = True
+mass density = 6.84853e+00
+atom density = None
+--------------------
+LongName = Tin-114
+ShortName = Sn-114
+ZZAAA = 50114
+comment = For density, see white or gray
+atomic weight = 113.9027827
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin-115
+ShortName = Sn-115
+ZZAAA = 50115
+comment = For density, see white or gray
+atomic weight = 114.903344699
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin-116
+ShortName = Sn-116
+ZZAAA = 50116
+comment = For density, see white or gray
+atomic weight = 115.9017428
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin-117
+ShortName = Sn-117
+ZZAAA = 50117
+comment = For density, see white or gray
+atomic weight = 116.90295398
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin-118
+ShortName = Sn-118
+ZZAAA = 50118
+comment = For density, see white or gray
+atomic weight = 117.90160657
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin-119
+ShortName = Sn-119
+ZZAAA = 50119
+comment = For density, see white or gray
+atomic weight = 118.90331117
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin-120
+ShortName = Sn-120
+ZZAAA = 50120
+comment = For density, see white or gray
+atomic weight = 119.90220163
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin-122
+ShortName = Sn-122
+ZZAAA = 50122
+comment = For density, see white or gray
+atomic weight = 121.9034438
+isBasic = True
+mass density = 7.46044e+00
+atom density = None
+--------------------
+LongName = Tin-124
+ShortName = Sn-124
+ZZAAA = 50124
+comment = For density, see white or gray
+atomic weight = 123.9052766
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tin
+ShortName = Sn
+ZZAAA = 50000
+comment = None
+atomic weight = 118.71
+isBasic = False
+mass density = None
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+50112    None    0.0097
+50114    None    0.0066
+50115    None    0.0034
+50116    None    0.1454
+50117    None    0.0768
+50118    None    0.2422
+50119    None    0.0859
+50120    None    0.3258
+50122    None    0.0463
+50124    None    0.0579
+--------------------
+LongName = Tin_white
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 118.71
+isBasic = False
+mass density = 7.265
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+50112    None    0.0097
+50114    None    0.0066
+50115    None    0.0034
+50116    None    0.1454
+50117    None    0.0768
+50118    None    0.2422
+50119    None    0.0859
+50120    None    0.3258
+50122    None    0.0463
+50124    None    0.0579
+--------------------
+LongName = Tin_gray
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 118.71
+isBasic = False
+mass density = 5.769
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+50112    None    0.0097
+50114    None    0.0066
+50115    None    0.0034
+50116    None    0.1454
+50117    None    0.0768
+50118    None    0.2422
+50119    None    0.0859
+50120    None    0.3258
+50122    None    0.0463
+50124    None    0.0579
+--------------------
+LongName = Antimony-121
+ShortName = Sb-121
+ZZAAA = 51121
+comment = None
+atomic weight = 120.903812
+isBasic = True
+mass density = 6.64991e+00
+atom density = None
+--------------------
+LongName = Antimony-123
+ShortName = Sb-123
+ZZAAA = 51123
+comment = None
+atomic weight = 122.9042132
+isBasic = True
+mass density = 6.75993e+00
+atom density = None
+--------------------
+LongName = Antimony
+ShortName = Sb
+ZZAAA = 51000
+comment = None
+atomic weight = 121.76
+isBasic = False
+mass density = 6.69700e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+51121    None    0.5721
+51123    None    0.4279
+--------------------
+LongName = Tellurium-120
+ShortName = Te-120
+ZZAAA = 52120
+comment = None
+atomic weight = 119.9040593
+isBasic = True
+mass density = 5.86365e+00
+atom density = None
+--------------------
+LongName = Tellurium-122
+ShortName = Te-122
+ZZAAA = 52122
+comment = None
+atomic weight = 121.9030435
+isBasic = True
+mass density = 5.96140e+00
+atom density = None
+--------------------
+LongName = Tellurium-123
+ShortName = Te-123
+ZZAAA = 52123
+comment = None
+atomic weight = 122.9042698
+isBasic = True
+mass density = 6.01037e+00
+atom density = None
+--------------------
+LongName = Tellurium-124
+ShortName = Te-124
+ZZAAA = 52124
+comment = None
+atomic weight = 123.9028171
+isBasic = True
+mass density = 6.05920e+00
+atom density = None
+--------------------
+LongName = Tellurium-125
+ShortName = Te-125
+ZZAAA = 52125
+comment = None
+atomic weight = 124.9044299
+isBasic = True
+mass density = 6.10818e+00
+atom density = None
+--------------------
+LongName = Tellurium-126
+ShortName = Te-126
+ZZAAA = 52126
+comment = None
+atomic weight = 125.9033109
+isBasic = True
+mass density = 6.15703e+00
+atom density = None
+--------------------
+LongName = Tellurium-128
+ShortName = Te-128
+ZZAAA = 52128
+comment = None
+atomic weight = 127.90446128
+isBasic = True
+mass density = 6.25489e+00
+atom density = None
+--------------------
+LongName = Tellurium-130
+ShortName = Te-130
+ZZAAA = 52130
+comment = None
+atomic weight = 129.906222748
+isBasic = True
+mass density = 6.35278e+00
+atom density = None
+--------------------
+LongName = Tellurium
+ShortName = Te
+ZZAAA = 52000
+comment = None
+atomic weight = 127.6
+isBasic = False
+mass density = 6.24000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+52120    None    0.0009
+52122    None    0.0255
+52123    None    0.0089
+52124    None    0.0474
+52125    None    0.0707
+52126    None    0.1884
+52128    None    0.3174
+52130    None    0.3408
+--------------------
+LongName = Iodine-127
+ShortName = I-127
+ZZAAA = 53127
+comment = None
+atomic weight = 126.9044719
+isBasic = True
+mass density = 4.93300e+00
+atom density = None
+--------------------
+LongName = Iodine
+ShortName = I
+ZZAAA = 53000
+comment = None
+atomic weight = 126.90447
+isBasic = False
+mass density = 4.93300e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+53127    None    1.0
+--------------------
+LongName = Xenon-124
+ShortName = Xe-124
+ZZAAA = 54124
+comment = None
+atomic weight = 123.905892
+isBasic = True
+mass density = 5.56238e-03
+atom density = None
+--------------------
+LongName = Xenon-126
+ShortName = Xe-126
+ZZAAA = 54126
+comment = None
+atomic weight = 125.9042983
+isBasic = True
+mass density = 5.65209e-03
+atom density = None
+--------------------
+LongName = Xenon-128
+ShortName = Xe-128
+ZZAAA = 54128
+comment = None
+atomic weight = 127.903531
+isBasic = True
+mass density = 5.74184e-03
+atom density = None
+--------------------
+LongName = Xenon-129
+ShortName = Xe-129
+ZZAAA = 54129
+comment = None
+atomic weight = 128.9047808611
+isBasic = True
+mass density = 5.78679e-03
+atom density = None
+--------------------
+LongName = Xenon-130
+ShortName = Xe-130
+ZZAAA = 54130
+comment = None
+atomic weight = 129.903509349
+isBasic = True
+mass density = 5.83162e-03
+atom density = None
+--------------------
+LongName = Xenon-131
+ShortName = Xe-131
+ZZAAA = 54131
+comment = None
+atomic weight = 130.90508406
+isBasic = True
+mass density = 5.87659e-03
+atom density = None
+--------------------
+LongName = Xenon-132
+ShortName = Xe-132
+ZZAAA = 54132
+comment = None
+atomic weight = 131.9041550856
+isBasic = True
+mass density = 5.92144e-03
+atom density = None
+--------------------
+LongName = Xenon-134
+ShortName = Xe-134
+ZZAAA = 54134
+comment = None
+atomic weight = 133.90539466
+isBasic = True
+mass density = 6.01128e-03
+atom density = None
+--------------------
+LongName = Xenon-136
+ShortName = Xe-136
+ZZAAA = 54136
+comment = None
+atomic weight = 135.907214484
+isBasic = True
+mass density = 6.10114e-03
+atom density = None
+--------------------
+LongName = Xenon
+ShortName = Xe
+ZZAAA = 54000
+comment = None
+atomic weight = 131.293
+isBasic = False
+mass density = 5.89400e-03
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+54124    None    0.000952
+54126    None    0.00089
+54128    None    0.019102
+54129    None    0.264006
+54130    None    0.04071
+54131    None    0.212324
+54132    None    0.269086
+54134    None    0.104357
+54136    None    0.088573
+--------------------
+LongName = Cesium-133
+ShortName = Cs-133
+ZZAAA = 55133
+comment = None
+atomic weight = 132.905451961
+isBasic = True
+mass density = 1.93000e+00
+atom density = None
+--------------------
+LongName = Cesium
+ShortName = Cs
+ZZAAA = 55000
+comment = None
+atomic weight = 132.90545196
+isBasic = False
+mass density = 1.93000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+55133    None    1.0
+--------------------
+LongName = Barium-130
+ShortName = Ba-130
+ZZAAA = 56130
+comment = None
+atomic weight = 129.9063207
+isBasic = True
+mass density = 3.32033e+00
+atom density = None
+--------------------
+LongName = Barium-132
+ShortName = Ba-132
+ZZAAA = 56132
+comment = None
+atomic weight = 131.9050611
+isBasic = True
+mass density = 3.37142e+00
+atom density = None
+--------------------
+LongName = Barium-134
+ShortName = Ba-134
+ZZAAA = 56134
+comment = None
+atomic weight = 133.90450818
+isBasic = True
+mass density = 3.42252e+00
+atom density = None
+--------------------
+LongName = Barium-135
+ShortName = Ba-135
+ZZAAA = 56135
+comment = None
+atomic weight = 134.90568838
+isBasic = True
+mass density = 3.44811e+00
+atom density = None
+--------------------
+LongName = Barium-136
+ShortName = Ba-136
+ZZAAA = 56136
+comment = None
+atomic weight = 135.90457573
+isBasic = True
+mass density = 3.47364e+00
+atom density = None
+--------------------
+LongName = Barium-137
+ShortName = Ba-137
+ZZAAA = 56137
+comment = None
+atomic weight = 136.90582714
+isBasic = True
+mass density = 3.49924e+00
+atom density = None
+--------------------
+LongName = Barium-138
+ShortName = Ba-138
+ZZAAA = 56138
+comment = None
+atomic weight = 137.905247
+isBasic = True
+mass density = 3.52478e+00
+atom density = None
+--------------------
+LongName = Barium
+ShortName = Ba
+ZZAAA = 56000
+comment = None
+atomic weight = 137.327
+isBasic = False
+mass density = 3.51000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+56130    None    0.00106
+56132    None    0.00101
+56134    None    0.02417
+56135    None    0.06592
+56136    None    0.07854
+56137    None    0.11232
+56138    None    0.71698
+--------------------
+LongName = Lanthanum-138
+ShortName = La-138
+ZZAAA = 57138
+comment = None
+atomic weight = 137.9071149
+isBasic = True
+mass density = 6.11771e+00
+atom density = None
+--------------------
+LongName = Lanthanum-139
+ShortName = La-139
+ZZAAA = 57139
+comment = None
+atomic weight = 138.9063563
+isBasic = True
+mass density = 6.16204e+00
+atom density = None
+--------------------
+LongName = Lanthanum
+ShortName = La
+ZZAAA = 57000
+comment = None
+atomic weight = 138.90547
+isBasic = False
+mass density = 6.16200e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+57138    None    0.0008881
+57139    None    0.9991119
+--------------------
+LongName = Cerium-136
+ShortName = Ce-136
+ZZAAA = 58136
+comment = None
+atomic weight = 135.90712921
+isBasic = True
+mass density = 6.56664e+00
+atom density = None
+--------------------
+LongName = Cerium-138
+ShortName = Ce-138
+ZZAAA = 58138
+comment = None
+atomic weight = 137.905991
+isBasic = True
+mass density = 6.66322e+00
+atom density = None
+--------------------
+LongName = Cerium-140
+ShortName = Ce-140
+ZZAAA = 58140
+comment = None
+atomic weight = 139.9054431
+isBasic = True
+mass density = 6.75983e+00
+atom density = None
+--------------------
+LongName = Cerium-142
+ShortName = Ce-142
+ZZAAA = 58142
+comment = None
+atomic weight = 141.9092504
+isBasic = True
+mass density = 6.85664e+00
+atom density = None
+--------------------
+LongName = Cerium
+ShortName = Ce
+ZZAAA = 58000
+comment = None
+atomic weight = 140.116
+isBasic = False
+mass density = 6.77000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+58136    None    0.00185
+58138    None    0.00251
+58140    None    0.8845
+58142    None    0.11114
+--------------------
+LongName = Praseodymium-141
+ShortName = Pr-141
+ZZAAA = 59141
+comment = None
+atomic weight = 140.9076576
+isBasic = True
+mass density = 6.77000e+00
+atom density = None
+--------------------
+LongName = Praseodymium
+ShortName = Pr
+ZZAAA = 59000
+comment = None
+atomic weight = 140.90766
+isBasic = False
+mass density = 6.77000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+59141    None    1.0
+--------------------
+LongName = Neodymium-142
+ShortName = Nd-142
+ZZAAA = 60142
+comment = None
+atomic weight = 141.907729
+isBasic = True
+mass density = 6.89656e+00
+atom density = None
+--------------------
+LongName = Neodymium-143
+ShortName = Nd-143
+ZZAAA = 60143
+comment = None
+atomic weight = 142.90982
+isBasic = True
+mass density = 6.94526e+00
+atom density = None
+--------------------
+LongName = Neodymium-144
+ShortName = Nd-144
+ZZAAA = 60144
+comment = None
+atomic weight = 143.910093
+isBasic = True
+mass density = 6.99387e+00
+atom density = None
+--------------------
+LongName = Neodymium-145
+ShortName = Nd-145
+ZZAAA = 60145
+comment = None
+atomic weight = 144.9125793
+isBasic = True
+mass density = 7.04259e+00
+atom density = None
+--------------------
+LongName = Neodymium-146
+ShortName = Nd-146
+ZZAAA = 60146
+comment = None
+atomic weight = 145.9131226
+isBasic = True
+mass density = 7.09121e+00
+atom density = None
+--------------------
+LongName = Neodymium-148
+ShortName = Nd-148
+ZZAAA = 60148
+comment = None
+atomic weight = 147.9168993
+isBasic = True
+mass density = 7.18860e+00
+atom density = None
+--------------------
+LongName = Neodymium-150
+ShortName = Nd-150
+ZZAAA = 60150
+comment = None
+atomic weight = 149.9209022
+isBasic = True
+mass density = 7.28599e+00
+atom density = None
+--------------------
+LongName = Neodymium
+ShortName = Nd
+ZZAAA = 60000
+comment = None
+atomic weight = 144.242
+isBasic = False
+mass density = 7.01000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+60142    None    0.27152
+60143    None    0.12174
+60144    None    0.23798
+60145    None    0.08293
+60146    None    0.17189
+60148    None    0.05756
+60150    None    0.05638
+--------------------
+LongName = Promethium-145
+ShortName = Pm-145
+ZZAAA = 61145
+comment = None
+atomic weight = 144.9127559
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Promethium-147
+ShortName = Pm-147
+ZZAAA = 61147
+comment = None
+atomic weight = 146.915145
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Samarium-144
+ShortName = Sm-144
+ZZAAA = 62144
+comment = None
+atomic weight = 143.9120065
+isBasic = True
+mass density = 7.19751e+00
+atom density = None
+--------------------
+LongName = Samarium-147
+ShortName = Sm-147
+ZZAAA = 62147
+comment = None
+atomic weight = 146.9149044
+isBasic = True
+mass density = 7.34770e+00
+atom density = None
+--------------------
+LongName = Samarium-148
+ShortName = Sm-148
+ZZAAA = 62148
+comment = None
+atomic weight = 147.9148292
+isBasic = True
+mass density = 7.39771e+00
+atom density = None
+--------------------
+LongName = Samarium-149
+ShortName = Sm-149
+ZZAAA = 62149
+comment = None
+atomic weight = 148.9171921
+isBasic = True
+mass density = 7.44784e+00
+atom density = None
+--------------------
+LongName = Samarium-150
+ShortName = Sm-150
+ZZAAA = 62150
+comment = None
+atomic weight = 149.9172829
+isBasic = True
+mass density = 7.49786e+00
+atom density = None
+--------------------
+LongName = Samarium-152
+ShortName = Sm-152
+ZZAAA = 62152
+comment = None
+atomic weight = 151.9197397
+isBasic = True
+mass density = 7.59801e+00
+atom density = None
+--------------------
+LongName = Samarium-154
+ShortName = Sm-154
+ZZAAA = 62154
+comment = None
+atomic weight = 153.9222169
+isBasic = True
+mass density = 7.69816e+00
+atom density = None
+--------------------
+LongName = Samarium
+ShortName = Sm
+ZZAAA = 62000
+comment = None
+atomic weight = 150.36
+isBasic = False
+mass density = 7.52000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+62144    None    0.0307
+62147    None    0.1499
+62148    None    0.1124
+62149    None    0.1382
+62150    None    0.0738
+62152    None    0.2675
+62154    None    0.2275
+--------------------
+LongName = Europium-151
+ShortName = Eu-151
+ZZAAA = 63151
+comment = None
+atomic weight = 150.9198578
+isBasic = True
+mass density = 5.20797e+00
+atom density = None
+--------------------
+LongName = Europium-153
+ShortName = Eu-153
+ZZAAA = 63153
+comment = None
+atomic weight = 152.921238
+isBasic = True
+mass density = 5.27703e+00
+atom density = None
+--------------------
+LongName = Europium
+ShortName = Eu
+ZZAAA = 63000
+comment = None
+atomic weight = 151.964
+isBasic = False
+mass density = 5.24400e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+63151    None    0.4781
+63153    None    0.5219
+--------------------
+LongName = Gadolinium-152
+ShortName = Gd-152
+ZZAAA = 64152
+comment = None
+atomic weight = 151.9197995
+isBasic = True
+mass density = 7.63222e+00
+atom density = None
+--------------------
+LongName = Gadolinium-154
+ShortName = Gd-154
+ZZAAA = 64154
+comment = None
+atomic weight = 153.9208741
+isBasic = True
+mass density = 7.73275e+00
+atom density = None
+--------------------
+LongName = Gadolinium-155
+ShortName = Gd-155
+ZZAAA = 64155
+comment = None
+atomic weight = 154.9226305
+isBasic = True
+mass density = 7.78308e+00
+atom density = None
+--------------------
+LongName = Gadolinium-156
+ShortName = Gd-156
+ZZAAA = 64156
+comment = None
+atomic weight = 155.9221312
+isBasic = True
+mass density = 7.83329e+00
+atom density = None
+--------------------
+LongName = Gadolinium-157
+ShortName = Gd-157
+ZZAAA = 64157
+comment = None
+atomic weight = 156.9239686
+isBasic = True
+mass density = 7.88362e+00
+atom density = None
+--------------------
+LongName = Gadolinium-158
+ShortName = Gd-158
+ZZAAA = 64158
+comment = None
+atomic weight = 157.9241123
+isBasic = True
+mass density = 7.93387e+00
+atom density = None
+--------------------
+LongName = Gadolinium-160
+ShortName = Gd-160
+ZZAAA = 64160
+comment = None
+atomic weight = 159.9270624
+isBasic = True
+mass density = 8.03449e+00
+atom density = None
+--------------------
+LongName = Gadolinium
+ShortName = Gd
+ZZAAA = 64000
+comment = None
+atomic weight = 157.25
+isBasic = False
+mass density = 7.90000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+64152    None    0.002
+64154    None    0.0218
+64155    None    0.148
+64156    None    0.2047
+64157    None    0.1565
+64158    None    0.2484
+64160    None    0.2186
+--------------------
+LongName = Terbium-159
+ShortName = Tb-159
+ZZAAA = 65159
+comment = None
+atomic weight = 158.9253547
+isBasic = True
+mass density = 8.23000e+00
+atom density = None
+--------------------
+LongName = Terbium
+ShortName = Tb
+ZZAAA = 65000
+comment = None
+atomic weight = 158.92535
+isBasic = False
+mass density = 8.23000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+65159    None    1.0
+--------------------
+LongName = Dysprosium-156
+ShortName = Dy-156
+ZZAAA = 66156
+comment = None
+atomic weight = 155.9242847
+isBasic = True
+mass density = 8.19442e+00
+atom density = None
+--------------------
+LongName = Dysprosium-158
+ShortName = Dy-158
+ZZAAA = 66158
+comment = None
+atomic weight = 157.9244159
+isBasic = True
+mass density = 8.29954e+00
+atom density = None
+--------------------
+LongName = Dysprosium-160
+ShortName = Dy-160
+ZZAAA = 66160
+comment = None
+atomic weight = 159.9252046
+isBasic = True
+mass density = 8.40468e+00
+atom density = None
+--------------------
+LongName = Dysprosium-161
+ShortName = Dy-161
+ZZAAA = 66161
+comment = None
+atomic weight = 160.9269405
+isBasic = True
+mass density = 8.45733e+00
+atom density = None
+--------------------
+LongName = Dysprosium-162
+ShortName = Dy-162
+ZZAAA = 66162
+comment = None
+atomic weight = 161.9268056
+isBasic = True
+mass density = 8.50988e+00
+atom density = None
+--------------------
+LongName = Dysprosium-163
+ShortName = Dy-163
+ZZAAA = 66163
+comment = None
+atomic weight = 162.9287383
+isBasic = True
+mass density = 8.56253e+00
+atom density = None
+--------------------
+LongName = Dysprosium-164
+ShortName = Dy-164
+ZZAAA = 66164
+comment = None
+atomic weight = 163.9291819
+isBasic = True
+mass density = 8.61511e+00
+atom density = None
+--------------------
+LongName = Dysprosium
+ShortName = Dy
+ZZAAA = 66000
+comment = None
+atomic weight = 162.5
+isBasic = False
+mass density = 8.54000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+66156    None    0.00056
+66158    None    0.00095
+66160    None    0.02329
+66161    None    0.18889
+66162    None    0.25475
+66163    None    0.24896
+66164    None    0.2826
+--------------------
+LongName = Holmium-165
+ShortName = Ho-165
+ZZAAA = 67165
+comment = None
+atomic weight = 164.9303288
+isBasic = True
+mass density = 8.79000e+00
+atom density = None
+--------------------
+LongName = Holmium
+ShortName = Ho
+ZZAAA = 67000
+comment = None
+atomic weight = 164.93033
+isBasic = False
+mass density = 8.79000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+67165    None    1.0
+--------------------
+LongName = Erbium-162
+ShortName = Er-162
+ZZAAA = 68162
+comment = None
+atomic weight = 161.9287884
+isBasic = True
+mass density = 8.77708e+00
+atom density = None
+--------------------
+LongName = Erbium-164
+ShortName = Er-164
+ZZAAA = 68164
+comment = None
+atomic weight = 163.9292088
+isBasic = True
+mass density = 8.88551e+00
+atom density = None
+--------------------
+LongName = Erbium-166
+ShortName = Er-166
+ZZAAA = 68166
+comment = None
+atomic weight = 165.9302995
+isBasic = True
+mass density = 8.99398e+00
+atom density = None
+--------------------
+LongName = Erbium-167
+ShortName = Er-167
+ZZAAA = 68167
+comment = None
+atomic weight = 166.9320546
+isBasic = True
+mass density = 9.04828e+00
+atom density = None
+--------------------
+LongName = Erbium-168
+ShortName = Er-168
+ZZAAA = 68168
+comment = None
+atomic weight = 167.9323767
+isBasic = True
+mass density = 9.10250e+00
+atom density = None
+--------------------
+LongName = Erbium-170
+ShortName = Er-170
+ZZAAA = 68170
+comment = None
+atomic weight = 169.9354702
+isBasic = True
+mass density = 9.21107e+00
+atom density = None
+--------------------
+LongName = Erbium
+ShortName = Er
+ZZAAA = 68000
+comment = None
+atomic weight = 167.259
+isBasic = False
+mass density = 9.06600e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+68162    None    0.00139
+68164    None    0.01601
+68166    None    0.33503
+68167    None    0.22869
+68168    None    0.26978
+68170    None    0.1491
+--------------------
+LongName = Thulium-169
+ShortName = Tm-169
+ZZAAA = 69169
+comment = None
+atomic weight = 168.9342179
+isBasic = True
+mass density = 9.32000e+00
+atom density = None
+--------------------
+LongName = Thulium
+ShortName = Tm
+ZZAAA = 69000
+comment = None
+atomic weight = 168.93422
+isBasic = False
+mass density = 9.32000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+69169    None    1.0
+--------------------
+LongName = Ytterbium-168
+ShortName = Yb-168
+ZZAAA = 70168
+comment = None
+atomic weight = 167.9338896
+isBasic = True
+mass density = 6.69585e+00
+atom density = None
+--------------------
+LongName = Ytterbium-170
+ShortName = Yb-170
+ZZAAA = 70170
+comment = None
+atomic weight = 169.9347664
+isBasic = True
+mass density = 6.77563e+00
+atom density = None
+--------------------
+LongName = Ytterbium-171
+ShortName = Yb-171
+ZZAAA = 70171
+comment = None
+atomic weight = 170.9363302
+isBasic = True
+mass density = 6.81556e+00
+atom density = None
+--------------------
+LongName = Ytterbium-172
+ShortName = Yb-172
+ZZAAA = 70172
+comment = None
+atomic weight = 171.9363859
+isBasic = True
+mass density = 6.85544e+00
+atom density = None
+--------------------
+LongName = Ytterbium-173
+ShortName = Yb-173
+ZZAAA = 70173
+comment = None
+atomic weight = 172.9382151
+isBasic = True
+mass density = 6.89538e+00
+atom density = None
+--------------------
+LongName = Ytterbium-174
+ShortName = Yb-174
+ZZAAA = 70174
+comment = None
+atomic weight = 173.9388664
+isBasic = True
+mass density = 6.93528e+00
+atom density = None
+--------------------
+LongName = Ytterbium-176
+ShortName = Yb-176
+ZZAAA = 70176
+comment = None
+atomic weight = 175.9425764
+isBasic = True
+mass density = 7.01517e+00
+atom density = None
+--------------------
+LongName = Ytterbium
+ShortName = Yb
+ZZAAA = 70000
+comment = None
+atomic weight = 173.054
+isBasic = False
+mass density = 6.90000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+70168    None    0.00123
+70170    None    0.02982
+70171    None    0.1409
+70172    None    0.2168
+70173    None    0.16103
+70174    None    0.32026
+70176    None    0.12996
+--------------------
+LongName = Lutetium-175
+ShortName = Lu-175
+ZZAAA = 71175
+comment = None
+atomic weight = 174.9407752
+isBasic = True
+mass density = 9.83954e+00
+atom density = None
+--------------------
+LongName = Lutetium-176
+ShortName = Lu-176
+ZZAAA = 71176
+comment = None
+atomic weight = 175.9426897
+isBasic = True
+mass density = 9.89589e+00
+atom density = None
+--------------------
+LongName = Lutetium
+ShortName = Lu
+ZZAAA = 71000
+comment = None
+atomic weight = 174.9668
+isBasic = False
+mass density = 9.84100e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+71175    None    0.97401
+71176    None    0.02599
+--------------------
+LongName = Hafnium-174
+ShortName = Hf-174
+ZZAAA = 72174
+comment = None
+atomic weight = 173.9400461
+isBasic = True
+mass density = 1.29707e+01
+atom density = None
+--------------------
+LongName = Hafnium-176
+ShortName = Hf-176
+ZZAAA = 72176
+comment = None
+atomic weight = 175.9414076
+isBasic = True
+mass density = 1.31200e+01
+atom density = None
+--------------------
+LongName = Hafnium-177
+ShortName = Hf-177
+ZZAAA = 72177
+comment = None
+atomic weight = 176.9432277
+isBasic = True
+mass density = 1.31947e+01
+atom density = None
+--------------------
+LongName = Hafnium-178
+ShortName = Hf-178
+ZZAAA = 72178
+comment = None
+atomic weight = 177.9437058
+isBasic = True
+mass density = 1.32693e+01
+atom density = None
+--------------------
+LongName = Hafnium-179
+ShortName = Hf-179
+ZZAAA = 72179
+comment = None
+atomic weight = 178.9458232
+isBasic = True
+mass density = 1.33440e+01
+atom density = None
+--------------------
+LongName = Hafnium-180
+ShortName = Hf-180
+ZZAAA = 72180
+comment = None
+atomic weight = 179.946557
+isBasic = True
+mass density = 1.34186e+01
+atom density = None
+--------------------
+LongName = Hafnium
+ShortName = Hf
+ZZAAA = 72000
+comment = None
+atomic weight = 178.49
+isBasic = False
+mass density = 1.33100e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+72174    None    0.0016
+72176    None    0.0526
+72177    None    0.186
+72178    None    0.2728
+72179    None    0.1362
+72180    None    0.3508
+--------------------
+LongName = Tantalum-180
+ShortName = Ta-180
+ZZAAA = 73180
+comment = None
+atomic weight = 179.9474648
+isBasic = True
+mass density = 1.65977e+01
+atom density = None
+--------------------
+LongName = Tantalum-181
+ShortName = Ta-181
+ZZAAA = 73181
+comment = None
+atomic weight = 180.9479958
+isBasic = True
+mass density = 1.66900e+01
+atom density = None
+--------------------
+LongName = Tantalum
+ShortName = Ta
+ZZAAA = 73000
+comment = None
+atomic weight = 180.94788
+isBasic = False
+mass density = 1.66900e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+73180    None    0.0001201
+73181    None    0.9998799
+--------------------
+LongName = Tungsten-180
+ShortName = W-180
+ZZAAA = 74180
+comment = None
+atomic weight = 179.9467108
+isBasic = True
+mass density = 1.88423e+01
+atom density = None
+--------------------
+LongName = Tungsten-182
+ShortName = W-182
+ZZAAA = 74182
+comment = None
+atomic weight = 181.94820394
+isBasic = True
+mass density = 1.90519e+01
+atom density = None
+--------------------
+LongName = Tungsten-183
+ShortName = W-183
+ZZAAA = 74183
+comment = None
+atomic weight = 182.95022275
+isBasic = True
+mass density = 1.91568e+01
+atom density = None
+--------------------
+LongName = Tungsten-184
+ShortName = W-184
+ZZAAA = 74184
+comment = None
+atomic weight = 183.95093092
+isBasic = True
+mass density = 1.92616e+01
+atom density = None
+--------------------
+LongName = Tungsten-186
+ShortName = W-186
+ZZAAA = 74186
+comment = None
+atomic weight = 185.9543628
+isBasic = True
+mass density = 1.94714e+01
+atom density = None
+--------------------
+LongName = Tungsten
+ShortName = W
+ZZAAA = 74000
+comment = None
+atomic weight = 183.84
+isBasic = False
+mass density = 1.92500e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+74180    None    0.0012
+74182    None    0.265
+74183    None    0.1431
+74184    None    0.3064
+74186    None    0.2843
+--------------------
+LongName = Rhenium-185
+ShortName = Re-185
+ZZAAA = 75185
+comment = None
+atomic weight = 184.9529545
+isBasic = True
+mass density = 2.08784e+01
+atom density = None
+--------------------
+LongName = Rhenium-187
+ShortName = Re-187
+ZZAAA = 75187
+comment = None
+atomic weight = 186.9557501
+isBasic = True
+mass density = 2.11045e+01
+atom density = None
+--------------------
+LongName = Rhenium
+ShortName = Re
+ZZAAA = 75000
+comment = None
+atomic weight = 186.207
+isBasic = False
+mass density = 2.10200e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+75185    None    0.374
+75187    None    0.626
+--------------------
+LongName = Osmium-184
+ShortName = Os-184
+ZZAAA = 76184
+comment = None
+atomic weight = 183.9524885
+isBasic = True
+mass density = 2.18445e+01
+atom density = None
+--------------------
+LongName = Osmium-186
+ShortName = Os-186
+ZZAAA = 76186
+comment = None
+atomic weight = 185.953835
+isBasic = True
+mass density = 2.20822e+01
+atom density = None
+--------------------
+LongName = Osmium-187
+ShortName = Os-187
+ZZAAA = 76187
+comment = None
+atomic weight = 186.9557474
+isBasic = True
+mass density = 2.22012e+01
+atom density = None
+--------------------
+LongName = Osmium-188
+ShortName = Os-188
+ZZAAA = 76188
+comment = None
+atomic weight = 187.9558352
+isBasic = True
+mass density = 2.23199e+01
+atom density = None
+--------------------
+LongName = Osmium-189
+ShortName = Os-189
+ZZAAA = 76189
+comment = None
+atomic weight = 188.9581442
+isBasic = True
+mass density = 2.24390e+01
+atom density = None
+--------------------
+LongName = Osmium-190
+ShortName = Os-190
+ZZAAA = 76190
+comment = None
+atomic weight = 189.9584437
+isBasic = True
+mass density = 2.25578e+01
+atom density = None
+--------------------
+LongName = Osmium-192
+ShortName = Os-192
+ZZAAA = 76192
+comment = None
+atomic weight = 191.961477
+isBasic = True
+mass density = 2.27956e+01
+atom density = None
+--------------------
+LongName = Osmium
+ShortName = Os
+ZZAAA = 76000
+comment = None
+atomic weight = 190.23
+isBasic = False
+mass density = 2.25900e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+76184    None    0.0002
+76186    None    0.0159
+76187    None    0.0196
+76188    None    0.1324
+76189    None    0.1615
+76190    None    0.2626
+76192    None    0.4078
+--------------------
+LongName = Iridium-191
+ShortName = Ir-191
+ZZAAA = 77191
+comment = None
+atomic weight = 190.9605893
+isBasic = True
+mass density = 2.24125e+01
+atom density = None
+--------------------
+LongName = Iridium-193
+ShortName = Ir-193
+ZZAAA = 77193
+comment = None
+atomic weight = 192.9629216
+isBasic = True
+mass density = 2.26475e+01
+atom density = None
+--------------------
+LongName = Iridium
+ShortName = Ir
+ZZAAA = 77000
+comment = None
+atomic weight = 192.217
+isBasic = False
+mass density = 2.25600e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+77191    None    0.373
+77193    None    0.627
+--------------------
+LongName = Platinum-190
+ShortName = Pt-190
+ZZAAA = 78190
+comment = None
+atomic weight = 189.9599297
+isBasic = True
+mass density = 2.08866e+01
+atom density = None
+--------------------
+LongName = Platinum-192
+ShortName = Pt-192
+ZZAAA = 78192
+comment = None
+atomic weight = 191.9610387
+isBasic = True
+mass density = 2.11066e+01
+atom density = None
+--------------------
+LongName = Platinum-194
+ShortName = Pt-194
+ZZAAA = 78194
+comment = None
+atomic weight = 193.9626809
+isBasic = True
+mass density = 2.13267e+01
+atom density = None
+--------------------
+LongName = Platinum-195
+ShortName = Pt-195
+ZZAAA = 78195
+comment = None
+atomic weight = 194.9647917
+isBasic = True
+mass density = 2.14369e+01
+atom density = None
+--------------------
+LongName = Platinum-196
+ShortName = Pt-196
+ZZAAA = 78196
+comment = None
+atomic weight = 195.96495209
+isBasic = True
+mass density = 2.15469e+01
+atom density = None
+--------------------
+LongName = Platinum-198
+ShortName = Pt-198
+ZZAAA = 78198
+comment = None
+atomic weight = 197.9678949
+isBasic = True
+mass density = 2.17671e+01
+atom density = None
+--------------------
+LongName = Platinum
+ShortName = Pt
+ZZAAA = 78000
+comment = None
+atomic weight = 195.084
+isBasic = False
+mass density = 2.14500e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+78190    None    0.00012
+78192    None    0.00782
+78194    None    0.3286
+78195    None    0.3378
+78196    None    0.2521
+78198    None    0.07356
+--------------------
+LongName = Gold-197
+ShortName = Au-197
+ZZAAA = 79197
+comment = None
+atomic weight = 196.96656879
+isBasic = True
+mass density = 1.93000e+01
+atom density = None
+--------------------
+LongName = Gold
+ShortName = Au
+ZZAAA = 79000
+comment = None
+atomic weight = 196.966569
+isBasic = False
+mass density = 1.93000e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+79197    None    1.0
+--------------------
+LongName = Mercury-196
+ShortName = Hg-196
+ZZAAA = 80196
+comment = None
+atomic weight = 195.9658326
+isBasic = True
+mass density = 1.32219e+01
+atom density = None
+--------------------
+LongName = Mercury-198
+ShortName = Hg-198
+ZZAAA = 80198
+comment = None
+atomic weight = 197.9667686
+isBasic = True
+mass density = 1.33569e+01
+atom density = None
+--------------------
+LongName = Mercury-199
+ShortName = Hg-199
+ZZAAA = 80199
+comment = None
+atomic weight = 198.96828064
+isBasic = True
+mass density = 1.34244e+01
+atom density = None
+--------------------
+LongName = Mercury-200
+ShortName = Hg-200
+ZZAAA = 80200
+comment = None
+atomic weight = 199.96832659
+isBasic = True
+mass density = 1.34919e+01
+atom density = None
+--------------------
+LongName = Mercury-201
+ShortName = Hg-201
+ZZAAA = 80201
+comment = None
+atomic weight = 200.97030284
+isBasic = True
+mass density = 1.35595e+01
+atom density = None
+--------------------
+LongName = Mercury-202
+ShortName = Hg-202
+ZZAAA = 80202
+comment = None
+atomic weight = 201.9706434
+isBasic = True
+mass density = 1.36270e+01
+atom density = None
+--------------------
+LongName = Mercury-204
+ShortName = Hg-204
+ZZAAA = 80204
+comment = None
+atomic weight = 203.97349398
+isBasic = True
+mass density = 1.37622e+01
+atom density = None
+--------------------
+LongName = Mercury
+ShortName = Hg
+ZZAAA = 80000
+comment = Liquid
+atomic weight = 200.592
+isBasic = False
+mass density = 1.35340e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+80196    None    0.0015
+80198    None    0.0997
+80199    None    0.1687
+80200    None    0.231
+80201    None    0.1318
+80202    None    0.2986
+80204    None    0.0687
+--------------------
+LongName = Thallium-203
+ShortName = Tl-203
+ZZAAA = 81203
+comment = None
+atomic weight = 202.9723446
+isBasic = True
+mass density = 1.17682e+01
+atom density = None
+--------------------
+LongName = Thallium-205
+ShortName = Tl-205
+ZZAAA = 81205
+comment = None
+atomic weight = 204.9744278
+isBasic = True
+mass density = 1.18843e+01
+atom density = None
+--------------------
+LongName = Thallium
+ShortName = Tl
+ZZAAA = 81000
+comment = None
+atomic weight = 204.3835
+isBasic = False
+mass density = 1.18500e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+81203    None    0.2952
+81205    None    0.7048
+--------------------
+LongName = Lead-204
+ShortName = Pb-204
+ZZAAA = 82204
+comment = None
+atomic weight = 203.973044
+isBasic = True
+mass density = 1.11634e+01
+atom density = None
+--------------------
+LongName = Lead-206
+ShortName = Pb-206
+ZZAAA = 82206
+comment = None
+atomic weight = 205.9744657
+isBasic = True
+mass density = 1.12729e+01
+atom density = None
+--------------------
+LongName = Lead-207
+ShortName = Pb-207
+ZZAAA = 82207
+comment = None
+atomic weight = 206.9758973
+isBasic = True
+mass density = 1.13277e+01
+atom density = None
+--------------------
+LongName = Lead-208
+ShortName = Pb-208
+ZZAAA = 82208
+comment = None
+atomic weight = 207.9766525
+isBasic = True
+mass density = 1.13825e+01
+atom density = None
+--------------------
+LongName = Lead
+ShortName = Pb
+ZZAAA = 82000
+comment = None
+atomic weight = 207.2
+isBasic = False
+mass density = 1.13400e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+82204    None    0.014
+82206    None    0.241
+82207    None    0.221
+82208    None    0.524
+--------------------
+LongName = Bismuth-209
+ShortName = Bi-209
+ZZAAA = 83209
+comment = None
+atomic weight = 208.9803991
+isBasic = True
+mass density = 9.78000e+00
+atom density = None
+--------------------
+LongName = Bismuth
+ShortName = Bi
+ZZAAA = 83000
+comment = None
+atomic weight = 208.9804
+isBasic = False
+mass density = 9.78000e+00
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+83209    None    1.0
+--------------------
+LongName = Polonium-209
+ShortName = Po-209
+ZZAAA = 84209
+comment = None
+atomic weight = 208.9824308
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Polonium-210
+ShortName = Po-210
+ZZAAA = 84210
+comment = None
+atomic weight = 209.9828741
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Astatine-210
+ShortName = At-210
+ZZAAA = 85210
+comment = None
+atomic weight = 209.9871479
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Astatine-211
+ShortName = At-211
+ZZAAA = 85211
+comment = None
+atomic weight = 210.9874966
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Radon-211
+ShortName = Rn-211
+ZZAAA = 86211
+comment = None
+atomic weight = 210.9906011
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Radon-220
+ShortName = Rn-220
+ZZAAA = 86220
+comment = None
+atomic weight = 220.0113941
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Radon-222
+ShortName = Rn-222
+ZZAAA = 86222
+comment = None
+atomic weight = 222.0175782
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Francium-223
+ShortName = Fr-223
+ZZAAA = 87223
+comment = None
+atomic weight = 223.019736
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Radium-223
+ShortName = Ra-223
+ZZAAA = 88223
+comment = None
+atomic weight = 223.0185023
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Radium-224
+ShortName = Ra-224
+ZZAAA = 88224
+comment = None
+atomic weight = 224.020212
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Radium-224
+ShortName = Ra-226
+ZZAAA = 88226
+comment = None
+atomic weight = 226.0254103
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Radium-228
+ShortName = Ra-228
+ZZAAA = 88228
+comment = None
+atomic weight = 228.0310707
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Actinium-227
+ShortName = Ac-227
+ZZAAA = 89227
+comment = None
+atomic weight = 227.0277523
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Thorium-230
+ShortName = Th-230
+ZZAAA = 90230
+comment = None
+atomic weight = 230.0331341
+isBasic = True
+mass density = 1.15989e+01
+atom density = None
+--------------------
+LongName = Thorium-232
+ShortName = Th-232
+ZZAAA = 90232
+comment = None
+atomic weight = 232.0380558
+isBasic = True
+mass density = 1.17000e+01
+atom density = None
+--------------------
+LongName = Thorium
+ShortName = Th
+ZZAAA = 90000
+comment = None
+atomic weight = 232.0377
+isBasic = False
+mass density = 1.17000e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+90232    1.0    1.0
+--------------------
+LongName = Protactinium-231
+ShortName = Pa-231
+ZZAAA = 91231
+comment = None
+atomic weight = 231.0358842
+isBasic = True
+mass density = 1.53700e+01
+atom density = None
+--------------------
+LongName = Protactinium
+ShortName = Pa
+ZZAAA = 91000
+comment = None
+atomic weight = 231.03588
+isBasic = False
+mass density = 1.53700e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+91231    None    1.0
+--------------------
+LongName = Uranium-233
+ShortName = U-233
+ZZAAA = 92233
+comment = None
+atomic weight = 233.0396355
+isBasic = True
+mass density = 1.86996e+01
+atom density = None
+--------------------
+LongName = Uranium-234
+ShortName = U-234
+ZZAAA = 92234
+comment = None
+atomic weight = 234.0409523
+isBasic = True
+mass density = 1.87800e+01
+atom density = None
+--------------------
+LongName = Uranium-235
+ShortName = U-235
+ZZAAA = 92235
+comment = None
+atomic weight = 235.0439301
+isBasic = True
+mass density = 1.88605e+01
+atom density = None
+--------------------
+LongName = Uranium-236
+ShortName = U-236
+ZZAAA = 92236
+comment = None
+atomic weight = 236.0455682
+isBasic = True
+mass density = 1.89409e+01
+atom density = None
+--------------------
+LongName = Uranium-238
+ShortName = U-238
+ZZAAA = 92238
+comment = None
+atomic weight = 238.0507884
+isBasic = True
+mass density = 1.91018e+01
+atom density = None
+--------------------
+LongName = Uranium
+ShortName = U
+ZZAAA = 92000
+comment = None
+atomic weight = 238.02891
+isBasic = False
+mass density = 1.91000e+01
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+92234    None    5.4e-05
+92235    None    0.007204
+92238    None    0.992742
+--------------------
+LongName = Neptunium-236
+ShortName = Np-236
+ZZAAA = 93236
+comment = None
+atomic weight = 236.04657
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Neptunium-237
+ShortName = Np-237
+ZZAAA = 93237
+comment = None
+atomic weight = 237.0481736
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Plutonium-238
+ShortName = Pu-238
+ZZAAA = 94238
+comment = None
+atomic weight = 238.0495601
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Plutonium-239
+ShortName = Pu-239
+ZZAAA = 94239
+comment = None
+atomic weight = 239.0521636
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Plutonium-240
+ShortName = Pu-240
+ZZAAA = 94240
+comment = None
+atomic weight = 240.0538138
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Plutonium-241
+ShortName = Pu-241
+ZZAAA = 94241
+comment = None
+atomic weight = 241.0568517
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Plutonium-242
+ShortName = Pu-242
+ZZAAA = 94242
+comment = None
+atomic weight = 242.0587428
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Plutonium-244
+ShortName = Pu-244
+ZZAAA = 94244
+comment = None
+atomic weight = 244.0642053
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Americium-241
+ShortName = Am-241
+ZZAAA = 95241
+comment = None
+atomic weight = 241.0568293
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Americium-243
+ShortName = Am-243
+ZZAAA = 95243
+comment = None
+atomic weight = 243.0613813
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Curium-243
+ShortName = Cm-243
+ZZAAA = 96243
+comment = None
+atomic weight = 243.0613893
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Curium-244
+ShortName = Cm-244
+ZZAAA = 96244
+comment = None
+atomic weight = 244.0627528
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Curium-245
+ShortName = Cm-245
+ZZAAA = 96245
+comment = None
+atomic weight = 245.0654915
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Curium-246
+ShortName = Cm-246
+ZZAAA = 96246
+comment = None
+atomic weight = 246.0672238
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Curium-247
+ShortName = Cm-247
+ZZAAA = 96247
+comment = None
+atomic weight = 247.0703541
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Curium-248
+ShortName = Cm-248
+ZZAAA = 96248
+comment = None
+atomic weight = 248.0723499
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Berkelium-247
+ShortName = Bk-247
+ZZAAA = 97247
+comment = None
+atomic weight = 247.0703073
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Berkelium-249
+ShortName = Bk-249
+ZZAAA = 97249
+comment = None
+atomic weight = 249.0749877
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Californium-249
+ShortName = Cf-249
+ZZAAA = 98249
+comment = None
+atomic weight = 249.0748539
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Californium-250
+ShortName = Cf-250
+ZZAAA = 98250
+comment = None
+atomic weight = 250.0764062
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Californium-251
+ShortName = Cf-251
+ZZAAA = 98251
+comment = None
+atomic weight = 251.0795886
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Californium-252
+ShortName = Cf-252
+ZZAAA = 98252
+comment = None
+atomic weight = 252.0816272
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Einsteinium-252
+ShortName = Es-252
+ZZAAA = 99252
+comment = None
+atomic weight = 252.08298
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Fermium-257
+ShortName = Fm-257
+ZZAAA = 100257
+comment = None
+atomic weight = 257.0951061
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Mendelevium-258
+ShortName = Md-258
+ZZAAA = 101258
+comment = None
+atomic weight = 258.0984315
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Mendelevium-226
+ShortName = Md-260
+ZZAAA = 101260
+comment = None
+atomic weight = 260.10365
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Nobelium-259
+ShortName = No-259
+ZZAAA = 102259
+comment = None
+atomic weight = 259.10103
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName =  Lawrencium-262
+ShortName = Lr-262
+ZZAAA = 103262
+comment = None
+atomic weight = 262.10961
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Rutherfordium-267
+ShortName = Rf-267
+ZZAAA = 104267
+comment = None
+atomic weight = 267.12179
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Dubnium-268
+ShortName = Db-268
+ZZAAA = 105268
+comment = None
+atomic weight = 268.12567
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Seaborgium-271
+ShortName = Sg-271
+ZZAAA = 106271
+comment = None
+atomic weight = 271.13393
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Bohrium-272
+ShortName = Bh-272
+ZZAAA = 107272
+comment = None
+atomic weight = 272.13826
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Hassium-270
+ShortName = Hs-270
+ZZAAA = 108270
+comment = None
+atomic weight = 270.13429
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Meitnerium-276
+ShortName = Mt-276
+ZZAAA = 109276
+comment = None
+atomic weight = 276.15159
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Darmstadtium-281
+ShortName = Ds-281
+ZZAAA = 110281
+comment = None
+atomic weight = 281.16451
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Roentgenium-280
+ShortName = Rg-280
+ZZAAA = 111280
+comment = None
+atomic weight = 280.16514
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Copernicium-285
+ShortName = Cn-285
+ZZAAA = 112285
+comment = None
+atomic weight = 285.17712
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Nihonium-284
+ShortName = Nh-284
+ZZAAA = 113284
+comment = None
+atomic weight = 284.17873
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Flerovium-289
+ShortName = Fl-289
+ZZAAA = 114289
+comment = None
+atomic weight = 289.19042
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Moscovium-288
+ShortName = Mc-288
+ZZAAA = 115288
+comment = None
+atomic weight = 288.19274
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Livermorium-293
+ShortName = Lv-293
+ZZAAA = 116293
+comment = None
+atomic weight = 293.20449
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Tennessine
+ShortName = Ts-292
+ZZAAA = 117292
+comment = None
+atomic weight = 292.20746
+isBasic = True
+mass density = None
+atom density = None
+--------------------
+LongName = Oganesson-294
+ShortName = Og-294
+ZZAAA = 118294
+comment = None
+atomic weight = 294.21392
+isBasic = True
+mass density = None
+atom density = None
+--------------------

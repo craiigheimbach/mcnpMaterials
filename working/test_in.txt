@@ -1,0 +1,120 @@
+---------------------------
+LongName = Aluminum
+ShortName = Al
+ZZAAA = 13027
+comment = Exact match to PNNL to test density consistency
+atomic weight = 26.981538
+isBasic = True
+mass density = 2.698900
+atom density = 0.060238
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+13027    1.00000    1.00000
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+13027    1.00000    1.00000
+--------------------------------------
+LongName = Hydrogen
+ShortName = H
+ZZAAA = -
+comment = Test isotope naming and order. Not real Hydrogen.
+atomic weight = 1.20
+isBasic = False
+mass density = -
+atom density = 5.00E-5	
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1002    None    0.2
+H1      None    0.8			// component name
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1002    None    0.2			
+1001    None    0.8			// Component names out of order
+
+----------------------------------------
+LongName = 
+ShortName = H1
+ZZAAA = 1001
+comment = Test isotope
+atomic weight = 1.0
+isBasic = true
+mass density = none
+atom density = 5.00E-5
+//Neutron composition:				// Compositions commented out
+//Isotope    Mass      Atom			// Use default basic material compositions
+//         Fraction  Fraction
+//1001    1.00    1.00
+//Photon composition:
+//Isotope    Mass      Atom
+//         Fraction  Fraction
+//1001    1.000    0.9999
+----------------------------------------
+LongName = 
+ShortName = H2
+ZZAAA = 1002
+comment = Test isotope
+atomic weight = 2.0
+isBasic = True
+mass density = -
+atom density = 5.00E-5					
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1002      1.00    1.00000
+Photon composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1002      1.00     1.00000
+
+-------------------------------------
+LongName = circular				// Not directly circular
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 2.000
+isBasic = False
+mass density = 5.0000e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+Hydrogen    0.50    0.50000
+circRef		0.5     0.5
+---------------------------
+LongName = circRef	
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 2.000
+isBasic = False
+mass density = 5.0000e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+H1          0.50    0.50000
+circular	0.5     0.5
+-------------------------------------
+LongName = circ2				// Not directly circular
+ShortName = 
+ZZAAA = 
+comment = None
+atomic weight = 2.000
+isBasic = False
+mass density = 5.0000e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+Hydrogen    0.50    0.50000
+circRef		0.3     0.4
+circular    0.2     0.1
+
+
+
+
+
