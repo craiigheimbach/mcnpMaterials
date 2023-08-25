@@ -86,13 +86,15 @@ bool MaterialFileReader::compareMaterialFile(const std::string& fileName)
 			if (!original) continue;
 			auto different = alreadyMatched.insert(original);
 			if (different.second == false) continue;
+			lg << '\n';
 			showMaterialComparison(original, mat);
 			lg.forceWriteToLog();
 		}
 		if (alreadyMatched.empty())
 		{
-			lg.bump(3) << ERR << "Could not find loaded material to match ";
-			lg << mat->get3Names() << '\n';
+			//lg.bump(3) << ERR << "Could not find loaded material to match ";
+			//lg << mat->get3Names() << '\n';
+			lg.forceWriteToLog();
 		}
 		alreadyMatched.clear();
 	}

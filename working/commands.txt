@@ -1,8 +1,8 @@
-coutVerbosity 4
-fileVerbosity 4
+coutVerbosity 0
+fileVerbosity 0
 loadData elements.txt
-//loaddata PnnlMaterials_withPhoton.txt
-//loadData compare.txt
+//loaddata PnnlMaterials_2023.txt
+compare PnnlMaterials_2023.txt
 //show H
 //normalize H
 //show H

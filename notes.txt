@@ -15,7 +15,8 @@ not all isotopes in nist. Not all elements are well defined Rn,Tc
 question mark in densities
 https://physics.nist.gov/cgi-bin/Star/compos.pl
 Hg and Br are liquids
-remove zzaaa from graphitr, etc.
+remove zzaaa from graphite, etc.
+carbon_amorphous
 
 To do:
 
