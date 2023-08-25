@@ -214,7 +214,7 @@ Isotope    Mass      Atom
 6013    None    0.0107
 --------------------
 LongName = Diamond
-ShortName = 3.513
+ShortName = 
 ZZAAA = 
 comment = See graphite
 atomic weight = 12.0106
@@ -4167,7 +4167,7 @@ isBasic = True
 mass density = None
 atom density = None
 --------------------
-LongName = Radium-224
+LongName = Radium-226
 ShortName = Ra-226
 ZZAAA = 88226
 comment = None
