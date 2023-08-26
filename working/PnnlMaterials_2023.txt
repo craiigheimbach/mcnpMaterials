@@ -112,6 +112,7 @@ Isotope    Mass      Atom
 7014    0.157213    0.076924
 8016    0.359159    0.153848
 ------------------------------
+*ignore*
 LongName = Aluminum
 ShortName = Al
 ZZAAA = 
@@ -415,6 +416,7 @@ Isotope    Mass      Atom
 1001    0.056553    0.416667
 6000    0.943447    0.583333
 ------------------------------
+*ignore*
 LongName = Argon
 ShortName = Ar
 ZZAAA = 
@@ -590,6 +592,7 @@ Isotope    Mass      Atom
 1001    0.077418    0.499983
 6000    0.922582    0.500017
 ------------------------------
+*ignore*
 LongName = Beryllium
 ShortName = Be
 ZZAAA = 
@@ -645,6 +648,7 @@ Isotope    Mass      Atom
 4009    0.360320    0.500000
 8016    0.639680    0.500000
 ------------------------------
+*ignore*
 LongName = Bismuth
 ShortName = Bi
 ZZAAA = 
@@ -967,6 +971,7 @@ Isotope    Mass      Atom
 B    0.174842    0.142857
 8016    0.776255    0.428571
 ------------------------------
+*ignore*
 LongName = Boron
 ShortName = B
 ZZAAA = 
@@ -1267,6 +1272,7 @@ Isotope    Mass      Atom
 9019    0.465209    0.268612
 14000    3.973000e-03    1.552000e-03
 ------------------------------
+*ignore*
 LongName = Cadmium
 ShortName = Cd
 ZZAAA = 
@@ -1687,6 +1693,7 @@ Isotope    Mass      Atom
 53127    0.488451    0.500000
 55133    0.511549    0.500000
 ------------------------------
+*ignore*
 LongName = Chromium
 ShortName = Cr
 ZZAAA = 
@@ -2732,6 +2739,7 @@ Isotope    Mass      Atom
 24000    9.090000e-04    2.730000e-04
 26000    0.030909    8.633000e-03
 ------------------------------
+*ignore*
 LongName = Copper
 ShortName = Cu
 ZZAAA = 
@@ -3450,6 +3458,7 @@ Isotope    Mass      Atom
 9019    0.290924    0.599996
 53127    0.647767    0.199999
 ------------------------------
+*ignore*
 LongName = Gadolinium
 ShortName = Gd
 ZZAAA = 
@@ -3570,6 +3579,7 @@ Isotope    Mass      Atom
 1001    0.157000    0.689368
 6000    0.843000    0.310632
 ------------------------------
+*ignore*
 LongName = Germanium_High_Purity
 ShortName = Ge
 ZZAAA = 
@@ -3814,6 +3824,7 @@ Isotope    Mass      Atom
 6000    0.391262    0.214294
 8016    0.521185    0.214289
 ------------------------------
+*ignore*
 LongName = Gold
 ShortName = Au
 ZZAAA = 
@@ -3854,6 +3865,7 @@ Isotope    Mass      Atom
 16000    0.186215    0.083324
 20000    0.232797    0.083341
 ------------------------------
+*ignore*
 LongName = He-3_Proportional_Gas
 ShortName = He-3
 ZZAAA = 
@@ -3871,6 +3883,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 2003    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Helium_Natural
 ShortName = He
 ZZAAA = 
@@ -3888,6 +3901,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 2004    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Hydrogen
 ShortName = H2
 ZZAAA = 
@@ -4057,6 +4071,7 @@ B    5.000000e-05    2.670000e-04
 41093    0.051250    0.031833
 42000    0.030500    0.018346
 ------------------------------
+*ignore*
 LongName = Indium
 ShortName = In
 ZZAAA = 
@@ -4074,6 +4089,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 49000    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Iron
 ShortName = Fe
 ZZAAA = 
@@ -4325,6 +4341,7 @@ Isotope    Mass      Atom
 1001    0.160000    0.694164
 6000    0.840000    0.305836
 ------------------------------
+*ignore*
 LongName = Krypton
 ShortName = Kr
 ZZAAA = 
@@ -4363,6 +4380,7 @@ Isotope    Mass      Atom
 6000    0.375135    0.333333
 9019    0.593384    0.333333
 ------------------------------
+*ignore*
 LongName = Lead
 ShortName = Pb
 ZZAAA = 
@@ -4401,6 +4419,7 @@ Isotope    Mass      Atom
 74000    0.404011    0.166667
 82000    0.455347    0.166667
 ------------------------------
+*ignore*
 LongName = Lithium
 ShortName = Li
 ZZAAA = 
@@ -4685,6 +4704,7 @@ Isotope    Mass      Atom
 39089    0.279654    0.200000
 Lu    0.550359    0.200000
 ------------------------------
+*ignore*
 LongName = Magnesium
 ShortName = Mg
 ZZAAA = 
@@ -4784,6 +4804,7 @@ Isotope    Mass      Atom
 6000    0.397313    0.277778
 7014    0.556008    0.333333
 ------------------------------
+*ignore*
 LongName = Mercury
 ShortName = Hg
 ZZAAA = 
@@ -4881,6 +4902,7 @@ Isotope    Mass      Atom
 6000    0.141415    0.200000
 17000    0.834850    0.400000
 ------------------------------
+*ignore*
 LongName = Molybdenum
 ShortName = Mo
 ZZAAA = 
@@ -5041,6 +5063,7 @@ Isotope    Mass      Atom
 16000    5.000000e-03    9.760000e-04
 19000    3.000000e-03    4.800000e-04
 ------------------------------
+*ignore*
 LongName = Neon
 ShortName = Ne
 ZZAAA = 
@@ -5058,6 +5081,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 10020    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Nickel
 ShortName = Ni
 ZZAAA = 
@@ -5075,6 +5099,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 28000    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Niobium
 ShortName = Nb
 ZZAAA = 
@@ -5092,6 +5117,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 41093    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Nitrogen
 ShortName = N2
 ZZAAA = 
@@ -5360,6 +5386,7 @@ Isotope    Mass      Atom
 6000    0.778655    0.344828
 8016    0.103724    0.034483
 ------------------------------
+*ignore*
 LongName = Oxygen
 ShortName = O2
 ZZAAA = 
@@ -5419,6 +5446,7 @@ Isotope    Mass      Atom
 6000    0.015497    0.041667
 18000    0.979302    0.791667
 ------------------------------
+*ignore*
 LongName = Palladium
 ShortName = Pd
 ZZAAA = 
@@ -5519,6 +5547,7 @@ Br    0.349104    0.127140
 47000    0.474105    0.127902
 53127    3.120000e-03    7.150000e-04
 ------------------------------
+*ignore*
 LongName = Platinum
 ShortName = Pt
 ZZAAA = 
@@ -6971,6 +7000,7 @@ Isotope    Mass      Atom
 12000    0.150070    0.085106
 14000    0.260119    0.127660
 ------------------------------
+*ignore*
 LongName = Silicon
 ShortName = Si
 ZZAAA = 
@@ -7045,6 +7075,7 @@ Isotope    Mass      Atom
 8016    0.532565    0.666667
 14000    0.467435    0.333333
 ------------------------------
+*ignore*
 LongName = Silver
 ShortName = Ag
 ZZAAA = 
@@ -7103,6 +7134,7 @@ Isotope    Mass      Atom
 26000    1.000000e-05    1.000000e-06
 30000    1.000000e-05    1.000000e-06
 ------------------------------
+*ignore*
 LongName = Sodium
 ShortName = Na
 ZZAAA = 
@@ -7672,6 +7704,7 @@ Isotope    Mass      Atom
 1001    0.056553    0.416667
 6000    0.943447    0.583333
 ------------------------------
+*ignore*
 LongName = Sulphur
 ShortName = S
 ZZAAA = 
@@ -7689,6 +7722,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 16000    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Tantalum
 ShortName = Ta
 ZZAAA = 
@@ -7706,6 +7740,7 @@ Isotope    Mass      Atom
          Fraction  Fraction
 73181    1.000000    1.000000
 ------------------------------
+*ignore*
 LongName = Thorium
 ShortName = Th
 ZZAAA = 
@@ -7742,6 +7777,7 @@ Isotope    Mass      Atom
 8016    0.121191    0.666667
 90232    0.878809    0.333333
 ------------------------------
+*ignore*
 LongName = Tin
 ShortName = Sn
 ZZAAA = 
@@ -8116,6 +8152,7 @@ Isotope    Mass      Atom
 17000    2.000000e-03    3.460000e-04
 19000    2.000000e-03    3.140000e-04
 ------------------------------
+*ignore*
 LongName = Titanium
 ShortName = Ti
 ZZAAA = 
@@ -8267,6 +8304,7 @@ Isotope    Mass      Atom
 8016    0.240309    0.090909
 15031    0.116305    0.022727
 ------------------------------
+*ignore*
 LongName = Tungsten
 ShortName = W
 ZZAAA = 
@@ -8620,6 +8658,7 @@ Isotope    Mass      Atom
 92236    4.500000e-03    4.484000e-03
 92238    0.054150    0.053501
 ------------------------------
+*ignore*
 LongName = Uranium_Low_Enriched(LEU)
 ShortName = U
 ZZAAA = 
@@ -8964,6 +9003,7 @@ Isotope    Mass      Atom
 19000    1.988000e-03    3.970000e-04
 20000    1.988000e-03    3.880000e-04
 ------------------------------
+*ignore*
 LongName = Xenon
 ShortName = Xe
 ZZAAA = 
@@ -9069,6 +9109,7 @@ Isotope    Mass      Atom
 13027    0.141925    0.086957
 14000    0.221597    0.130435
 ------------------------------
+*ignore*
 LongName = Zinc
 ShortName = Zn
 ZZAAA = 
@@ -9176,6 +9217,7 @@ Isotope    Mass      Atom
 40000    0.981858    0.977549
 50000    0.013955    0.010677
 ------------------------------
+*ignore*
 LongName = Zirconium
 ShortName = Zr
 ZZAAA = 

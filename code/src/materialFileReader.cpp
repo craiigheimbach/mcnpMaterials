@@ -92,8 +92,6 @@ bool MaterialFileReader::compareMaterialFile(const std::string& fileName)
 		}
 		if (alreadyMatched.empty())
 		{
-			//lg.bump(3) << ERR << "Could not find loaded material to match ";
-			//lg << mat->get3Names() << '\n';
 			lg.forceWriteToLog();
 		}
 		alreadyMatched.clear();
