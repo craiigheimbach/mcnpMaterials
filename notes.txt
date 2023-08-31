@@ -1,24 +1,140 @@
-changed chemical symbols to start with alphabetic character
-made Neon basic.
-altered B and Li
-cross sections for iron carbon Krypton Mercury
-*Ignore*
-Carbon is special
-B Ce Te Ba Li Lu Br Se Sr
-neutron photon consistency
-normalization
-tests have no verbosity?
-abs vs fabs <cmath>
-show normalization in mcnp
-nist values do not sum to 1.0 exactly
-not all isotopes in nist. Not all elements are well defined Rn,Tc
-question mark in densities
-https://physics.nist.gov/cgi-bin/Star/compos.pl
-Hg and Br are liquids
-remove zzaaa from graphite, etc.
-carbon_amorphous
+The mcnpMatrials program is intended to simplify the production of materials percentages on the material cards for mcnp input.  It requires a command file as input and outputs to a log file.It includes natural elements and materials from the PNNL library as optional inputs. For these materials the command file can be as simple as 
 
-To do:
+loadData elements.txt
+loaddata PnnlMaterials_2023.txt
+mcnp a3 p3 default H
+
+The output from this in the log file is
+
+** 0   loadData elements.txt
+** 1   loaddata PnnlMaterials_2023.txt
+** 2   mcnp a3 p3 default H
+c {long name : Hydrogen  Short name: H  ZZAAA: 1000}
+c  mass density = -8.988e-05     atom density = 5.36988e-05
+c  neutron format
+c Mass Fractions  
+  1001    -1          1002    -0.00023  
+c Atom Fractions  
+  1001    1           1002    0.000115  
+c  photon format
+c Mass Fractions  
+  1000    -1        
+c Atom Fractions  
+  1000    1   
+  
+The lines beginning with *** repeat the input lines.The output lines display the names, density, and composition in both atom and mass format. Bothe neutron and photon compositions are given.
+
+The user may copy the parts they want into the mcnp input file.
+
+The "a3 pe default" part of the third input line tell the computer how many (material, fraction) pairs to display across the page, the precision of the output, and the format of the factions (default, fixed, or scientific). 
+
+The reader may notice the the fractions do not sum to 1.0. This is because the prescision is only three decimal places. Using p6 results in
+
+c {long name : Hydrogen  Short name: H  ZZAAA: 1000}
+c  mass density = -8.988e-05     atom density = 5.36988e-05
+c  neutron format
+c Mass Fractions  
+  1001    -0.99977       1002    -0.000229797 
+c Atom Fractions  
+  1001    0.999885       1002    0.000115     
+c  photon format
+c Mass Fractions  
+  1000    -1           
+c Atom Fractions  
+  1000    1  
+  
+The atom fractions now sum to 1.0. The mass fractions not so much. This is because the atom fractions are used directly and the mass fractions are computed. The data in the elements data is taken from a NIST database and the mass fractions are computed. 
+
+The mass densities are taken from wikipedia and the atom densities are calculated. 
+
+A look at the elements.txt file shows the following for Hydrogen:
+
+LongName = Hydrogen
+ShortName = H
+ZZAAA = 1000
+comment = None
+atomic weight = 1.007975
+isBasic = False
+mass density = 8.98800e-05
+atom density = None
+Neutron composition:
+Isotope    Mass      Atom
+         Fraction  Fraction
+1001    None    0.999885
+1002    None    0.000115
+
+All material entries follow the same format. 
+
+The main distinction between materials is the 'isBasic' entry. If a material is basic, no further expansion into components is allowed. For example, H is expanded to 1001 and 1002 (H-1 and H-2). It makes no sense to expand H-1 or H-2 into components since there are none. They are basic.
+
+Each basic material must have a ZZAAA since that identifies the material. No basic material may have more than one component. If it has a componenet, its zzaaa must match the zzaaa as given in the third line above, and all fractions must be 1.0. An examination of the materials.txt file for basic materials shows that the composition is not needed and it is created as on-the-fly.
+
+If one has a composite material (carbon) which has its own mcnp cross section, one may make the material basic, provide a zzaaa to use, remove the composition, and proceed as usual.
+
+For Hydrogen, is mass density is given and the atom density is calculated. The program uses the atomic weight for this calculation. For a non-basic material, the atomic weight may be calulated from the component materials. The atomic weights used here is taken from the NIST database. Oddly enough, the atomic weights of the elements do not quite match exactly the weighted ums of the atomic weights of the components. This is partially due to numerical rounding. I suspect that some of the differences are due to the element and components coming from independent measurements.
+
+As materials are loaded, those loaded last take the place of those loaded earlier. I removed the elements in elements.txt from the pnnl file. Removing the materials is only a matter of adding '*ignore*' from the material description.
+
+None of elements have a photon composition listed in the file. The  photon composition is taken from the neutron composition. I do not go in the other direction, from photon composition to neutron composition. If a photon composition is given, I do not change it, even if it is not consistent with the neutron composition. I try to give warning in case of inconsistent data. 
+
+
+
+Other commands are available:
+	coutVerbosity n			: verbosity level for warnings to screen (0-5)
+	fileVerbosity n		  	: verbosity level for warnings to log file (0-5)
+	listnames szl			: list names that have been loaded. szl gives order in names across line
+							: s = short name, z = zzaaa, l = long name
+	show name				: shows mateial with name in format similar to datafile format
+	consistency name		: checks if narterial is self-consistent. Given atomic weight matches computed atomic wt, etc.
+							: may uese 'all' or 'all-' to report all materials or just inconsistent materials
+	errorLimit  0.05		: error limit for consistency. 0.05 is 5%.
+	normalize material		: normalizes components to 1.0. They may still not look as exact due to printed precision. 
+	compare fileName		: compare data in file against loaded data. I used this co compare pnnl vs elements
+	logfile fileName		: change where log output is placeed. I never found a use for this.
+	tests					: performs tests on program. Uses test_in.txt text_out.txt. 
+							: Should have no outpou if tests are ok.
+
+Already mentioned:
+	loadData fileNamet		: load data from file into memory.
+	mcnp a'n' p'd' format 'mt'	: show data for material 'mt' in mcnp format
+								: 'n' (material, fraction) pairs across one line
+								: 'd' decimal precision in output (may have fewer if input has less precision)
+								: format = default, fixed, or scientific.
+								
+Commands may be run in any reasonable order. Cannot show a material beforeit is loaded, etc.
+'//' may be used to block out commands or comments after a command.
+
+extra files:
+
+Atomic Weights and Isotopic Compositions for All Elements-long.pdf	: Taken from NIST. URL at top of file.
+Atomic Weights and Isotopic Compositions for All Elements-short.pdf	: Taken from NIST. URL at top of file. I used this.
+Densities of the elements (data page) - Wikipedia.pdf: Copy of wikipedia density page.
+wiki_densities.txt			: wiki densitied to text.
+							: Hg and Br liquid density
+
+allMCNPcrossSectionList.txt	: list of mcnp cross sections.
+comparison.log				: Compares NIST-derived data vs PNNL data. I *ignored* PNNL data with conflicts.
+							: Some PNNL data with e.g. Boron or Lithium was removed early.
+							: PNNL Material was always assumed natural, not enriched.
+elements.txt				: Data for elements and isotopes derived from NIST
+isotopes-long.txt			: Taken from NIST. Converted to text file.
+isotopes-long-edited.txt	: edited.
+isotopes-short.txt			: Shorter version of NIST data. Mostly stable elements.
+PNNL-15870Rev1.pdf			: Source of material data. A bear to convert this to text.
+PnnlMaterials_2023.txt		: Data for PNNL materials in my format.
+test_in.txt					: File for running internam tests of program.
+test_out.txt				: Test results are put here.
+
+C++ 2017 needed to compile program.
+
+The sample files elements.txt and PnnlMaterials_2023.txt should be sufficient to develop your own materials.
+
+I stayed with text input with a minimal number of commands so that the used should be able produce material cards with a minimal effort.
+
+The program is fast. On my computer all you see is a flash on the screen. Check the log file.
+
+
+
 
 
 
